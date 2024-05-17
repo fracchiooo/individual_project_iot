@@ -1,0 +1,8 @@
+menu "Project Configuration Options"
+
+config READ_LEN
+    int "Read Length"
+    default 1024
+ 
+endmenu
+

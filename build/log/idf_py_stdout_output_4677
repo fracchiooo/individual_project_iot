@@ -1,0 +1,177 @@
+[1/12] Performing build step for 'bootloader'
+[1/1] cd /home/fracchio/Scrivania/progetto_singolo/build/bootloader/esp-idf/esptool_py && /home/fracchio/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/fracchio/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/fracchio/Scrivania/progetto_singolo/build/bootloader/bootloader.bin
+Bootloader binary size 0x5250 bytes. 0x2db0 bytes (36%) free.
+[2/12] No install step for 'bootloader'
+[3/12] Building C object esp-idf/fft_wrapper/CMakeFiles/__idf_fft_wrapper.dir/fft_wrapper.c.obj
+In file included from /home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/fft_wrapper.c:1:
+/home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h:23:15: warning: 'y1_cf' initialized and declared 'extern'
+   23 | extern float *y1_cf = &y_cf[0];
+      |               ^~~~~
+/home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h:24:15: warning: 'y2_cf' initialized and declared 'extern'
+   24 | extern float *y2_cf = &y_cf[READ_LEN];
+      |               ^~~~~
+/home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h: In function 'get_max_frequency_fft':
+/home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h:90:18: warning: unused variable 'end_b' [-Wunused-variable]
+   90 |     unsigned int end_b = xthal_get_ccount();
+      |                  ^~~~~
+[4/12] Linking C static library esp-idf/fft_wrapper/libfft_wrapper.a
+[5/12] Completed 'bootloader'
+[6/12] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/progetto_singolo.c.obj
+In file included from /home/fracchio/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h:12,
+                 from /home/fracchio/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:20,
+                 from /home/fracchio/esp/esp-idf/components/esp_hw_support/include/spinlock.h:11,
+                 from /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:49,
+                 from /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:57,
+                 from /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:69,
+                 from /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:5:
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h: In function 'read_and_get_data_fixed_samples':
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:52:85: warning: passing argument 3 of 'adc_cali_raw_to_voltage' from incompatible pointer type [-Wincompatible-pointer-types]
+   52 |               ESP_ERROR_CHECK(adc_cali_raw_to_voltage(adc1_cali_chan0_handle, data, &converted_result[ii])); //converts raw data to calibrated voltage
+      |                                                                                     ^~~~~~~~~~~~~~~~~~~~~
+      |                                                                                     |
+      |                                                                                     uint32_t * {aka long unsigned int *}
+/home/fracchio/esp/esp-idf/components/esp_common/include/esp_err.h:117:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  117 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+In file included from /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:9:
+/home/fracchio/esp/esp-idf/components/esp_adc/include/esp_adc/adc_cali.h:54:75: note: expected 'int *' but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
+   54 | esp_err_t adc_cali_raw_to_voltage(adc_cali_handle_t handle, int raw, int *voltage);
+      |                                                                      ~~~~~^~~~~~~
+In file included from /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:11:
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h: In function 'get_mean_window_time':
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:151:23: warning: comparison of unsigned expression in '< 0' is always false [-Wtype-limits]
+  151 |     if(sampl_period_us<0){
+      |                       ^
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:182:55: warning: passing argument 3 of 'adc_oneshot_read' from incompatible pointer type [-Wincompatible-pointer-types]
+  182 |     ESP_ERROR_CHECK(adc_oneshot_read(handle, channel, &raw_values[i]));
+      |                                                       ^~~~~~~~~~~~~~
+      |                                                       |
+      |                                                       uint16_t * {aka short unsigned int *}
+/home/fracchio/esp/esp-idf/components/esp_common/include/esp_err.h:117:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  117 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+In file included from /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:12:
+/home/fracchio/esp/esp-idf/components/esp_adc/include/esp_adc/adc_oneshot.h:89:87: note: expected 'int *' but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+   89 | esp_err_t adc_oneshot_read(adc_oneshot_unit_handle_t handle, adc_channel_t chan, int *out_raw);
+      |                                                                                  ~~~~~^~~~~~~
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:177:9: warning: unused variable 'temp_value' [-Wunused-variable]
+  177 |     int temp_value;
+      |         ^~~~~~~~~~
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:141:14: warning: unused variable 'signal_sum' [-Wunused-variable]
+  141 |     uint32_t signal_sum=0;
+      |              ^~~~~~~~~~
+In file included from /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:12:
+/home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h: At top level:
+/home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h:23:15: warning: 'y1_cf' initialized and declared 'extern'
+   23 | extern float *y1_cf = &y_cf[0];
+      |               ^~~~~
+/home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h:24:15: warning: 'y2_cf' initialized and declared 'extern'
+   24 | extern float *y2_cf = &y_cf[READ_LEN];
+      |               ^~~~~
+/home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h: In function 'get_max_frequency_fft':
+/home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h:90:18: warning: unused variable 'end_b' [-Wunused-variable]
+   90 |     unsigned int end_b = xthal_get_ccount();
+      |                  ^~~~~
+In file included from /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:15:
+/home/fracchio/Scrivania/progetto_singolo/components/mqtt_wrapper/include/mqtt_wrapper.h: In function 'mqtt_event_handler':
+/home/fracchio/Scrivania/progetto_singolo/components/mqtt_wrapper/include/mqtt_wrapper.h:40:30: warning: unused variable 'client' [-Wunused-variable]
+   40 |     esp_mqtt_client_handle_t client = event->client;
+      |                              ^~~~~~
+/home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c: In function 'app_main':
+/home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:123:27: warning: passing argument 1 of 'xTaskCreatePinnedToCore' from incompatible pointer type [-Wincompatible-pointer-types]
+  123 |   xTaskCreatePinnedToCore(wifi_start_connection, "WiFi Task", 4096, queue, 0, NULL, 1);
+      |                           ^~~~~~~~~~~~~~~~~~~~~
+      |                           |
+      |                           void (*)(struct QueueDefinition *)
+In file included from /home/fracchio/esp/esp-idf/components/freertos/esp_additions/include/freertos/idf_additions.h:20,
+                 from /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:1533:
+/home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/task.h:382:67: note: expected 'TaskFunction_t' {aka 'void (*)(void *)'} but argument is of type 'void (*)(struct QueueDefinition *)'
+  382 |         extern BaseType_t xTaskCreatePinnedToCore( TaskFunction_t pxTaskCode,
+      |                                                    ~~~~~~~~~~~~~~~^~~~~~~~~~
+/home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:158:9: warning: unused variable 'msg_id' [-Wunused-variable]
+  158 |     int msg_id=mqtt_publish_message(client, mess, "mean", 1);
+      |         ^~~~~~
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h: At top level:
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:32:20: warning: 'TAG4' defined but not used [-Wunused-variable]
+   32 | static const char *TAG4 = "EXAMPLE";
+      |                    ^~~~
+[7/12] Linking C static library esp-idf/main/libmain.a
+[8/12] Generating ld/sections.ld
+[9/12] Linking CXX executable progetto_singolo.elf
+[10/12] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated /home/fracchio/Scrivania/progetto_singolo/build/progetto_singolo.bin
+[11/12] cd /home/fracchio/Scrivania/progetto_singolo/build/esp-idf/esptool_py && /home/fracchio/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/fracchio/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/fracchio/Scrivania/progetto_singolo/build/partition_table/partition-table.bin /home/fracchio/Scrivania/progetto_singolo/build/progetto_singolo.bin
+progetto_singolo.bin binary size 0xe8b70 bytes. Smallest app partition is 0x100000 bytes. 0x17490 bytes (9%) free.
+[11/12] cd /home/fracchio/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/fracchio/esp/esp-idf -D "SERIAL_TOOL=/home/fracchio/.espressif/python_env/idf5.2_py3.11_env/bin/python;;/home/fracchio/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32s3" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/fracchio/Scrivania/progetto_singolo/build -P /home/fracchio/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32s3 -p /dev/ttyUSB0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 2MB 0x0 bootloader/bootloader.bin 0x10000 progetto_singolo.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.0
+Serial port /dev/ttyUSB0
+Connecting...
+Chip is ESP32-S3 (QFN56) (revision v0.2)
+Features: WiFi, BLE, Embedded Flash 8MB (GD)
+Crystal is 40MHz
+MAC: 48:27:e2:e2:e5:e4
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00000000 to 0x00005fff...
+Flash will be erased from 0x00010000 to 0x000f8fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 21072 bytes to 13079...
+Writing at 0x00000000... (100 %)
+Wrote 21072 bytes (13079 compressed) at 0x00000000 in 0.8 seconds (effective 202.3 kbit/s)...
+Hash of data verified.
+Compressed 953200 bytes to 591714...
+Writing at 0x00010000... (2 %)
+Writing at 0x0001cc8c... (5 %)
+Writing at 0x00027210... (8 %)
+Writing at 0x0002d185... (10 %)
+Writing at 0x00031fb6... (13 %)
+Writing at 0x00039813... (16 %)
+Writing at 0x000438f6... (18 %)
+Writing at 0x00049d4a... (21 %)
+Writing at 0x0004ff2b... (24 %)
+Writing at 0x000561b8... (27 %)
+Writing at 0x0005c19a... (29 %)
+Writing at 0x00061e90... (32 %)
+Writing at 0x00067e5b... (35 %)
+Writing at 0x0006e361... (37 %)
+Writing at 0x00074137... (40 %)
+Writing at 0x000796f6... (43 %)
+Writing at 0x0007e636... (45 %)
+Writing at 0x0008376d... (48 %)
+Writing at 0x00088846... (51 %)
+Writing at 0x0008da9e... (54 %)
+Writing at 0x00092efd... (56 %)
+Writing at 0x00098c87... (59 %)
+Writing at 0x0009eae5... (62 %)
+Writing at 0x000a4423... (64 %)
+Writing at 0x000aa0ee... (67 %)
+Writing at 0x000afded... (70 %)
+Writing at 0x000b561b... (72 %)
+Writing at 0x000bb329... (75 %)
+Writing at 0x000c1085... (78 %)
+Writing at 0x000c64d7... (81 %)
+Writing at 0x000cdfa1... (83 %)
+Writing at 0x000d80f1... (86 %)
+Writing at 0x000ddd4d... (89 %)
+Writing at 0x000e6089... (91 %)
+Writing at 0x000ec071... (94 %)
+Writing at 0x000f284e... (97 %)
+Writing at 0x000f7e4c... (100 %)
+Wrote 953200 bytes (591714 compressed) at 0x00010000 in 23.7 seconds (effective 321.5 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.2 seconds (effective 113.2 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

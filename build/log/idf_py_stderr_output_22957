@@ -1,0 +1,137 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x4200abcb: task_wdt_timeout_handling at /home/fracchio/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x4200afe8: task_wdt_isr at /home/fracchio/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x4037714d: _xt_lowint1 at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x4200739a: uart_ll_get_txfifo_len at /home/fracchio/esp/esp-idf/components/hal/esp32s3/include/hal/uart_ll.h:387
+ (inlined by) uart_tx_char at /home/fracchio/esp/esp-idf/components/vfs/vfs_uart.c:165
+0x4200825f: uart_write at /home/fracchio/esp/esp-idf/components/vfs/vfs_uart.c:218
+0x42006dc9: console_write at /home/fracchio/esp/esp-idf/components/vfs/vfs_console.c:73 (discriminator 1)
+0x4200693a: esp_vfs_write at /home/fracchio/esp/esp-idf/components/vfs/vfs.c:482 (discriminator 4)
+0x4200efd6: __swrite at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/stdio.c:94
+0x4200e691: __sflush_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fflush.c:224
+0x4200e6ee: _fflush_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fflush.c:278
+ (inlined by) _fflush_r at /builds/idf/crosstool-NG/.build/src/newlib-git-af24ceb7/newlib/libc/include/stdio.h:417
+0x4200ed2d: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+0x42012f0f: __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfiprintf.c:429
+ (inlined by) __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+0x420128d2: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1774 (discriminator 1)
+0x4200edaf: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420083a9: get_mean_window_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:127
+0x420084c7: do_read_mean_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:72
+0x420084fc: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:179
+0x4201a53b: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4200abcb: task_wdt_timeout_handling at /home/fracchio/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x4200afe8: task_wdt_isr at /home/fracchio/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x4037714d: _xt_lowint1 at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x4200739a: uart_ll_get_txfifo_len at /home/fracchio/esp/esp-idf/components/hal/esp32s3/include/hal/uart_ll.h:387
+ (inlined by) uart_tx_char at /home/fracchio/esp/esp-idf/components/vfs/vfs_uart.c:165
+0x4200825f: uart_write at /home/fracchio/esp/esp-idf/components/vfs/vfs_uart.c:218
+0x42006dc9: console_write at /home/fracchio/esp/esp-idf/components/vfs/vfs_console.c:73 (discriminator 1)
+0x4200693a: esp_vfs_write at /home/fracchio/esp/esp-idf/components/vfs/vfs.c:482 (discriminator 4)
+0x4200efd6: __swrite at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/stdio.c:94
+0x4200e691: __sflush_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fflush.c:224
+0x4200e6ee: _fflush_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fflush.c:278
+ (inlined by) _fflush_r at /builds/idf/crosstool-NG/.build/src/newlib-git-af24ceb7/newlib/libc/include/stdio.h:417
+0x4200ed2d: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+0x42012f0f: __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfiprintf.c:429
+ (inlined by) __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+0x420128d2: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1774 (discriminator 1)
+0x4200edaf: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x42008385: get_mean_window_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:121
+0x420084c7: do_read_mean_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:72
+0x420084fc: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:179
+0x4201a53b: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4200abcb: task_wdt_timeout_handling at /home/fracchio/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x4200afe8: task_wdt_isr at /home/fracchio/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x4037714d: _xt_lowint1 at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x42007395: uart_tx_char at /home/fracchio/esp/esp-idf/components/vfs/vfs_uart.c:163
+0x4200825f: uart_write at /home/fracchio/esp/esp-idf/components/vfs/vfs_uart.c:218
+0x42006dc9: console_write at /home/fracchio/esp/esp-idf/components/vfs/vfs_console.c:73 (discriminator 1)
+0x4200693a: esp_vfs_write at /home/fracchio/esp/esp-idf/components/vfs/vfs.c:482 (discriminator 4)
+0x4200efd6: __swrite at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/stdio.c:94
+0x4200e691: __sflush_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fflush.c:224
+0x4200e6ee: _fflush_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fflush.c:278
+ (inlined by) _fflush_r at /builds/idf/crosstool-NG/.build/src/newlib-git-af24ceb7/newlib/libc/include/stdio.h:417
+0x4200ed2d: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+0x42012f0f: __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfiprintf.c:429
+ (inlined by) __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+0x420128d2: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1774 (discriminator 1)
+0x4200edaf: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420083a9: get_mean_window_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:127
+0x420084c7: do_read_mean_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:72
+0x420084fc: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:179
+0x4201a53b: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4200abcb: task_wdt_timeout_handling at /home/fracchio/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x4200afe8: task_wdt_isr at /home/fracchio/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x4037714d: _xt_lowint1 at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x4200739a: uart_ll_get_txfifo_len at /home/fracchio/esp/esp-idf/components/hal/esp32s3/include/hal/uart_ll.h:387
+ (inlined by) uart_tx_char at /home/fracchio/esp/esp-idf/components/vfs/vfs_uart.c:165
+0x4200825f: uart_write at /home/fracchio/esp/esp-idf/components/vfs/vfs_uart.c:218
+0x42006dc9: console_write at /home/fracchio/esp/esp-idf/components/vfs/vfs_console.c:73 (discriminator 1)
+0x4200693a: esp_vfs_write at /home/fracchio/esp/esp-idf/components/vfs/vfs.c:482 (discriminator 4)
+0x4200efd6: __swrite at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/stdio.c:94
+0x4200e691: __sflush_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fflush.c:224
+0x4200e6ee: _fflush_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fflush.c:278
+ (inlined by) _fflush_r at /builds/idf/crosstool-NG/.build/src/newlib-git-af24ceb7/newlib/libc/include/stdio.h:417
+0x4200ed2d: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+0x420128d2: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1774 (discriminator 1)
+0x4200edaf: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420083a9: get_mean_window_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:127
+0x420084c7: do_read_mean_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:72
+0x420084fc: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:179
+0x4201a53b: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4200abcb: task_wdt_timeout_handling at /home/fracchio/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x4200afe8: task_wdt_isr at /home/fracchio/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x4037714d: _xt_lowint1 at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x420073a0: uart_ll_get_txfifo_len at /home/fracchio/esp/esp-idf/components/hal/esp32s3/include/hal/uart_ll.h:387
+ (inlined by) uart_tx_char at /home/fracchio/esp/esp-idf/components/vfs/vfs_uart.c:165
+0x4200825f: uart_write at /home/fracchio/esp/esp-idf/components/vfs/vfs_uart.c:218
+0x42006dc9: console_write at /home/fracchio/esp/esp-idf/components/vfs/vfs_console.c:73 (discriminator 1)
+0x4200693a: esp_vfs_write at /home/fracchio/esp/esp-idf/components/vfs/vfs.c:482 (discriminator 4)
+0x4200efd6: __swrite at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/stdio.c:94
+0x4200e691: __sflush_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fflush.c:224
+0x4200e6ee: _fflush_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fflush.c:278
+ (inlined by) _fflush_r at /builds/idf/crosstool-NG/.build/src/newlib-git-af24ceb7/newlib/libc/include/stdio.h:417
+0x4200ed2d: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+0x42012f0f: __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfiprintf.c:429
+ (inlined by) __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+0x420128d2: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1774 (discriminator 1)
+0x4200edaf: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x42008385: get_mean_window_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:121
+0x420084c7: do_read_mean_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:72
+0x420084fc: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:179
+0x4201a53b: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4200abcb: task_wdt_timeout_handling at /home/fracchio/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x4200afe8: task_wdt_isr at /home/fracchio/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x4037714d: _xt_lowint1 at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x42007395: uart_tx_char at /home/fracchio/esp/esp-idf/components/vfs/vfs_uart.c:163
+0x4200825f: uart_write at /home/fracchio/esp/esp-idf/components/vfs/vfs_uart.c:218
+0x42006dc9: console_write at /home/fracchio/esp/esp-idf/components/vfs/vfs_console.c:73 (discriminator 1)
+0x4200693a: esp_vfs_write at /home/fracchio/esp/esp-idf/components/vfs/vfs.c:482 (discriminator 4)
+0x4200efd6: __swrite at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/stdio.c:94
+0x4200e691: __sflush_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fflush.c:224
+0x4200e6ee: _fflush_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fflush.c:278
+ (inlined by) _fflush_r at /builds/idf/crosstool-NG/.build/src/newlib-git-af24ceb7/newlib/libc/include/stdio.h:417
+0x4200ed2d: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+0x42012f0f: __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfiprintf.c:429
+ (inlined by) __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+0x420128d2: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1774 (discriminator 1)
+0x4200edaf: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420083a9: get_mean_window_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:127
+0x420084c7: do_read_mean_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:72
+0x420084fc: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:179
+0x4201a53b: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0m

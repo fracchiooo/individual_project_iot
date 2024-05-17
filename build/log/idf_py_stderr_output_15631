@@ -1,0 +1,35 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x403759de: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037ab79: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40381751: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x403803f3: insert_free_block at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:358 (discriminator 1)
+ (inlined by) block_insert at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:388 (discriminator 1)
+ (inlined by) tlsf_free at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:1124 (discriminator 1)
+0x4037ff08: multi_heap_free_impl at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:234
+0x40376196: heap_caps_free at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:393
+0x4038176d: free at /home/fracchio/esp/esp-idf/components/newlib/heap.c:39
+0x42008b66: get_max_frequency_fft at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:123
+0x42008c68: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:187
+0x4201ef0f: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b4e1: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375954: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403759de: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037ab79: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40381751: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x403803f3: insert_free_block at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:358 (discriminator 1)
+ (inlined by) block_insert at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:388 (discriminator 1)
+ (inlined by) tlsf_free at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:1124 (discriminator 1)
+0x4037ff08: multi_heap_free_impl at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:234
+0x40376196: heap_caps_free at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:393
+0x4038176d: free at /home/fracchio/esp/esp-idf/components/newlib/heap.c:39
+0x42008b66: get_max_frequency_fft at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:123
+0x42008c68: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:187
+0x4201ef0f: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b4e1: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375954: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0m

@@ -1,0 +1,570 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x9 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcbc
+load:0x403cc700,len:0x2da0
+entry 0x403c9914
+[0;32mI (27) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time May  6 2024 17:13:56[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (39) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (54) boot: Partition Table:[0m
+[0;32mI (57) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (65) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (72) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (80) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (87) boot: End of partition table[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=16070h ( 90224) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=00026098 vaddr=3fc93700 size=029b0h ( 10672) load[0m
+[0;32mI (118) esp_image: segment 2: paddr=00028a50 vaddr=40374000 size=075c8h ( 30152) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00030020 vaddr=42000020 size=1f7d8h (128984) map[0m
+[0;32mI (153) esp_image: segment 4: paddr=0004f800 vaddr=4037b5c8 size=080a0h ( 32928) load[0m
+[0;32mI (167) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (179) cpu_start: Multicore app[0m
+[0;32mI (189) cpu_start: Pro cpu start user code[0m
+[0;32mI (189) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (189) cpu_start: Application information:[0m
+[0;32mI (192) cpu_start: Project name:     progetto_singolo[0m
+[0;32mI (198) cpu_start: App version:      1[0m
+[0;32mI (202) cpu_start: Compile time:     May 10 2024 21:57:30[0m
+[0;32mI (208) cpu_start: ELF file SHA256:  f5e739a28...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (228) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (240) heap_init: At 3FC979D0 len 00051D40 (327 KiB): RAM[0m
+[0;32mI (246) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (311) main_task: Calling app_main()[0m
+[0;32mI (311) gpio: GPIO[1]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+voltage: 2487
+voltage: 2465
+voltage: 2484
+voltage: 2448
+voltage: 2475
+voltage: 2504
+voltage: 2636
+voltage: 2548
+voltage: 1935
+voltage: 2424
+voltage: 2435
+voltage: 2379
+voltage: 2419
+voltage: 2403
+voltage: 2389
+voltage: 2415
+voltage: 2337
+voltage: 2366
+voltage: 2364
+voltage: 2339
+voltage: 2284
+voltage: 2330
+voltage: 2291
+voltage: 2293
+voltage: 2320
+voltage: 2271
+voltage: 2273
+voltage: 2247
+voltage: 2243
+voltage: 2268
+voltage: 2215
+voltage: 2296
+voltage: 2207
+voltage: 2206
+voltage: 2190
+voltage: 2214
+voltage: 2162
+voltage: 2157
+voltage: 2153
+voltage: 2170
+voltage: 2190
+voltage: 2075
+voltage: 2108
+voltage: 2082
+voltage: 2087
+voltage: 2130
+voltage: 2089
+voltage: 2032
+voltage: 2053
+voltage: 2037
+voltage: 2041
+voltage: 1953
+voltage: 2037
+voltage: 1977
+voltage: 1980
+voltage: 1987
+voltage: 1921
+voltage: 1968
+voltage: 1952
+voltage: 1914
+voltage: 1908
+voltage: 1913
+voltage: 1943
+voltage: 1897
+voltage: 1877
+voltage: 1868
+voltage: 1845
+voltage: 1882
+voltage: 1805
+voltage: 1837
+voltage: 1862
+voltage: 1785
+voltage: 1785
+voltage: 1855
+voltage: 1769
+voltage: 1727
+voltage: 1772
+voltage: 1779
+voltage: 1718
+voltage: 1724
+voltage: 1701
+voltage: 1770
+voltage: 1673
+voltage: 1714
+voltage: 1678
+voltage: 1716
+voltage: 1650
+voltage: 1666
+voltage: 1590
+voltage: 1662
+voltage: 1623
+voltage: 1613
+voltage: 1569
+voltage: 1538
+voltage: 1637
+voltage: 1543
+voltage: 1577
+voltage: 1608
+voltage: 1577
+voltage: 1551
+voltage: 1468
+voltage: 1494
+voltage: 1499
+voltage: 1494
+voltage: 1484
+voltage: 1417
+voltage: 1393
+voltage: 1422
+voltage: 1431
+voltage: 1422
+voltage: 1464
+voltage: 1393
+voltage: 1393
+voltage: 1343
+voltage: 1363
+voltage: 1369
+voltage: 1341
+voltage: 1330
+voltage: 1303
+voltage: 1273
+voltage: 1262
+voltage: 1328
+voltage: 1339
+voltage: 1201
+voltage: 1267
+voltage: 1233
+voltage: 1251
+voltage: 1236
+voltage: 1206
+voltage: 1125
+voltage: 1195
+voltage: 1173
+voltage: 1209
+voltage: 1155
+voltage: 1157
+voltage: 1160
+voltage: 1173
+voltage: 1130
+voltage: 1156
+voltage: 1138
+voltage: 1065
+voltage: 1125
+voltage: 1129
+voltage: 1098
+voltage: 1078
+voltage: 1070
+voltage: 1104
+voltage: 1054
+voltage: 1051
+voltage: 1037
+voltage: 999
+voltage: 1066
+voltage: 1008
+voltage: 1008
+voltage: 1017
+voltage: 996
+voltage: 985
+voltage: 975
+voltage: 976
+voltage: 953
+voltage: 951
+voltage: 976
+voltage: 943
+voltage: 1039
+voltage: 937
+voltage: 978
+voltage: 922
+voltage: 982
+voltage: 923
+voltage: 975
+voltage: 904
+voltage: 905
+voltage: 898
+voltage: 891
+voltage: 899
+voltage: 873
+voltage: 897
+voltage: 835
+voltage: 869
+voltage: 873
+voltage: 832
+voltage: 865
+voltage: 885
+voltage: 823
+voltage: 811
+voltage: 827
+voltage: 816
+voltage: 816
+voltage: 822
+voltage: 792
+voltage: 835
+voltage: 766
+voltage: 810
+voltage: 802
+voltage: 844
+voltage: 802
+voltage: 814
+voltage: 814
+voltage: 797
+voltage: 762
+voltage: 769
+voltage: 775
+voltage: 827
+voltage: 781
+voltage: 763
+voltage: 810
+voltage: 795
+voltage: 785
+voltage: 775
+voltage: 780
+voltage: 784
+voltage: 738
+voltage: 757
+voltage: 762
+voltage: 800
+voltage: 756
+voltage: 764
+voltage: 741
+voltage: 799
+voltage: 767
+voltage: 721
+voltage: 761
+voltage: 762
+voltage: 749
+voltage: 738
+voltage: 733
+voltage: 739
+voltage: 742
+voltage: 755
+voltage: 772
+voltage: 730
+voltage: 711
+voltage: 737
+voltage: 784
+voltage: 734
+voltage: 767
+voltage: 772
+voltage: 747
+voltage: 787
+voltage: 733
+voltage: 827
+voltage: 738
+voltage: 757
+voltage: 793
+voltage: 813
+voltage: 814
+voltage: 788
+voltage: 726
+voltage: 718
+voltage: 732
+voltage: 784
+voltage: 781
+voltage: 787
+voltage: 756
+voltage: 731
+qua arrivo 1[0;32mI (651) main: Start Example.[0m
+la max frequency è: 21158.769531
+qua arrivo 2qua arrivo 3[0;32mI (651) gpio: GPIO[1]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+voltage: 1226
+voltage: 1284
+voltage: 1279
+voltage: 1297
+voltage: 1331
+voltage: 1315
+voltage: 1380
+voltage: 1377
+voltage: 1377
+voltage: 1413
+voltage: 1432
+voltage: 1481
+voltage: 1468
+voltage: 1490
+voltage: 1506
+voltage: 1514
+voltage: 1582
+voltage: 1569
+voltage: 1592
+voltage: 1613
+voltage: 1627
+voltage: 1669
+voltage: 1664
+voltage: 1704
+voltage: 1715
+voltage: 1730
+voltage: 1809
+voltage: 1785
+voltage: 1794
+voltage: 1834
+voltage: 1864
+voltage: 1875
+voltage: 1915
+voltage: 1913
+voltage: 1941
+voltage: 2018
+voltage: 1982
+voltage: 2026
+voltage: 2016
+voltage: 2037
+voltage: 2066
+voltage: 2080
+voltage: 2108
+voltage: 2134
+voltage: 2130
+voltage: 2175
+voltage: 2150
+voltage: 2207
+voltage: 2207
+voltage: 2245
+voltage: 2214
+voltage: 2279
+voltage: 2308
+voltage: 2318
+voltage: 2339
+voltage: 2356
+voltage: 2379
+voltage: 2388
+voltage: 2382
+voltage: 2417
+voltage: 2419
+voltage: 2458
+voltage: 2440
+voltage: 2539
+voltage: 2498
+voltage: 2512
+voltage: 2511
+voltage: 2543
+voltage: 2567
+voltage: 2617
+voltage: 2584
+voltage: 2568
+voltage: 2610
+voltage: 2652
+voltage: 2651
+voltage: 2613
+voltage: 2681
+voltage: 2695
+voltage: 2691
+voltage: 2715
+voltage: 2732
+voltage: 2795
+voltage: 2769
+voltage: 2739
+voltage: 2787
+voltage: 2785
+voltage: 2765
+voltage: 2781
+voltage: 2830
+voltage: 2797
+voltage: 2820
+voltage: 2817
+voltage: 2897
+voltage: 2866
+voltage: 2870
+voltage: 2916
+voltage: 2858
+voltage: 2847
+voltage: 2866
+voltage: 2824
+voltage: 2863
+voltage: 2877
+voltage: 2864
+voltage: 2984
+voltage: 2912
+voltage: 2879
+voltage: 2876
+voltage: 2933
+voltage: 2921
+voltage: 2895
+voltage: 2866
+voltage: 2868
+voltage: 2870
+voltage: 2869
+voltage: 2884
+voltage: 2875
+voltage: 2891
+voltage: 2858
+voltage: 2874
+voltage: 2807
+voltage: 2847
+voltage: 2840
+voltage: 2872
+voltage: 2824
+voltage: 2885
+voltage: 2876
+voltage: 2809
+voltage: 2824
+voltage: 2787
+voltage: 2864
+voltage: 2736
+voltage: 2818
+voltage: 2757
+voltage: 2781
+voltage: 2716
+voltage: 2728
+voltage: 2736
+voltage: 2695
+voltage: 2696
+voltage: 2674
+voltage: 2691
+voltage: 2679
+voltage: 2671
+voltage: 2652
+voltage: 2627
+voltage: 2616
+voltage: 2610
+voltage: 2530
+voltage: 2546
+voltage: 2578
+voltage: 2498
+voltage: 2519
+voltage: 2507
+voltage: 2488
+voltage: 2467
+voltage: 2460
+voltage: 2472
+voltage: 2394
+voltage: 2377
+voltage: 2395
+voltage: 2379
+voltage: 2389
+voltage: 2337
+voltage: 2296
+voltage: 2290
+voltage: 2284
+voltage: 2240
+voltage: 2217
+voltage: 2233
+voltage: 2186
+voltage: 2192
+voltage: 2205
+voltage: 2162
+voltage: 2135
+voltage: 2106
+voltage: 2089
+voltage: 2069
+voltage: 2089
+voltage: 2062
+voltage: 1973
+voltage: 1985
+voltage: 1983
+voltage: 1963
+voltage: 1959
+voltage: 1913
+voltage: 1898
+voltage: 1850
+voltage: 1860
+voltage: 1795
+voltage: 1779
+voltage: 1779
+voltage: 1783
+voltage: 1733
+voltage: 1715
+voltage: 1679
+voltage: 1651
+voltage: 1655
+voltage: 1589
+voltage: 1616
+voltage: 1589
+voltage: 1591
+voltage: 1572
+voltage: 1504
+voltage: 1478
+voltage: 1499
+voltage: 1462
+voltage: 1455
+voltage: 1494
+voltage: 1404
+voltage: 1351
+voltage: 1377
+voltage: 1351
+voltage: 1336
+voltage: 1323
+voltage: 1286
+voltage: 1250
+voltage: 1245
+voltage: 1209
+voltage: 1202
+voltage: 1198
+voltage: 1173
+voltage: 1236
+voltage: 1182
+voltage: 1083
+voltage: 1117
+voltage: 1141
+voltage: 1081
+voltage: 1050
+voltage: 1095
+voltage: 1031
+voltage: 991
+voltage: 1021
+voltage: 1004
+voltage: 964
+voltage: 982
+voltage: 994
+voltage: 943
+voltage: 918
+voltage: 912
+voltage: 886
+voltage: 872
+voltage: 886
+voltage: 902
+voltage: 852
+voltage: 861
+voltage: 815
+voltage: 848
+voltage: 827
+voltage: 835
+voltage: 796
+voltage: 822
+voltage: 814
+voltage: 781
+voltage: 846
+voltage: 733
+[0;32mI (1001) main_task: Returned from app_main()[0m

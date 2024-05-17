@@ -1,0 +1,63 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40380079: tlsf_block_size_max at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:841
+[0m
+[0;33m0x400556d5: strlen in ROM
+0x400556e5: strlen in ROM
+[0m
+[0;33m0x40380076: tlsf_block_size_max at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:835
+0x40380891: adjust_request_size at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:250
+ (inlined by) tlsf_memalign_offs at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:1035
+0x4037fe9d: multi_heap_aligned_alloc_impl_offs at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:286
+0x4037feea: multi_heap_aligned_alloc_offs at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:33
+0x403763e5: heap_caps_aligned_alloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:719
+0x40381814: memalign at /home/fracchio/esp/esp-idf/components/newlib/heap.c:74
+0x42008cd1: dsps_fft2r_init_fc32 at /home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/fft/float/dsps_fft2r_fc32_ansi.c:64
+0x42008920: get_max_frequency_fft at /home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h:55
+0x42008baf: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:124
+0x4201dbdf: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b509: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375958: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40380079: tlsf_block_size_max at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:841
+[0m
+[0;33m0x400556d5: strlen in ROM
+0x400556e5: strlen in ROM
+[0m
+[0;33m0x40380076: tlsf_block_size_max at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:835
+0x40380891: adjust_request_size at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:250
+ (inlined by) tlsf_memalign_offs at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:1035
+0x4037fe9d: multi_heap_aligned_alloc_impl_offs at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:286
+0x4037feea: multi_heap_aligned_alloc_offs at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:33
+0x403763e5: heap_caps_aligned_alloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:719
+0x40381814: memalign at /home/fracchio/esp/esp-idf/components/newlib/heap.c:74
+0x42008cd1: dsps_fft2r_init_fc32 at /home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/fft/float/dsps_fft2r_fc32_ansi.c:64
+0x42008920: get_max_frequency_fft at /home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h:55
+0x42008baf: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:124
+0x4201dbdf: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b509: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375958: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40380079: tlsf_block_size_max at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:841
+[0m
+[0;33m0x400556d5: strlen in ROM
+0x400556e5: strlen in ROM
+[0m
+[0;33m0x40380076: tlsf_block_size_max at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:835
+0x40380891: adjust_request_size at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:250
+ (inlined by) tlsf_memalign_offs at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:1035
+0x4037fe9d: multi_heap_aligned_alloc_impl_offs at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:286
+0x4037feea: multi_heap_aligned_alloc_offs at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:33
+0x403763e5: heap_caps_aligned_alloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:719
+0x40381814: memalign at /home/fracchio/esp/esp-idf/components/newlib/heap.c:74
+0x42008cd1: dsps_fft2r_init_fc32 at /home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/fft/float/dsps_fft2r_fc32_ansi.c:64
+0x42008920: get_max_frequency_fft at /home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h:55
+0x42008baf: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:124
+0x4201dbdf: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b509: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375958: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0m

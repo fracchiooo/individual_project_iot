@@ -1,0 +1,9 @@
+[0/1] Re-running CMake...
+-- git rev-parse returned 'fatal: non è un repository Git (né lo è alcun genitore fino al punto di mount /)
+Mi fermo al limite del filesystem (l'opzione GIT_DISCOVERY_ACROSS_FILESYSTEM non è impostata).'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32s3
+-- Found Git: /usr/bin/git (found version "2.44.0")
+-- Configuring incomplete, errors occurred!
+FAILED: build.ninja 
+/usr/bin/cmake --regenerate-during-build -S/home/fracchio/Scrivania/progetto_singolo -B/home/fracchio/Scrivania/progetto_singolo/build

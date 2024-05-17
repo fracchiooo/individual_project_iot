@@ -1,0 +1,43 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x42059147: ensure_partitions_loaded at /home/fracchio/esp/esp-idf/components/esp_partition/partition.c:259
+0x42059147: ensure_partitions_loaded at /home/fracchio/esp/esp-idf/components/esp_partition/partition.c:259
+[0m
+[0;33m0x40377f15: spi_flash_op_block_func at /home/fracchio/esp/esp-idf/components/spi_flash/cache_utils.c:138 (discriminator 1)
+[0m
+[0;33m0x42059147: ensure_partitions_loaded at /home/fracchio/esp/esp-idf/components/esp_partition/partition.c:259
+0x42059147: ensure_partitions_loaded at /home/fracchio/esp/esp-idf/components/esp_partition/partition.c:259
+[0m
+[0;33m0x40377f15: spi_flash_op_block_func at /home/fracchio/esp/esp-idf/components/spi_flash/cache_utils.c:138 (discriminator 1)
+[0m
+[0;33m0x42059147: ensure_partitions_loaded at /home/fracchio/esp/esp-idf/components/esp_partition/partition.c:259
+0x42059147: ensure_partitions_loaded at /home/fracchio/esp/esp-idf/components/esp_partition/partition.c:259
+[0m
+[0;33m0x40377f21: spi_flash_op_block_func at /home/fracchio/esp/esp-idf/components/spi_flash/cache_utils.c:138 (discriminator 1)
+[0m
+[0;33m0x42059147: ensure_partitions_loaded at /home/fracchio/esp/esp-idf/components/esp_partition/partition.c:259
+0x42059147: ensure_partitions_loaded at /home/fracchio/esp/esp-idf/components/esp_partition/partition.c:259
+[0m
+[0;33m0x40377f15: spi_flash_op_block_func at /home/fracchio/esp/esp-idf/components/spi_flash/cache_utils.c:138 (discriminator 1)
+[0m
+[0;33m0x42059147: ensure_partitions_loaded at /home/fracchio/esp/esp-idf/components/esp_partition/partition.c:259
+0x42059147: ensure_partitions_loaded at /home/fracchio/esp/esp-idf/components/esp_partition/partition.c:259
+[0m
+[0;33m0x40377f15: spi_flash_op_block_func at /home/fracchio/esp/esp-idf/components/spi_flash/cache_utils.c:138 (discriminator 1)
+[0m
+[0;33m0x42059147: ensure_partitions_loaded at /home/fracchio/esp/esp-idf/components/esp_partition/partition.c:259
+0x42059147: ensure_partitions_loaded at /home/fracchio/esp/esp-idf/components/esp_partition/partition.c:259
+[0m
+[0;33m0x40377f1e: spi_flash_op_block_func at /home/fracchio/esp/esp-idf/components/spi_flash/cache_utils.c:138 (discriminator 1)
+[0m
+[0;33m0x42059147: ensure_partitions_loaded at /home/fracchio/esp/esp-idf/components/esp_partition/partition.c:259
+0x42059147: ensure_partitions_loaded at /home/fracchio/esp/esp-idf/components/esp_partition/partition.c:259
+[0m
+[0;33m0x40377f15: spi_flash_op_block_func at /home/fracchio/esp/esp-idf/components/spi_flash/cache_utils.c:138 (discriminator 1)
+[0m
+[0;33m0x42059147: ensure_partitions_loaded at /home/fracchio/esp/esp-idf/components/esp_partition/partition.c:259
+0x42059147: ensure_partitions_loaded at /home/fracchio/esp/esp-idf/components/esp_partition/partition.c:259
+[0m
+[0;33m0x40377f15: spi_flash_op_block_func at /home/fracchio/esp/esp-idf/components/spi_flash/cache_utils.c:138 (discriminator 1)
+[0m
+[0m

@@ -1,0 +1,30 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x4037dbb3: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x403850cd: abort at /home/fracchio/esp/esp-idf/components/newlib/abort.c:38
+0x4037dbb3: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x42080d4f: set_chan_freq_sw_start at ??:?
+[0m
+[0;33m0x4037dbb3: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x403850cd: abort at /home/fracchio/esp/esp-idf/components/newlib/abort.c:38
+0x4037dbb3: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x4208d866: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1185 (discriminator 87)
+[0m
+[0;33m0x4037dbb3: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x403850cd: abort at /home/fracchio/esp/esp-idf/components/newlib/abort.c:38
+0x4037dbb3: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x4208d0c6: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1535
+[0m
+[0m

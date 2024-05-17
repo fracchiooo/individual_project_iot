@@ -1,0 +1,571 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x9 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcbc
+load:0x403cc700,len:0x2da0
+entry 0x403c9914
+[0;32mI (27) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time May  6 2024 17:13:56[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (39) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (54) boot: Partition Table:[0m
+[0;32mI (57) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (65) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (72) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (80) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (87) boot: End of partition table[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=16080h ( 90240) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=000260a8 vaddr=3fc93700 size=029b0h ( 10672) load[0m
+[0;32mI (118) esp_image: segment 2: paddr=00028a60 vaddr=40374000 size=075b8h ( 30136) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00030020 vaddr=42000020 size=1f938h (129336) map[0m
+[0;32mI (153) esp_image: segment 4: paddr=0004f960 vaddr=4037b5b8 size=080b0h ( 32944) load[0m
+[0;32mI (167) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (179) cpu_start: Multicore app[0m
+[0;32mI (189) cpu_start: Pro cpu start user code[0m
+[0;32mI (189) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (189) cpu_start: Application information:[0m
+[0;32mI (192) cpu_start: Project name:     progetto_singolo[0m
+[0;32mI (198) cpu_start: App version:      1[0m
+[0;32mI (202) cpu_start: Compile time:     May 10 2024 21:57:30[0m
+[0;32mI (208) cpu_start: ELF file SHA256:  ee58f6658...[0m
+[0;32mI (214) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (228) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC979D0 len 00051D40 (327 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (311) main_task: Calling app_main()[0m
+[0;32mI (311) gpio: GPIO[1]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+value 0
+value 3630
+value 3645
+value 3685
+value 3630
+value 3639
+value 3603
+value 3636
+value 3579
+value 3592
+value 3621
+value 3615
+value 3593
+value 3577
+value 3583
+value 3574
+value 3561
+value 3547
+value 3556
+value 3538
+value 3533
+value 3541
+value 3525
+value 3519
+value 3507
+value 3524
+value 3507
+value 3456
+value 3526
+value 3437
+value 3503
+value 3432
+value 3453
+value 3432
+value 3438
+value 3411
+value 3419
+value 3421
+value 3417
+value 3383
+value 3359
+value 3363
+value 3371
+value 3348
+value 3347
+value 3291
+value 3315
+value 3353
+value 3315
+value 3300
+value 3286
+value 3289
+value 3278
+value 3317
+value 3283
+value 3236
+value 3224
+value 3264
+value 3205
+value 3177
+value 3181
+value 3160
+value 3170
+value 3147
+value 3126
+value 3127
+value 3129
+value 3101
+value 3095
+value 3100
+value 3049
+value 3069
+value 3043
+value 3037
+value 3051
+value 2983
+value 3023
+value 2989
+value 3027
+value 2989
+value 2937
+value 2951
+value 2923
+value 2919
+value 2885
+value 2909
+value 2887
+value 2888
+value 2859
+value 2872
+value 2856
+value 2809
+value 2823
+value 2811
+value 2807
+value 2765
+value 2797
+value 2771
+value 2742
+value 2734
+value 2773
+value 2728
+value 2715
+value 2702
+value 2666
+value 2659
+value 2659
+value 2695
+value 2644
+value 2601
+value 2602
+value 2604
+value 2559
+value 2553
+value 2545
+value 2558
+value 2511
+value 2469
+value 2474
+value 2486
+value 2431
+value 2459
+value 2440
+value 2429
+value 2279
+value 2405
+value 2347
+value 2331
+value 2395
+value 2343
+value 2319
+value 2303
+value 2332
+value 2275
+value 2265
+value 2268
+value 2245
+value 2233
+value 2220
+value 2212
+value 2198
+value 2186
+value 2173
+value 2153
+value 2135
+value 2151
+value 2121
+value 2133
+value 2087
+value 2069
+value 2077
+value 2047
+value 2029
+value 2045
+value 2015
+value 2014
+value 1997
+value 1981
+value 1967
+value 1935
+value 1927
+value 1919
+value 1893
+value 1899
+value 1894
+value 1891
+value 1847
+value 1886
+value 1876
+value 1829
+value 1821
+value 1773
+value 1771
+value 1753
+value 1749
+value 1765
+value 1721
+value 1704
+value 1737
+value 1702
+value 1703
+value 1663
+value 1659
+value 1673
+value 1634
+value 1625
+value 1621
+value 1609
+value 1577
+value 1576
+value 1587
+value 1515
+value 1579
+value 1517
+value 1561
+value 1490
+value 1465
+value 1487
+value 1447
+value 1437
+value 1461
+value 1453
+value 1434
+value 1405
+value 1417
+value 1390
+value 1389
+value 1386
+value 1353
+value 1334
+value 1357
+value 1365
+value 1315
+value 1325
+value 1277
+value 1273
+value 1263
+value 1263
+value 1247
+value 1254
+value 1229
+value 1214
+value 1192
+value 1222
+value 1174
+value 1189
+value 1214
+value 1191
+value 1183
+value 1177
+value 1159
+value 1133
+value 1145
+value 1130
+value 1125
+value 1111
+value 1101
+value 1095
+value 1123
+value 1079
+value 1099
+value 1075
+value 1069
+value 1065
+value 1055
+value 1058
+value 1047
+value 1031
+value 1010
+value 1014
+value 1021
+value 1054
+value 1017
+value 1017
+value 991
+value 1011
+[2870, 2879, 2901, 2870, 2877, 2854, 2874, 2840, 2847, 2864, 2861, 2847, 2837, 2841, 2835, 2828, 2820, 2824, 2813, 2810, 2815, 2805, 2801, 2794, 2805, 2794, 2760, 2805, 2748, 2790, 2744, 2758, 2744, 2749, 2731, 2736, 2737, 2735, 2713, 2695, 2699, 2703, 2688, 2686, 2648, 2665, 2691, 2665, 2656, 2645, 2648, 2640, 2667, 2645, 2610, 2601, 2630, 2587, 2568, 2571, 2557, 2563, 2546, 2532, 2532, 2534, 2514, 2507, 2514, 2475, 2490, 2471, 2465, 2477, 2426, 2456, 2430, 2458, 2430, 2391, 2402, 2379, 2377, 2351, 2370, 2352, 2354, 2333, 2341, 2330, 2293, 2303, 2295, 2291, 2259, 2284, 2263, 2240, 2233, 2266, 2230, 2220, 2209, 2180, 2175, 2175, 2203, 2164, 2130, 2131, 2132, 2096, 2091, 2085, 2096, 2058, 2024, 2028, 2037, 1994, 2016, 2001, 1993, 1870, 1973, 1925, 1913, 1965, 1923, 1904, 1891, 1913, 1868, 1860, 1862, 1845, 1834, 1823, 1817, 1805, 1795, 1785, 1769, 1754, 1768, 1743, 1753, 1715, 1700, 1708, 1683, 1669, 1681, 1656, 1656, 1642, 1628, 1618, 1591, 1584, 1578, 1557, 1562, 1559, 1555, 1519, 1551, 1544, 1504, 1499, 1460, 1458, 1444, 1440, 1454, 1417, 1404, 1430, 1402, 1404, 1370, 1367, 1379, 1348, 1339, 1336, 1326, 1300, 1300, 1309, 1251, 1303, 1251, 1289, 1231, 1209, 1228, 1195, 1188, 1206, 1201, 1185, 1162, 1172, 1151, 1149, 1146, 1120, 1104, 1123, 1129, 1089, 1097, 1058, 1055, 1047, 1047, 1034, 1039, 1020, 1008, 990, 1014, 976, 987, 1008, 989, 982, 978, 963, 943, 951, 939, 936, 923, 917, 912, 934, 900, 916, 895, 891, 887, 878, 883, 873, 860, 843, 846, 853, 878, 848, 848, 827, 844, 0, ]
+[0;32mI (711) main: Start Example.[0m
+la max frequency è: 325.519531
+[0;32mI (721) gpio: GPIO[1]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+value 14
+value 2619
+value 1075
+value 1208
+value 2747
+value 3683
+value 2431
+value 1019
+value 1333
+value 2937
+value 3605
+value 2227
+value 935
+value 1463
+value 3069
+value 3558
+value 2061
+value 895
+value 1561
+value 3246
+value 3411
+value 1887
+value 886
+value 1781
+value 3349
+value 3301
+value 1716
+value 903
+value 1980
+value 3487
+value 3131
+value 1598
+value 911
+value 2147
+value 3535
+value 2990
+value 1392
+value 989
+value 2331
+value 3673
+value 2839
+value 1267
+value 1039
+value 2495
+value 3679
+value 2679
+value 1151
+value 1144
+value 2667
+value 3655
+value 2495
+value 1048
+value 1145
+value 2893
+value 3609
+value 2335
+value 971
+value 1401
+value 3001
+value 3533
+value 2167
+value 935
+value 1549
+value 3146
+value 3849
+value 1997
+val e3349
+value 1812
+value 875
+value 1876
+value 3431
+value 3461
+value 1701
+value 905
+value 2044
+value 3533
+value 3083
+value 1471
+value 955
+value 2203
+value 3618
+value 2937
+value 1339
+value 1023
+value 2415
+value 3603
+value 2761
+value 1199
+value 1109
+value 2611
+value 3360
+value 2599
+value 1097
+value 1260
+value 2780
+value 3677
+value 2427
+value 1017
+value 1294
+value 2926
+value 3593
+value 1968
+value 975
+value 1498
+value 3083
+value 3539
+value 2090
+value 919
+value 1651
+value 3241
+value 3411
+value 1877
+value 968
+value 1800
+value 3349
+value 3363
+value 1711
+value 883
+value 1959
+value 3470
+value 3135
+value 1551
+value 759
+value 2131
+value 3551
+value 3048
+value 1398
+value 987
+value 2335
+value 3621
+value 2855
+value 1267
+value 1047
+value 2431
+value 3654
+value 2679
+value 1101
+value 1131
+value 2701
+value 3663
+value 2523
+value 1045
+value 1266
+value 2839
+value 3629
+value 2335
+value 1002
+value 1246
+value 2980
+value 3563
+value 2153
+value 943
+value 1452
+value 3145
+value 3511
+value 1983
+value 917
+value 1708
+value 3512
+value 3339
+value 1843
+value 887
+value 1883
+value 3006
+value 3215
+value 1576
+value 697
+value 2056
+value 3519
+value 3017
+value 1491
+value 946
+value 2217
+value 3555
+value 2932
+value 1336
+value 1173
+value 2585
+value 3636
+value 2808
+value 1231
+value 1087
+value 2601
+value 3675
+value 2623
+value 1103
+value 1204
+value 2841
+value 3579
+value 2443
+value 986
+value 1317
+value 2894
+value 3638
+value 2251
+value 983
+value 1503
+value 3069
+value 3723
+value 2060
+value 923
+value 1835
+value 3219
+value 3411
+value 1881
+value 916
+value 1397
+value 3401
+value 3308
+value 1787
+value 889
+value 1951
+value 3509
+value 3189
+value 1563
+value 918
+value 2173
+value 3320
+value 3018
+value 1423
+value 988
+value 2325
+value 3657
+value 2877
+value 1311
+value 1045
+value 2474
+value 3653
+value 2571
+value 1159
+value 1148
+value 2649
+value 3647
+value 2511
+value 1055
+value 1264
+value 2814
+value 3707
+value 2345
+value 1005
+value 1400
+value 3082
+value 3190
+value 2169
+value 923
+value 1561
+value 3147
+value 3501
+value 2008
+value 1017
+value 1705
+value 3235
+value 3449
+[2144, 895, 1003, 2245, 2901, 1994, 849, 1104, 2391, 2854, 1829, 781, 1209, 2490, 2825, 1694, 750, 1289, 2619, 2731, 1552, 741, 1467, 2689, 2657, 1413, 756, 1628, 2781, 2535, 1318, 763, 1763, 2811, 2430, 1151, 827, 1913, 2895, 2316, 1050, 867, 2045, 2898, 2191, 957, 951, 2180, 2885, 2045, 874, 951, 2357, 2857, 1915, 813, 1159, 2440, 2810, 1779, 781, 1278, 2546, 2993, 1642, 769, 1399, 2648, 2689, 1492, 734, 1544, 2745, 2763, 1401, 757, 1681, 2810, 2500, 1215, 799, 1808, 2863, 2391, 1108, 853, 1982, 2854, 2255, 996, 922, 2137, 2696, 2128, 913, 1045, 2271, 2898, 1990, 848, 1071, 2382, 2847, 1619, 815, 1236, 2500, 2813, 1718, 770, 1361, 2613, 2731, 1544, 809, 1483, 2689, 2699, 1409, 740, 1611, 2769, 2539, 1279, 639, 1750, 2821, 2474, 1156, 824, 1915, 2864, 2328, 1050, 873, 1994, 2884, 2191, 917, 942, 2207, 2890, 2068, 872, 1050, 2316, 2870, 1915, 837, 1034, 2424, 2829, 1769, 788, 1199, 2545, 2797, 1630, 767, 1407, 2797, 2683, 1516, 742, 1549, 2443, 2596, 1300, 589, 1689, 2801, 2450, 1231, 792, 1820, 2824, 2388, 1105, 975, 2117, 2874, 2292, 1021, 905, 2130, 2897, 2147, 918, 1000, 2318, 2840, 2003, 823, 1091, 2359, 2875, 1849, 822, 1241, 2490, 2925, 1694, 772, 1509, 2599, 2731, 1548, 767, 1155, 2724, 2662, 1471, 745, 1604, 2795, 2578, 1289, 769, 1785, 2669, 2451, 1175, 826, 1908, 2886, 2345, 1085, 872, 2028, 2884, 2106, 963, 954, 2167, 2880, 2058, 878, 1048, 2296, 2916, 1924, 840, 1157, 2500, 2579, 1782, 772, 1289, 2546, 2789, 1652, 848, 1403, 2610, 2756, 0, ]
+[0;32mI (1511) main_task: Returned from app_main()[0m

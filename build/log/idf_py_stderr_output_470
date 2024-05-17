@@ -1,0 +1,69 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x4005706c: memmove in ROM
+[0m
+[0;33m0x400556d5: strlen in ROM
+0x400556e5: strlen in ROM
+[0m
+[0;33m0x40057069: memmove in ROM
+0x420117e6: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:229
+0x420119f3: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+0x42011a2b: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+0x42008a66: get_max_frequency_fft at /home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h:96
+0x42008c2f: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:122
+0x4201df67: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b509: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375958: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403784c2: xt_utils_compare_and_set at /home/fracchio/esp/esp-idf/components/xtensa/include/xt_utils.h:215
+ (inlined by) esp_cpu_compare_and_set at /home/fracchio/esp/esp-idf/components/esp_hw_support/cpu.c:491
+[0m
+[0;33m0x400556d5: strlen in ROM
+0x400556e5: strlen in ROM
+[0m
+[0;33m0x403784bf: xt_utils_compare_and_set at /home/fracchio/esp/esp-idf/components/xtensa/include/xt_utils.h:215
+ (inlined by) esp_cpu_compare_and_set at /home/fracchio/esp/esp-idf/components/esp_hw_support/cpu.c:491
+0x4037b761: spinlock_acquire at /home/fracchio/esp/esp-idf/components/esp_hw_support/include/spinlock.h:130
+ (inlined by) xPortEnterCriticalTimeout at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:473
+0x4037b364: vPortEnterCritical at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:571
+ (inlined by) xQueueSemaphoreTake at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1727
+0x4037b43e: xQueueTakeMutexRecursive at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:835
+0x40376a05: lock_acquire_generic at /home/fracchio/esp/esp-idf/components/newlib/locks.c:144
+0x40376ae5: _lock_acquire_recursive at /home/fracchio/esp/esp-idf/components/newlib/locks.c:158
+0x40376baf: __retarget_lock_acquire_recursive at /home/fracchio/esp/esp-idf/components/newlib/locks.c:314
+0x420119e6: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:89 (discriminator 2)
+0x42011a2b: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+0x42008a66: get_max_frequency_fft at /home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h:96
+0x42008c2f: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:122
+0x4201df67: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b509: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x403785b2: esp_cpu_wait_for_intr at /home/fracchio/esp/esp-idf/components/esp_hw_support/cpu.c:145
+[0m
+[0;33m0x40378278: ipc_task at /home/fracchio/esp/esp-idf/components/esp_system/esp_ipc.c:48
+[0m
+[0;33m0x403785af: xt_utils_wait_for_intr at /home/fracchio/esp/esp-idf/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /home/fracchio/esp/esp-idf/components/esp_hw_support/cpu.c:132
+0x420030d6: esp_vApplicationIdleHook at /home/fracchio/esp/esp-idf/components/esp_system/freertos_hooks.c:59
+0x4037c44d: prvIdleTask at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4273 (discriminator 1)
+0x4037b509: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375958: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40376ba0: __retarget_lock_acquire_recursive at /home/fracchio/esp/esp-idf/components/newlib/locks.c:313
+[0m
+[0;33m0x400556d5: strlen in ROM
+0x400556e5: strlen in ROM
+[0m
+[0;33m0x40376b9d: __retarget_lock_acquire_recursive at /home/fracchio/esp/esp-idf/components/newlib/locks.c:312
+0x420119e6: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:89 (discriminator 2)
+0x42011a2b: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+0x42008a66: get_max_frequency_fft at /home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h:96
+0x42008c2f: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:122
+0x4201df67: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b509: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375958: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0m

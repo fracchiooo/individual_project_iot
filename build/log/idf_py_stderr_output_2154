@@ -1,0 +1,83 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x4037602c: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:155
+[0m
+[0;33m0x4201bb20: .fft2r_l2 at /home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/fft/float/dsps_fft2r_fc32_aes3_.S:107
+0x4201bb56: .fft2r_l3 at /home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/fft/float/dsps_fft2r_fc32_aes3_.S:131
+[0m
+[0;33m0x40376029: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:154
+0x403760d8: heap_caps_malloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:202
+0x4037610d: heap_caps_malloc_default at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:228
+0x40381789: malloc at /home/fracchio/esp/esp-idf/components/newlib/heap.c:24
+0x4200f6a9: operator new(unsigned int) at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/new_op.cc:50
+0x4200f511: operator new[](unsigned int) at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/new_opv.cc:32
+0x42008e5f: dsps_view at /home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/support/view/dsps_view.cpp:10
+0x42008a5c: get_max_frequency_fft at /home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h:101
+0x42008ba2: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:122
+0x4201debf: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b509: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375958: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x4037ff4b: multi_heap_internal_lock at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:165
+[0m
+[0;33m0x4201bb20: .fft2r_l2 at /home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/fft/float/dsps_fft2r_fc32_aes3_.S:107
+0x4201bb56: .fft2r_l3 at /home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/fft/float/dsps_fft2r_fc32_aes3_.S:131
+[0m
+[0;33m0x4037ff48: multi_heap_internal_lock at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:164
+0x4037ffa6: multi_heap_malloc_impl at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:209
+0x4037607d: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:179
+0x403760d8: heap_caps_malloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:202
+0x4037610d: heap_caps_malloc_default at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:228
+0x40381789: malloc at /home/fracchio/esp/esp-idf/components/newlib/heap.c:24
+0x4200f6a9: operator new(unsigned int) at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/new_op.cc:50
+0x4200f511: operator new[](unsigned int) at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/new_opv.cc:32
+0x42008e5f: dsps_view at /home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/support/view/dsps_view.cpp:10
+0x42008a5c: get_max_frequency_fft at /home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h:101
+0x42008ba2: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:122
+0x4201debf: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b509: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375958: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x4037602c: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:155
+[0m
+[0;33m0x4201bb20: .fft2r_l2 at /home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/fft/float/dsps_fft2r_fc32_aes3_.S:107
+0x4201bb56: .fft2r_l3 at /home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/fft/float/dsps_fft2r_fc32_aes3_.S:131
+[0m
+[0;33m0x40376029: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:154
+0x403760d8: heap_caps_malloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:202
+0x4037610d: heap_caps_malloc_default at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:228
+0x40381789: malloc at /home/fracchio/esp/esp-idf/components/newlib/heap.c:24
+0x4200f6a9: operator new(unsigned int) at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/new_op.cc:50
+0x4200f511: operator new[](unsigned int) at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/new_opv.cc:32
+0x42008e5f: dsps_view at /home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/support/view/dsps_view.cpp:10
+0x42008a5c: get_max_frequency_fft at /home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h:101
+0x42008ba2: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:122
+0x4201debf: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b509: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375958: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x4037ff4b: multi_heap_internal_lock at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:165
+[0m
+[0;33m0x4201bb20: .fft2r_l2 at /home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/fft/float/dsps_fft2r_fc32_aes3_.S:107
+0x4201bb56: .fft2r_l3 at /home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/fft/float/dsps_fft2r_fc32_aes3_.S:131
+[0m
+[0;33m0x4037ff48: multi_heap_internal_lock at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:164
+0x4037ffa6: multi_heap_malloc_impl at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:209
+0x4037607d: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:179
+0x403760d8: heap_caps_malloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:202
+0x4037610d: heap_caps_malloc_default at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:228
+0x40381789: malloc at /home/fracchio/esp/esp-idf/components/newlib/heap.c:24
+0x4200f6a9: operator new(unsigned int) at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/new_op.cc:50
+0x4200f511: operator new[](unsigned int) at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/new_opv.cc:32
+0x42008e5f: dsps_view at /home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/support/view/dsps_view.cpp:10
+0x42008a5c: get_max_frequency_fft at /home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h:101
+0x42008ba2: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:122
+0x4201debf: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b509: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375958: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0m

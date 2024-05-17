@@ -1,0 +1,11 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x4037812c: _xt_panic at /home/fracchio/esp/esp-idf/components/esp_system/port/arch/xtensa/panic_handler_asm.S:28
+[0m
+[0;33m0x40378131: _xt_panic at /home/fracchio/esp/esp-idf/components/esp_system/port/arch/xtensa/panic_handler_asm.S:29
+[0m
+[0;33m0x403743c0: _DoubleExceptionVector at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:564
+[0m
+[0;33m0x40378134: _xt_panic at /home/fracchio/esp/esp-idf/components/esp_system/port/arch/xtensa/panic_handler_asm.S:30
+[0m
+[0m

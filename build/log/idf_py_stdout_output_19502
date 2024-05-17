@@ -1,0 +1,143 @@
+[0/1] Re-running CMake...
+-- git rev-parse returned 'fatal: non è un repository Git (né lo è alcun genitore fino al punto di mount /)
+Mi fermo al limite del filesystem (l'opzione GIT_DISCOVERY_ACROSS_FILESYSTEM non è impostata).'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32s3
+Processing 1 dependencies:
+[1/1] idf (5.2.1)
+-- Project sdkconfig file /home/fracchio/Scrivania/progetto_singolo/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- App "progetto_singolo" version: 1
+-- Adding linker script /home/fracchio/Scrivania/progetto_singolo/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/fracchio/esp/esp-idf/components/esp_system/ld/esp32s3/sections.ld.in
+-- Adding linker script /home/fracchio/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script /home/fracchio/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script /home/fracchio/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script /home/fracchio/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script /home/fracchio/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+-- Adding linker script /home/fracchio/esp/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs fft freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt mqtt_wrapper newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread read_continuous sdmmc soc spi_flash spiffs tcp_transport touch_element ulp unity usb vfs wear_levelling wifi_provisioning wifi_wrapper wpa_supplicant xtensa
+-- Component paths: /home/fracchio/esp/esp-idf/components/app_trace /home/fracchio/esp/esp-idf/components/app_update /home/fracchio/esp/esp-idf/components/bootloader /home/fracchio/esp/esp-idf/components/bootloader_support /home/fracchio/esp/esp-idf/components/bt /home/fracchio/esp/esp-idf/components/cmock /home/fracchio/esp/esp-idf/components/console /home/fracchio/esp/esp-idf/components/cxx /home/fracchio/esp/esp-idf/components/driver /home/fracchio/esp/esp-idf/components/efuse /home/fracchio/esp/esp-idf/components/esp-tls /home/fracchio/esp/esp-idf/components/esp_adc /home/fracchio/esp/esp-idf/components/esp_app_format /home/fracchio/esp/esp-idf/components/esp_bootloader_format /home/fracchio/esp/esp-idf/components/esp_coex /home/fracchio/esp/esp-idf/components/esp_common /home/fracchio/esp/esp-idf/components/esp_eth /home/fracchio/esp/esp-idf/components/esp_event /home/fracchio/esp/esp-idf/components/esp_gdbstub /home/fracchio/esp/esp-idf/components/esp_hid /home/fracchio/esp/esp-idf/components/esp_http_client /home/fracchio/esp/esp-idf/components/esp_http_server /home/fracchio/esp/esp-idf/components/esp_https_ota /home/fracchio/esp/esp-idf/components/esp_https_server /home/fracchio/esp/esp-idf/components/esp_hw_support /home/fracchio/esp/esp-idf/components/esp_lcd /home/fracchio/esp/esp-idf/components/esp_local_ctrl /home/fracchio/esp/esp-idf/components/esp_mm /home/fracchio/esp/esp-idf/components/esp_netif /home/fracchio/esp/esp-idf/components/esp_netif_stack /home/fracchio/esp/esp-idf/components/esp_partition /home/fracchio/esp/esp-idf/components/esp_phy /home/fracchio/esp/esp-idf/components/esp_pm /home/fracchio/esp/esp-idf/components/esp_psram /home/fracchio/esp/esp-idf/components/esp_ringbuf /home/fracchio/esp/esp-idf/components/esp_rom /home/fracchio/esp/esp-idf/components/esp_system /home/fracchio/esp/esp-idf/components/esp_timer /home/fracchio/esp/esp-idf/components/esp_wifi /home/fracchio/esp/esp-idf/components/espcoredump /home/fracchio/esp/esp-idf/components/esptool_py /home/fracchio/esp/esp-idf/components/fatfs /home/fracchio/Scrivania/progetto_singolo/components/fft /home/fracchio/esp/esp-idf/components/freertos /home/fracchio/esp/esp-idf/components/hal /home/fracchio/esp/esp-idf/components/heap /home/fracchio/esp/esp-idf/components/http_parser /home/fracchio/esp/esp-idf/components/idf_test /home/fracchio/esp/esp-idf/components/ieee802154 /home/fracchio/esp/esp-idf/components/json /home/fracchio/esp/esp-idf/components/log /home/fracchio/esp/esp-idf/components/lwip /home/fracchio/Scrivania/progetto_singolo/main /home/fracchio/esp/esp-idf/components/mbedtls /home/fracchio/esp/esp-idf/components/mqtt /home/fracchio/Scrivania/progetto_singolo/components/mqtt_wrapper /home/fracchio/esp/esp-idf/components/newlib /home/fracchio/esp/esp-idf/components/nvs_flash /home/fracchio/esp/esp-idf/components/nvs_sec_provider /home/fracchio/esp/esp-idf/components/openthread /home/fracchio/esp/esp-idf/components/partition_table /home/fracchio/esp/esp-idf/components/perfmon /home/fracchio/esp/esp-idf/components/protobuf-c /home/fracchio/esp/esp-idf/components/protocomm /home/fracchio/esp/esp-idf/components/pthread /home/fracchio/Scrivania/progetto_singolo/components/read_continuous /home/fracchio/esp/esp-idf/components/sdmmc /home/fracchio/esp/esp-idf/components/soc /home/fracchio/esp/esp-idf/components/spi_flash /home/fracchio/esp/esp-idf/components/spiffs /home/fracchio/esp/esp-idf/components/tcp_transport /home/fracchio/esp/esp-idf/components/touch_element /home/fracchio/esp/esp-idf/components/ulp /home/fracchio/esp/esp-idf/components/unity /home/fracchio/esp/esp-idf/components/usb /home/fracchio/esp/esp-idf/components/vfs /home/fracchio/esp/esp-idf/components/wear_levelling /home/fracchio/esp/esp-idf/components/wifi_provisioning /home/fracchio/Scrivania/progetto_singolo/components/wifi_wrapper /home/fracchio/esp/esp-idf/components/wpa_supplicant /home/fracchio/esp/esp-idf/components/xtensa
+-- Configuring done (3.0s)
+-- Generating done (0.3s)
+-- Build files have been written to: /home/fracchio/Scrivania/progetto_singolo/build
+[1/10] Performing build step for 'bootloader'
+[1/1] cd /home/fracchio/Scrivania/progetto_singolo/build/bootloader/esp-idf/esptool_py && /home/fracchio/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/fracchio/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/fracchio/Scrivania/progetto_singolo/build/bootloader/bootloader.bin
+Bootloader binary size 0x5250 bytes. 0x2db0 bytes (36%) free.
+[2/10] No install step for 'bootloader'
+[3/10] Completed 'bootloader'
+[4/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/progetto_singolo.c.obj
+In file included from /home/fracchio/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h:12,
+                 from /home/fracchio/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:20,
+                 from /home/fracchio/esp/esp-idf/components/esp_hw_support/include/spinlock.h:11,
+                 from /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:49,
+                 from /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:57,
+                 from /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:69,
+                 from /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:5:
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h: In function 'read_and_get_data':
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:35:85: warning: passing argument 3 of 'adc_cali_raw_to_voltage' from incompatible pointer type [-Wincompatible-pointer-types]
+   35 |               ESP_ERROR_CHECK(adc_cali_raw_to_voltage(adc1_cali_chan0_handle, data, &converted_result[ii])); //converts raw data to calibrated voltage
+      |                                                                                     ^~~~~~~~~~~~~~~~~~~~~
+      |                                                                                     |
+      |                                                                                     uint32_t * {aka long unsigned int *}
+/home/fracchio/esp/esp-idf/components/esp_common/include/esp_err.h:117:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  117 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+In file included from /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:9:
+/home/fracchio/esp/esp-idf/components/esp_adc/include/esp_adc/adc_cali.h:54:75: note: expected 'int *' but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
+   54 | esp_err_t adc_cali_raw_to_voltage(adc_cali_handle_t handle, int raw, int *voltage);
+      |                                                                      ~~~~~^~~~~~~
+In file included from /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:15:
+/home/fracchio/Scrivania/progetto_singolo/components/mqtt_wrapper/include/mqtt_wrapper.h: In function 'readFile':
+/home/fracchio/Scrivania/progetto_singolo/components/mqtt_wrapper/include/mqtt_wrapper.h:30:12: warning: function returns address of local variable [-Wreturn-local-addr]
+   30 |     return fileContent;
+      |            ^~~~~~~~~~~
+/home/fracchio/Scrivania/progetto_singolo/components/mqtt_wrapper/include/mqtt_wrapper.h: In function 'mqtt_event_handler':
+/home/fracchio/Scrivania/progetto_singolo/components/mqtt_wrapper/include/mqtt_wrapper.h:46:16: warning: initialization of 'int' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   46 |     int msg_id="";
+      |                ^~
+/home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c: In function 'app_main':
+/home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:184:7: warning: unused variable 'mean_signal' [-Wunused-variable]
+  184 | float mean_signal=55;
+      |       ^~~~~~~~~~~
+/home/fracchio/Scrivania/progetto_singolo/components/mqtt_wrapper/include/mqtt_wrapper.h: At top level:
+/home/fracchio/Scrivania/progetto_singolo/components/mqtt_wrapper/include/mqtt_wrapper.h:94:13: warning: 'mqtt_app_start' defined but not used [-Wunused-function]
+   94 | static void mqtt_app_start(char* broker_url, char* username, char* password)
+      |             ^~~~~~~~~~~~~~
+[5/10] Linking C static library esp-idf/main/libmain.a
+[6/10] Generating ld/sections.ld
+[7/10] Linking CXX executable progetto_singolo.elf
+[8/10] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated /home/fracchio/Scrivania/progetto_singolo/build/progetto_singolo.bin
+[9/10] cd /home/fracchio/Scrivania/progetto_singolo/build/esp-idf/esptool_py && /home/fracchio/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/fracchio/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/fracchio/Scrivania/progetto_singolo/build/partition_table/partition-table.bin /home/fracchio/Scrivania/progetto_singolo/build/progetto_singolo.bin
+progetto_singolo.bin binary size 0xdb240 bytes. Smallest app partition is 0x100000 bytes. 0x24dc0 bytes (14%) free.
+[9/10] cd /home/fracchio/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/fracchio/esp/esp-idf -D "SERIAL_TOOL=/home/fracchio/.espressif/python_env/idf5.2_py3.11_env/bin/python;;/home/fracchio/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32s3" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/fracchio/Scrivania/progetto_singolo/build -P /home/fracchio/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32s3 -p /dev/ttyUSB0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 2MB 0x0 bootloader/bootloader.bin 0x10000 progetto_singolo.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.0
+Serial port /dev/ttyUSB0
+Connecting....
+Chip is ESP32-S3 (QFN56) (revision v0.2)
+Features: WiFi, BLE, Embedded Flash 8MB (GD)
+Crystal is 40MHz
+MAC: 48:27:e2:e2:e5:e4
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00000000 to 0x00005fff...
+Flash will be erased from 0x00010000 to 0x000ebfff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 21072 bytes to 13081...
+Writing at 0x00000000... (100 %)
+Wrote 21072 bytes (13081 compressed) at 0x00000000 in 0.6 seconds (effective 295.1 kbit/s)...
+Hash of data verified.
+Compressed 897600 bytes to 554553...
+Writing at 0x00010000... (2 %)
+Writing at 0x0001bf57... (5 %)
+Writing at 0x000274ea... (8 %)
+Writing at 0x0002bf88... (11 %)
+Writing at 0x00033130... (14 %)
+Writing at 0x0003f859... (17 %)
+Writing at 0x000459a2... (20 %)
+Writing at 0x0004bc09... (23 %)
+Writing at 0x00052095... (26 %)
+Writing at 0x00057dfc... (29 %)
+Writing at 0x0005dc22... (32 %)
+Writing at 0x00063b2d... (35 %)
+Writing at 0x0006a0d5... (38 %)
+Writing at 0x0006ff67... (41 %)
+Writing at 0x00075682... (44 %)
+Writing at 0x0007a595... (47 %)
+Writing at 0x0007f6f2... (50 %)
+Writing at 0x00084686... (52 %)
+Writing at 0x00089a3d... (55 %)
+Writing at 0x0008edf4... (58 %)
+Writing at 0x0009495c... (61 %)
+Writing at 0x0009a6ec... (64 %)
+Writing at 0x000a0055... (67 %)
+Writing at 0x000a5cc5... (70 %)
+Writing at 0x000aba06... (73 %)
+Writing at 0x000b123f... (76 %)
+Writing at 0x000b6f68... (79 %)
+Writing at 0x000bccb6... (82 %)
+Writing at 0x000c2117... (85 %)
+Writing at 0x000cc381... (88 %)
+Writing at 0x000d40dd... (91 %)
+Writing at 0x000d9f1a... (94 %)
+Writing at 0x000dfffe... (97 %)
+Writing at 0x000e656e... (100 %)
+Wrote 897600 bytes (554553 compressed) at 0x00010000 in 13.7 seconds (effective 523.8 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 378.4 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

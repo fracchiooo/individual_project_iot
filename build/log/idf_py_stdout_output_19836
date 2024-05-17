@@ -1,0 +1,205 @@
+.[0m
+[0;32mI (401) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (407) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (415) main_task: Started on CPU0[0m
+[0;32mI (425) mai�ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x9 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcbc
+load:0x403cc700,len:0x2da0
+entry 0x403c9914
+[0;32mI (27) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time May  6 2024 17:13:56[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (39) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (54) boot: Partition Table:[0m
+[0;32mI (57) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (65) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (72) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (80) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (87) boot: End of partition table[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=2910ch (168204) map[0m
+[0;32mI (130) esp_image: segment 1: paddr=00039134 vaddr=3fc97e00 size=04710h ( 18192) load[0m
+[0;32mI (134) esp_image: segment 2: paddr=0003d84c vaddr=40374000 size=027cch ( 10188) load[0m
+[0;32mI (138) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=99c34h (629812) map[0m
+[0;32mI (257) esp_image: segment 4: paddr=000d9c5c vaddr=403767cc size=115bch ( 71100) load[0m
+[0;32mI (281) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (281) boot: Disabling RNG early entropy source...[0m
+[0;32mI (293) cpu_start: Multicore app[0m
+[0;32mI (303) cpu_start: Pro cpu start user code[0m
+[0;32mI (303) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (303) cpu_start: Application information:[0m
+[0;32mI (306) cpu_start: Project name:     progetto_singolo[0m
+[0;32mI (312) cpu_start: App version:      1[0m
+[0;32mI (316) cpu_start: Compile time:     May 10 2024 21:57:30[0m
+[0;32mI (322) cpu_start: ELF file SHA256:  8f085ea07...[0m
+[0;32mI (328) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (333) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (338) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (343) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (347) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (355) heap_init: At 3FCA0590 len 00049180 (292 KiB): RAM[0m
+[0;32mI (361) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (367) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (373) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (380) spi_flash: detected chip: gd[0m
+[0;32mI (383) spi_flash: flash io: dio[0m
+[0;33mW (387) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (401) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (407) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (415) main_task: Started on CPU0[0m
+[0;32mI (425) main_task: Calling app_main()[0m
+[0;32mI (455) pp: pp rom version: e7ae62f[0m
+[0;32mI (455) net80211: net80211 rom version: e7ae62f[0m
+I (465) wifi:wifi driver task: 3fcaa8bc, prio:23, stack:6656, core=0
+I (475) wifi:wifi firmware version: a9f5b59
+I (475) wifi:wifi certification version: v7.0
+I (475) wifi:config NVS flash: enabled
+I (475) wifi:config nano formating: disabled
+I (475) wifi:Init data frame dynamic rx buffer num: 32
+I (485) wifi:Init static rx mgmt buffer num: 5
+I (485) wifi:Init management short buffer num: 32
+I (495) wifi:Init dynamic tx buffer num: 32
+I (495) wifi:Init static tx FG buffer num: 2
+I (505) wifi:Init static rx buffer size: 1600
+I (505) wifi:Init static rx buffer num: 10
+I (505) wifi:Init dynamic rx buffer num: 32
+[0;32mI (515) wifi_init: rx ba win: 6[0m
+[0;32mI (515) wifi_init: tcpip mbox: 32[0m
+[0;32mI (525) wifi_init: udp mbox: 6[0m
+[0;32mI (525) wifi_init: tcp mbox: 6[0m
+[0;32mI (525) wifi_init: tcp tx win: 5760[0m
+[0;32mI (535) wifi_init: tcp rx win: 5760[0m
+[0;32mI (535) wifi_init: tcp mss: 1440[0m
+[0;32mI (535) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (545) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (555) phy_init: phy_version 640,cd64a1a,Jan 24 2024,17:28:12[0m
+I (595) wifi:mode : sta (48:27:e2:e2:e5:e4)
+I (595) wifi:enable tsf
+I (685) wifi:new:<1,0>, old:<1,0>, ap:<255,255>, sta:<1,0>, prof:1
+I (685) wifi:state: init -> auth (b0)
+I (685) wifi:state: auth -> assoc (0)
+I (685) wifi:state: assoc -> run (10)
+W (685) wifi:[ADDBA]rx delba, code:1, delete tid:0
+I (705) wifi:connected with TIM-69567495, aid = 8, channel 1, BW20, bssid = ce:b1:01:33:36:34
+I (705) wifi:security: WPA2-PSK, phy: bgn, rssi: -79
+I (705) wifi:pm start, type: 1
+
+I (705) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (715) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+[0;32mI (725) WIFI: Connesso al punto di accesso[0m
+I (785) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+I (2835) wifi:<ba-add>idx:0 (ifx:0, ce:b1:01:33:36:34), tid:0, ssn:0, winSize:64
+-----BEGIN CERTIFICATE-----
+MIIDQTCCAimgAwIBAgITBmyfz5m/jAo54vB4ikPmljZbyjANBgkqhkiG9w0BAQsF
+ADA5MQswCQYDVQQGEwJVUzEPMA0GA1UEChMGQW1hem9uMRkwFwYDVQQDExBBbWF6
+b24gUm9vdCBDQSAxMB4XDTE1MDUyNjAwMDAwMFoXDTM4MDExNzAwMDAwMFowOTEL
+MAkGA1UEBhMCVVMxDzANBgNVBAoTBkFtYXpvbjEZMBcGA1UEAxMQQW1hem9uIFJv
+b3QgQ0EgMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALJ4gHHKeNXj
+ca9HgFB0fW7Y14h29Jlo91ghYPl0hAEvrAIthtOgQ3pOsqTQNroBvo3bSMgHFzZM
+9O6II8c+6zf1tRn4SWiw3te5djgdYZ6k/oI2peVKVuRF4fn9tBb6dNqcmzU5L/qw
+IFAGbHrQgLKm+a/sRxmPUDgH3KKHOVj4utWp+UhnMJbulHheb4mjUcAwhmahRWa6
+VOujw5H5SNz/0egwLX0tdHA114gk957EWW67c4cX8jJGKLhD+rcdqsq08p8kDi1L
+93FcXmn/6pUCyziKrlA4b9v7LWIbxcceVOF34GfID5yHI9Y/QCB/IIDEgEw+OyQm
+jgSubJrIqg0CAwEAAaNCMEAwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMC
+AYYwHQYDVR0OBBYEFIQYzIU07LwMlJQuCFmcx7IQTgoIMA0GCSqGSIb3DQEBCwUA
+A4IBAQCY8jdaQZChGsV2USggNiMOruYou6r4lK5IpDB/G/wkjUu0yKGX9rbxenDI
+U5PMCCjjmCXPI6T53iHTfIUJrU6adTrCC2qJeHZERxhlbI1Bjjt/msv0tadQ1wUs
+N+gDS63pYaACbvXy8MWy7Vu33PqUXHeeE6V/Uq2V8viTO96LXFvKWlJbYK8U90vv
+o/ufQJVtMVT8QtPHRh8jrdkPSHCa2XV4cdFyQzR1bldZwgJcJmApzyMZFo6IQ6XU
+5MsI+yMRQ+hDKXJioaldXgjUkK642M4UwtBV8ob2xJNDd2ZhwLnoQdeXeGADbkpy
+rqXRfboQnoZsG4q5WTP468SQvvG5
+-----END CERTIFICATE-----
+-----BEGIN CERTIFICATE-----
+MIIDWjCCAkKgAwIBAgIVAO6uvKzfkhKAaeynxhd2xtNB3RPFMA0GCSqGSIb3DQEB
+CwUAME0xSzBJBgNVBAsMQkFtYXpvbiBXZWIgU2VydmljZXMgTz1BbWF6b24uY29t
+IEluYy4gTD1TZWF0dGxlIFNUPVdhc2hpbmd0b24gQz1VUzAeFw0yNDA1MTAyMDE3
+MDBaFw00OTEyMzEyMzU5NTlaMB4xHDAaBgNVBAMME0FXUyBJb1QgQ2VydGlmaWNh
+dGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDdbX0G7vxxzbDofm2Z
+ta0/5kG0B3uQXzQEEEjO6ryRW8kwdCbDeDgs1IsB2c4en+TThActXXm/ZtZ47xa0
+[0;32mI (3725) esp_netif_handlers: sta ip: 192.168.1.59, mask: 255.255.255.0, gw: 192.168.1.1[0m
+2poiM2t+dIaV+3MtqbJN+wmn+ErXF0nuFkLtQ7bdFkgPz4/szBEslLWyQJA6ejpI
+ekw2zj7KydSocWiDrfIxTZoAqzropgU0gQR+cHqO1ZTYaBKuuzxATgqaeJHdnE+R
+DuGwQNZQYLsuAEuzdnuWyqA6IyKfjUj7bDe3C6VirVniUe6RsDFmMYdhYchdP8Si
+Tf4le4apZfgkEAb4wzdfDEsclhGacjxHjMGUwxkZJdbWL/lllqztUzHF6iFQdfof
+xkcrAgMBAAGjYDBeMB8GA1UdIwQYMBaAFFc7f5FO/sc4CdsxLKkYgPf83CcPMB0G
+A1UdDgQWBBSBAVsoYXIw2FXg9I3m5kxrDK1eXzAMBgNVHRMBAf8EAjAAMA4GA1Ud
+DwEB/wQEAwIHgDANBgkqhkiG9w0BAQsFAAOCAQEAUmSnlY39/pc/fn8mRUCWY8PX
+eugs0b2FZX8INSHqBzrj5c94RjMTwygiHpZUAsEyXMXiZqKAGHsbx9bsGtcv+RQ4
+27otZLxyaRymJbaoWAAr235qaI8i1ugJBIDm3lRIWC0B/+U0k4oAMwKmxlTOPhH+
+fuVYxykUgwN8Q02lDF+ICTZOQkB4WIy9LsCcB3Hx8ewZqtRPtQMzyTkigV5S0wdD
+58ZZ92+SfcdX8CEmSPoU37mL0yxZx9fs/OKaYPKl7Po008u8i/f+FfXNSpzC1xuk
+NcxhBJWp2aSefyThfImq2xvkl3Zq+4g+S3xJmk23/6o2Iwsx7d0zWQSLCAbogQ==
+-----END CERTIFICATE-----
+-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEA3W19Bu78cc2w6H5tmbWtP+ZBtAd7kF80BBBIzuq8kVvJMHQm
+w3g4LNSLAdnOHp/k04QHLV15v2bWeO8WtNqaIjNrfnSGlftzLamyTfsJp/hK1xdJ
+7hZC7UO23RZID8+P7MwRLJS1skCQOno6SHpMNs4+ysnUqHFog63yMU2aAKs66KYF
+NIEEfnB6jtWU2GgSrrs8QE4KmniR3ZxPkQ7hsEDWUGC7LgBLs3Z7lsqgOiMin41I
++2w3twulYq1Z4lHukbAxZjGHYWHIXT/Eok3+JXuGqWX4JBAG+MM3XwxLHJYRmnI8
+R4zBlMMZGSXW1i/5ZZas7VMxxeohUHX6H8ZHKwIDAQABAoIBAQCHncZkl7y/ytYe
+H0jrSq1YpKL7K1YPn2+RSZP+PyDM+mVnqswPDjOBqY+Vy5uFgDK7JXLr4wNtKgQT
+v4OtsvGSHuIoah///iiWAAg34JgSa20S/a2HB9Vn0gBOupXaMSsaQgYGwvHhwc9U
+MYY+28CQFJO6yhDYNdVoSQI8FiZLX3BnrAjLeohmoEkWxbHFTHYiKGmTnhqayclr
+AN8sizQVbw22FqJPL+gC9rKVMwO5dYnx7Fu+tTmXXxBq4trRsAyhHjKZ5YXHYG6O
+Bhv9Mqxr32AtVI2JeQS+YOf5q1k6/3k5y+XitIuKDaRN766sTwR9VnvNO+qhdK1X
+rSenKmJZAoGBAPhHSMsCpaHP2lvW10mVPP2AAdH9ByrpwKPmMQ8rvVsdzB7yYm83
+iMg5A/NsPrtK2MkFcuqdrSHU3Q9Co7Dl0/DknUYMlMbU2ItE6n7Wiu1AFgeidrgO
+T7bRcmil8xs1n22oE7N5RFPmytfhoc+kCLKDXWSXWchpt/tx86DQg2GNAoGBAORQ
+bTatYyAxJ83q482p5qiW6l+A0ZI5zRvp6+390QcC49Laz9GjEaH7/U9l0XoaWhaC
+s2aKyxSNme7ixT82eVIAtSQzlJp0bTB6DnP7dsbYjYRNreQfbeJyJIYgd+LJGrME
+D4PYq2+5GRECbTx4VKtTcx2rfxkoDhupkeifuvGXAoGALlTvKqNV0Xp+X0Eab+rf
+tNbcgBld6w4wGuXsJc6dyZEn9GZ7JBIS/npVWGnM0xrGlczkgw/lrTiSADUJYwug
+n4WqK9ZRNUGnH2Y+9GiJCHk7IzWYPgS9r3oqhYjicyNwmwAQnR92NsoM9Hhwv9T2
+oomNNiZgZNwFr3C2bD49JkkCgYBxP+Osh3zv7vILlkPBNFGRtqozDTbnDXzMJ9A7
+kPcqPyi64obLOdP5QYF47MxngMLG/7X1W0s4urRsZlfo7yBmqKsxddR0eOPgc+rP
+ZSCZqbkos09aJKzg8jVjwp81AwQXYCBCCiufk3T3lviQUi/Ne+tSAEtfMxssZYRW
+m0SjqQKBgEwZTSFhBj3WNPKKwb2GuwtUwAxjLpQMJK2yGruszaHD2GshpmzKQER5
+/nKgBBueftm29qaZPdK1h6oDEiNjTPNy+DS7sPdZENaAO4wBB6Wc+0nkJ/bgm+u2
+lKh+Z0i5FazxL5u6wqtrSo6ieBWXQYoH8Cf8xoU8UJ0L0j9AK4Io
+-----END RSA PRIVATE KEY-----
+[0;32mI (3945) mqtt_example: Other event id:7[0m
+[0;31mE (5395) esp-tls-mbedtls: mbedtls_x509_crt_parse of CA cert returned -0x2180[0m
+[0;31mE (5395) esp-tls-mbedtls: Failed to set client configurations, returned [0x8015] (ESP_ERR_MBEDTLS_X509_CRT_PARSE_FAILED)[0m
+[0;31mE (5405) esp-tls: create_ssl_handle failed[0m
+[0;31mE (5405) esp-tls: Failed to open new connection[0m
+[0;31mE (5415) transport_base: Failed to open a new connection[0m
+[0;31mE (5425) mqtt_client: Error transport connect[0m
+[0;32mI (5425) mqtt_example: MQTT_EVENT_ERROR[0m
+[0;31mE (5425) mqtt_example: Last error reported from esp-tls: 0x8015[0m
+[0;31mE (5435) mqtt_example: Last error reported from tls stack: 0x2180[0m
+[0;32mI (5445) mqtt_example: Last errno string (Success)[0m
+[0;32mI (5445) mqtt_example: MQTT_EVENT_DISCONNECTED[0m
+[0;32mI (15455) mqtt_example: Other event id:7[0m
+[0;31mE (15635) esp-tls-mbedtls: mbedtls_x509_crt_parse of CA cert returned -0x2180[0m
+[0;31mE (15635) esp-tls-mbedtls: Failed to set client configurations, returned [0x8015] (ESP_ERR_MBEDTLS_X509_CRT_PARSE_FAILED)[0m
+[0;31mE (15645) esp-tls: create_ssl_handle failed[0m
+[0;31mE (15645) esp-tls: Failed to open new connection[0m
+[0;31mE (15655) transport_base: Failed to open a new connection[0m
+[0;31mE (15655) mqtt_client: Error transport connect[0m
+[0;32mI (15665) mqtt_example: MQTT_EVENT_ERROR[0m
+[0;31mE (15665) mqtt_example: Last error reported from esp-tls: 0x8015[0m
+[0;31mE (15675) mqtt_example: Last error reported from tls stack: 0x2180[0m
+[0;32mI (15685) mqtt_example: Last errno string (Success)[0m
+[0;32mI (15685) mqtt_example: MQTT_EVENT_DISCONNECTED[0m
+[0;32mI (25695) mqtt_example: Other event id:7[0m
+[0;31mE (25875) esp-tls-mbedtls: mbedtls_x509_crt_parse of CA cert returned -0x2180[0m
+[0;31mE (25875) esp-tls-mbedtls: Failed to set client configurations, returned [0x8015] (ESP_ERR_MBEDTLS_X509_CRT_PARSE_FAILED)[0m
+[0;31mE (25885) esp-tls: create_ssl_handle failed[0m
+[0;31mE (25895) esp-tls: Failed to open new connection[0m
+[0;31mE (25895) transport_base: Failed to open a new connection[0m
+[0;31mE (25905) mqtt_client: Error transport connect[0m
+[0;32mI (25905) mqtt_example: MQTT_EVENT_ERROR[0m
+[0;31mE (25915) mqtt_example: Last error reported from esp-tls: 0x8015[0m
+[0;31mE (25915) mqtt_example: Last error reported from tls stack: 0x2180[0m
+[0;32mI (25925) mqtt_example: Last errno string (Success)[0m
+[0;32mI (25935) mqtt_example: MQTT_EVENT_DISCONNECTED[0m
+[0;32mI (40935) mqtt_example: Other event id:7[0m

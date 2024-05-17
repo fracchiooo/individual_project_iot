@@ -1,0 +1,59 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x9 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcbc
+load:0x403cc700,len:0x2da0
+entry 0x403c9914
+[0;32mI (27) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time May  6 2024 17:13:56[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (39) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (54) boot: Partition Table:[0m
+[0;32mI (57) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (65) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (72) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (80) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (87) boot: End of partition table[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=15fe0h ( 90080) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=00026008 vaddr=3fc93700 size=029b0h ( 10672) load[0m
+[0;32mI (118) esp_image: segment 2: paddr=000289c0 vaddr=40374000 size=07658h ( 30296) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00030020 vaddr=42000020 size=1f8
+4[0;32mI (153) esp_image: segment 4: paddr=0004f8fc vaddr=4037b658 size=08010h ( 32784) load[0m
+[0;32mI (167) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (167) boot: Disabling RNG early entropy source...[0m
+[0;32mI (179) cpu_stamt
+[0;32mI (189) cpu_start: Application information:[0m
+[0;32mI (192) cpu_start: Project name:     progetto_singolo[0m
+[0;32mI (198) cpu_start: App version:      1[0m
+[0;32mI (202) cpu_start: Compile time:     May 10 2024 21:57:30[0m
+[0;32mI (208) cpu_start: ELF file SHA256:  3f321e4fa...[0m
+[0;32mI (213) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (228) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (240) )e heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (266) spi_flash: detected chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (311) main_task: Calling app_main()[0m
+[0;32mI (311) gpio: GPIO[1]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (331) main: Start Example.[0m
+[0.544080, 0.544382, 0.694659, 0.708816, 0.721364, 0.728121, 0.741956, 0.755148, 0.780566, 0.785071, 0.790219, 0.806628, 0.825933, 0.835264, 0.849421, 0.865830, 0.864221, 0.867117, 0.885779, 0.894466, 0.903475, 0.899936, 0.917310, 0.913771, 0.926319, 0.925354, 0.938867, 0.941120, 0.954311, 0.947233, 0.953990, 0.946268, 0.956885, 0.952381, 0.946268, 0.947233, 0.956564, 0.948842, 0.948842, 0.944015, 0.947233, 0.934363, 0.936293, 0.923423, 0.933398, 0.912484, 0.913771, 0.910875, 0.893501, 0.883205, 0.879022, 0.868726, 0.862613, 0.840090, 0.848134, 0.826577, 0.816602, 0.805985, 0.790862, 0.780888, 0.767053, 0.764800, 0.737773, 0.729730, 0.715894, 0.702703, 0.686937, 0.674067, 0.659266, 0.648005, 0.634813, 0.617761, 0.601351, 0.601030, 0.569176, 0.563063, 0.539254, 0.527671, 0.519949, 0.502252, 0.485199, 0.472973, 0.455920, 0.442407, 0.423423, 0.415701, 0.410553, 0.401544, 0.376448, 0..6287323, 0.272201, 0.266088, 0.262548, 0.252252, 0.248391, 0.246461, 0.240347, 0.229408, 0.228443, 0.231017, 0.223295, 0.221686, 0.217503, 0.217503, 0.220399, 0.216538, 0.215894, 0.218147, 0.221686, 0.223295, 0.231660, 0.226834, 0.234556, 0.234234, 0.240347, 0.248391, 0.259974, 0.266088, 0.272844, 0.273166, 0.284106, 0.295045, 0.301158, 0.303089, 0.329794, 0.330438, 0.344273, 0.356821, 0.380631, 0.381274, 0.403475, 0.414736, 0.432111, 0.435006, 0.459459, 0.400579, 0.561133, 0.477799, 0.406692, 0.445624, 0.535393, 0.549871, 0.560811, 0.581725, 0.596525, 0.613900, 0.622587, 0.634170, 0.665701, 0.667954, 0.786036, 0.757400, 0.712677, 0.722973, 0.732625, 0.750643, 0.756435, 0.775418, 0.786036, 0.810489, 0.808880, 0.822716, 0.836229, 0.835264, 0.849421, 0.870978, 0.871943, 0.881918, 0.890927, 0.899936, 0.909910, 0.907336, 0.913771, 0.930180, 0.938224, 0.936937, 0.9306103, 0.963642, 0.950450, 0.955598, 0.956885, 0.957529, 0.942407, 0.940476, 0.940476, 0.942407, 0.938546, 0.926319, 0.919884, 0.928250, 0.911197, 0.896718, 0.894466, 0.882239, 0.876770, 0.865830, 0.855534, 0.851995, 0.837838, 0.815637, 0.821750, 0.797619, 0.791828, 0.779923, 0.768661, 0.751287, 0.748070, 0.733269, 0.712677, 0.697555, 0.685650, 0.667954, 0.657979, 0.645109, 0.630309, 0.613900, 0.594916, 0.585264, 0.569498, 0.561776, 0.538610, 0.523810, 07566, 0.490026, 0.485199, 0.470399, 0.451094, 0.446589, 0.423102, 0.416667, 0.393179, 0.393822, 0.377413, 0.356821, 0.351030, ]
+
+
+la max frequency è: 0.000000
+[0;32mI (551) main_task: Returned from app_main()[0m

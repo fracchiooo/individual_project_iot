@@ -1,0 +1,349 @@
+annel: 0, Value: e99[0m
+[0;32mI (1341) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: e5d[0m
+[0;32mI (1351) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: e2dE[: Unit: ADC_UNIT_1, Channel: 0, Value: e5b[0m
+[0;32mI (1361) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: e16[0m
+[0;32mI (1371) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: ded[0m
+[0;32mI (1371) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: d8c[0m
+[0;32mI (1381) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: dc6[0m
+[0;32mI (1391) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: d73[0m
+[0;32mI (1391) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: d59[0m
+[0;32mI (1401) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: d1b[0m
+[0;32mI (1411) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: cbc[0m
+[0;32mI (1411) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: cbd[0m
+[0;32mI (1421) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: cab[0m
+[0;32mI (1421) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: c51[0m
+[0;32mI (1431) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: c55[0m
+[0;32mI (1441) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: be6[0m
+[0;32mI (1441) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: be7[0m
+[0;32mI (1451) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: b99[0m
+[0;32mI (14V1alue: b87[0m
+[0;32mI (1461) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: b17[0m
+[0;32mI (1471) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: afb[0m
+[0;32mI (1471) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: ab3[0m
+[0;32mI (1481) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: a7f[0m
+[0;32mI (1491) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: a2d[0m
+[0;32mI (1491) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: a1a[0m
+[0;32mI (1501) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 9e5[0m
+[0;32mI (1501) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 9ab[0m
+[0;32mI (1511) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 988[0m
+[0;32mI (1521) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 938[0m
+[0;32mI (1521) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 94a[0m
+[0;32mI (1531) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 8cd[0m
+[0;32mI (1531) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 8af[0m
+[0;32mI (1541) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 839[0m
+[0;32mI (1551) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 82e[0m
+[0;32mI (1551) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 7d5[0m
+[0;32mI (1561) EXAMESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0xb (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcbc
+load:0x403cc700,len:0x2da0
+entry 0x403c9914
+[0;32mI (27) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time May 14 2024 00:03:09[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (39) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (54) boot: Partition Table:[0m
+[0;32mI (57) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (65) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (72) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (80) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (87) boot: End of partition table[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=16008h ( 90120) map[0m
+[0;32mI (116) edpdr=3fc93700 size=029b0h ( 10672) load[0m
+[0;32mI (118) esp_image: segment 2: paddr=000289e8 vaddr=40374000 size=07630h ( 30256) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00030020 vaddr=42000020 size=1f8c4h (129220) map[0m
+[0;32mI (153) e.p[0m
+[0;32mI (179) cpu_start: Multicore app[0m
+[0;32mI (189) cpu_start: Pro cpu start user code[0m
+[0;32mI (189) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (189) cpu_start: Application information:[0m
+[0;32mI (192) cpu_start: Project name:     progetto_singolo[0m
+[0;32mI (198) cpu_start: App version:      1[0m
+[0;32mI (202) cpu_start: Compile time:     May 14 2024 00:02:58[0m
+[0;32mI (208) cpu_start: ELF file SHA256:  3fc2d50ca...[0m
+[0;32mI (214) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (219) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (228) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (233) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (240) heap_init: At 3FC979D0 len 00051D40 (327 KiB): RAM[0m
+[0;32mI (246) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 600FE010 len 00001Fc8ted chip: gd[0m
+[0;32mI (269) spi_flash: flash io: dio[0m
+[0;33mW (273) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (287) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (293) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (311) main_task: Calling app_main()[0m
+ sampling frequence is: 83333 and bit width is: 12
+
+[0;32mI (311) gpio: GPIO[1]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (421) TASK: ret is 0, ret_num is 1024 bytes[0m
+[0;32mI (421) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 0[0m
+[0;32mI (421) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 3ab[0m
+[0;32mI (421) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 3cc[0m
+[0;32mI (431) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 3af[0m
+[0;32mI (431) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 397[0m
+[0;32mI (441) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 3dd[0m
+[0;32mI (451) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 35c[0m
+[0;32mI (451) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 375[0m
+[0;32mI (461) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 354[0m
+[0;32mI (461) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 348[0m
+[0;32mI (471) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 35e[0m
+[0;32mI (481) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 389[0m
+[0;32mI (481) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 34c[0m
+[0;32mI (491) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 327[0m
+[0;32mI (491) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 31f[0m
+[0;32mI (501) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 365[0m
+[0;32mI (511) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 357[0m
+[0;32mI (511) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 376[0m
+[0;32mI (521) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 369[0m
+[0;32mI (521) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 347[0m
+[0;32mI (531) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 354[0m
+[0;32mI (541) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 389[0m
+[0;32mI (541) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 37d[0m
+[0;32mI (551) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 3d9[0m
+[0;32mI (551) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 3c6[0m
+[0;32mI (561) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 3e8[0m
+[0;32mI (571) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 41e[0m
+[0;32mI (571) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 3fd[0m
+[0;32mI (581) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 439[0m
+[0;32mI (591) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 418[0m
+[0;32mI (591) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 42f[0m
+[0;32mI (601) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 4b3[0m
+[0;32mI (601) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 4b7[0m
+[0;32mI (611) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 4c9[0m
+[0;32mI (621) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 4f7[0m
+[0;32mI (621) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 599[0m
+[0;32mI (631) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 563[0m
+[0;32mI (631) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 588[0m
+[0;32mI (641) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 5da[0m
+[0;32mI (651) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 60a[0m
+[0;32mI (651) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 64d[0m
+[0;32mI (661) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 669[0m
+[0;32mI (661) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 669[0m
+[0;32mI (671) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 6de[0m
+[0;32mI (681) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 71d[0m
+[0;32mI (681) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 70e[0m
+[0;32mI (691) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 789[0m
+[0;32mI (691) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 7ad[0m
+[0;32mI (701) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 7f5[0m
+[0;32mI (711) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 819[0m
+[0;32mI (711) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 852[0m
+[0;32mI (721) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 873[0m
+[0;32mI (731) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 899[0m
+[0;32mI (731) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 8ea[0m
+[0;32mI (741) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 93f[0m
+[0;32mI (741) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 92b[0m
+[0;32mI (751) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 992[0m
+[0;32mI (761) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 9cf[0m
+[0;32mI (761) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: a27[0m
+[0;32mI (771) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: a3e[0m
+[0;32mI (771) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: aa6[0m
+[0;32mI (781) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: a93[0m
+[0;32mI (791) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: b0c[0m
+[0;32mI (791) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: ae8[0m
+[0;32mI (801) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: b34[0m
+[0;32mI (801) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: b75[0m
+[0;32mI (811) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: b8f[0m
+[0;32mI (821) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: be7[0m
+[0;32mI (821) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: c12[0m
+[0;32mI (831) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: c59[0m
+[0;32mI (831) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: c4d[0m
+[0;32mI (841) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: c7c[0m
+[0;32mI (851) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: cdc[0m
+[0;32mI (851) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: d0f[0m
+[0;32mI (861) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: d1a[0m
+[0;32mI (861) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: d3c[0m
+[0;32mI (871) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: d5d[0m
+[0;32mI (881) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: d7b[0m
+[0;32mI (881) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: dd7[0m
+[0;32mI (891) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: e08[0m
+[0;32mI (901) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: e1b[0m
+[0;32mI (901) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: e39[0m
+[0;32mI (911) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: df6[0m
+[0;32mI (911) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: e49[0m
+[0;32mI (921) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: e47[0m
+[0;32mI (931) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: f05[0m
+[0;32mI (931) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: ecb[0m
+[0;32mI (941) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: e9a[0m
+[0;32mI (941) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: ee5[0m
+[0;32mI (951) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: ec9[0m
+[0;32mI (961) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: e99[0m
+[0;32mI (961) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: e9e[0m
+[0;32mI (971) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: ebb[0m
+[0;32mI (971) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: ee5[0m
+[0;32mI (981) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: e7b[0m
+[0;32mI (991) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: e9b[0m
+[0;32mI (991) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: e93[0m
+[0;32mI (1001) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: f0d[0m
+[0;32mI (1001) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: e63[0m
+[0;32mI (1011) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: e58[0m
+[0;32mI (1021) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: e3d[0m
+[0;32mI (1021) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: e3d[0m
+[0;32mI (1031) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: e11[0m
+[0;32mI (1041) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: dcb[0m
+[0;32mI (1041) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: d6d[0m
+[0;32mI (1051) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: db8[0m
+[0;32mI (1051) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: d5d[0m
+[0;32mI (1061) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: d1b[0m
+[0;32mI (1071) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: d2a[0m
+[0;32mI (1071) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: ce3[0m
+[0;32mI (1081) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: cb8[0m
+[0;32mI (1081) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: c97[0m
+[0;32mI (1091) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: c6a[0m
+[0;32mI (1101) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: c27[0m
+[0;32mI (1101) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: c78[0m
+[0;32mI (1111) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: bdb[0m
+[0;32mI (1121) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: bfa[0m
+[0;32mI (1121) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: b6a[0m
+[0;32mI (1131) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: b3b[0m
+[0;32mI (1131) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: aea[0m
+[0;32mI (1141) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: ab7[0m
+[0;32mI (1151) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: a9f[0m
+[0;32mI (1151) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: a6c[0m
+[0;32mI (1161) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: a2d[0m
+[0;32mI (1161) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 9e9[0m
+[0;32mI (1171) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 9c9[0m
+[0;32mI (1181) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 975[0m
+[0;32mI (1181) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 919[0m
+[0;32mI (1191) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 919[0m
+[0;32mI (1201) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 92e[0m
+[0;32mI (1201) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 8b8[0m
+[0;32mI (1211) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 887[0m
+[0;32mI (1211) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 845[0m
+[0;32mI (1221) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 7fc[0m
+[0;32mI (1231) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 7cd[0m
+[0;32mI (1231) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 773[0m
+[0;32mI (1241) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 79f[0m
+[0;32mI (1241) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 70d[0m
+[0;32mI (1251) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 70a[0m
+[0;32mI (1261) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 6ad[0m
+[0;32mI (1261) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 693[0m
+[0;32mI (1271) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 64c[0m
+[0;32mI (1281) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 653[0m
+[0;32mI (1281) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 5cd[0m
+[0;32mI (1291) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 5c8[0m
+[0;32mI (1291) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 57e[0m
+[0;32mI (1301) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 526[0m
+[0;32mI (1311) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 526[0m
+[0;32mI (1311) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 50b[0m
+[0;32mI (1321) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 4e9[0m
+[0;32mI (1331) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 4ba[0m
+[0;32mI (1331) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 496[0m
+[0;32mI (1341) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 43d[0m
+[0;32mI (1341) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 43a[0m
+[0;32mI (1351) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 41d[0m
+[0;32mI (1361) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 414[0m
+[0;32mI (1361) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 3eb[0m
+[0;32mI (1371) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 3e6[0m
+[0;32mI (1371) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 3af[0m
+[0;32mI (1381) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 3cb[0m
+[0;32mI (1391) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 395[0m
+[0;32mI (1391) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 397[0m
+[0;32mI (1401) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 375[0m
+[0;32mI (1411) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 34a[0m
+[0;32mI (1411) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 34d[0m
+[0;32mI (1421) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 35e[0m
+[0;32mI (1421) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 326[0m
+[0;32mI (1431) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 319[0m
+[0;32mI (1441) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 36a[0m
+[0;32mI (1441) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 307[0m
+[0;32mI (1451) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 30f[0m
+[0;32mI (1451) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 32d[0m
+[0;32mI (1461) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 34a[0m
+[0;32mI (1471) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 33d[0m
+[0;32mI (1471) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 34d[0m
+[0;32mI (1481) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 2ff[0m
+[0;32mI (1491) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 389[0m
+[0;32mI (1491) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 39f[0m
+[0;32mI (1501) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 3ad[0m
+[0;32mI (1501) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 38d[0m
+[0;32mI (1511) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 3c4[0m
+[0;32mI (1521) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 3b9[0m
+[0;32mI (1521) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 3fa[0m
+[0;32mI (1531) EXAMPLE: Unit: ADC_UNITE1: Unit: ADC_UNIT_1, Channel: 0, Value: 412[0m
+[0;32mI (1541) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 43e[0m
+[0;32mI (1551) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 469[0m
+[0;32mI (1551) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 45f[0m
+[0;32mI (1561) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 497[0m
+[0;32mI (1571) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 4da[0m
+[0;32mI (1571) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 59[0m
+[0;32mI (1581) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 53f[0m
+[0;32mI (1581) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 52a[0m
+[0;32mI (1591) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 573[0m
+[0;32mI (1601) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 5ac[0m
+[0;32mI (1601) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 5b8[0m
+[0;32mI (1611) EXAMPLE: Unit: ADC_UNIT_1, ChXnAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 68a[0m
+[0;32mI (1621) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 626[0m
+[0;32mI (1631) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 6cc[0m
+[0;32mI (1631) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 6f5[0m
+[0;32mI (1641) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 714[0m
+[0;32mI (1651) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 6e7[0m
+[0;32mI (1651) EXAMPLE: Unit: ADC_UNIT_1, Channel:e0: 776[0m
+[0;32mI (1661) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 7a9[0m
+[0;32mI (1661) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 7ba[0m
+[0;32mI (1671) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 835[0m
+[0;32mI (1681) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 893[0m
+[0;32mI (1681) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 885[0m
+[0;32mI (1691) EXAMPLE: Unit: ADC_UNIT_1, Ch
+n[0;32mI (1691) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 909[0m
+[0;32mI (1701) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 926[0m
+[0;32mI (1711) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 9b3[0m
+[0;32mI (1711) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: 993[0m
+[0;32mI (1721) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: a27[0m
+[0;32mI (1731) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: a4b[0m
+[0;32mI (1731) EXAMPLn:nel: 0, Value: a9f[0m
+[0;32mI (1741) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: a79[0m
+[0;32mI (1741) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: ac9[0m
+[0;32mI (1751) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: b1d[0m
+[0;32mI (1761) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: b29[0m
+[0;32mI (1761) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: b5c[0m
+[0;32mI (1771) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Val2emI (1771) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: bb7[0m
+[0;32mI (1781) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: c09[0m
+[0;32mI (1791) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: c4d[0m
+[0;32mI (1791) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: c57[0m
+[0;32mI (1801) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: c97[0m
+[0;32mI (1811) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: cec[0m
+[0;32mI (Unit: ADC_UNIT_1, Channel: 0, Value: cbd[0m
+[0;32mI (1821) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: d19[0m
+[0;32mI (1821) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: d49[0m
+[0;32mI (1831) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: d78[0m
+[0;32mI (1841) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: d7f[0m
+[0;32mI (1841) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: dc5[0m
+[0;32mI (1851) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: dcd[0m
+[0;32mI (1861) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: deb[0m
+[0;32mI (1861) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: e6e[0m
+[0;32mI (1871) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: e4f[0m
+[0;32mI (1871) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: e66[0m
+[0;32mI (1881) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: ea7[0m
+[0;32mI (1891) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: e8c[0m
+[0;32mI (1891) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: eca[0m
+[0;32mI (1901) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: f5d[0m
+[0;32mI (1901) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: f0b[0m
+[0;32mI (1911) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: ee9[0m
+[0;32mI (1921) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: ee3[0m
+[0;32mI (1921) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: eec[0m
+[0;32mI (1931) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: e87[0m
+[0;32mI (1941) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: f15[0m
+[0;32mI (1941) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: ec9[0m
+[0;32mI (1951) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: e7b[0m
+[0;32mI (1951) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: ec8[0m
+[0;32mI (1961) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: ee1[0m
+[0;32mI (1971) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: eac[0m
+[0;32mI (1971) EXAMPLE: Unit: ADC_UNIT_1, Channel: 0, Value: ebd[0m
+arrivato fino a qui
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ]
+[0;32mI (2051) main: Start Example.[0m
+la max frequency è: 83007.484375
+[0;32mI (2061) main_task: Returned from app_main()[0m

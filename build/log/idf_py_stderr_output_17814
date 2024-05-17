@@ -1,0 +1,1187 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42010cbc: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42010cb9: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1397 (discriminator 16)
+0x4200eb67: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x420082a9: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:92
+0x42008403: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008414: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a257: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0m

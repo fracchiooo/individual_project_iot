@@ -1,0 +1,95 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fded: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x4037f384: block_trim_free at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:496 (discriminator 3)
+ (inlined by) block_prepare_used at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:579 (discriminator 3)
+ (inlined by) tlsf_malloc at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:1006 (discriminator 3)
+0x4037ecad: multi_heap_malloc_impl at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:210
+0x40375f5d: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:179
+0x40375fb8: heap_caps_malloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:202
+0x40375fed: heap_caps_malloc_default at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:228
+0x4037fdfd: malloc at /home/fracchio/esp/esp-idf/components/newlib/heap.c:24
+0x420164d1: _dtoa_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdlib/dtoa.c:239 (discriminator 1)
+0x42011b9d: cvt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1870
+ (inlined by) _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1307
+0x42010023: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x4200865e: get_mean_window_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:187
+0x42008747: do_read_mean_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:72
+0x4200877c: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:162
+0x4201b7d3: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fded: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x4037f384: block_trim_free at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:496 (discriminator 3)
+ (inlined by) block_prepare_used at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:579 (discriminator 3)
+ (inlined by) tlsf_malloc at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:1006 (discriminator 3)
+0x4037ecad: multi_heap_malloc_impl at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:210
+0x40375f5d: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:179
+0x40375fb8: heap_caps_malloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:202
+0x40375fed: heap_caps_malloc_default at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:228
+0x4037fdfd: malloc at /home/fracchio/esp/esp-idf/components/newlib/heap.c:24
+0x420164d1: _dtoa_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdlib/dtoa.c:239 (discriminator 1)
+0x42011b9d: cvt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1870
+ (inlined by) _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1307
+0x42010023: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x4200865e: get_mean_window_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:187
+0x42008747: do_read_mean_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:72
+0x4200877c: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:162
+0x4201b7d3: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fded: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x4037f384: block_trim_free at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:496 (discriminator 3)
+ (inlined by) block_prepare_used at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:579 (discriminator 3)
+ (inlined by) tlsf_malloc at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:1006 (discriminator 3)
+0x4037ecad: multi_heap_malloc_impl at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:210
+0x40375f5d: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:179
+0x40375fb8: heap_caps_malloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:202
+0x40375fed: heap_caps_malloc_default at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:228
+0x4037fdfd: malloc at /home/fracchio/esp/esp-idf/components/newlib/heap.c:24
+0x420164d1: _dtoa_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdlib/dtoa.c:239 (discriminator 1)
+0x42011b9d: cvt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1870
+ (inlined by) _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1307
+0x42010023: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x4200865e: get_mean_window_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:187
+0x42008747: do_read_mean_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:72
+0x4200877c: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:162
+0x4201b7d3: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fded: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x4037f384: block_trim_free at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:496 (discriminator 3)
+ (inlined by) block_prepare_used at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:579 (discriminator 3)
+ (inlined by) tlsf_malloc at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:1006 (discriminator 3)
+0x4037ecad: multi_heap_malloc_impl at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:210
+0x40375f5d: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:179
+0x40375fb8: heap_caps_malloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:202
+0x40375fed: heap_caps_malloc_default at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:228
+0x4037fdfd: malloc at /home/fracchio/esp/esp-idf/components/newlib/heap.c:24
+0x420164d1: _dtoa_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdlib/dtoa.c:239 (discriminator 1)
+0x42011b9d: cvt at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1870
+ (inlined by) _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1307
+0x42010023: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x4200865e: get_mean_window_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:187
+0x42008747: do_read_mean_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:72
+0x4200877c: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:162
+0x4201b7d3: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0m

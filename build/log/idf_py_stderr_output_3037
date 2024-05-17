@@ -1,0 +1,67 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x42002adb: panic_handler at /home/fracchio/esp/esp-idf/components/esp_system/port/panic_handler.c:145
+[0m
+[0;33m0x400556d5: strlen in ROM
+0x400556e5: strlen in ROM
+[0m
+[0;33m0x42015647: __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfiprintf.c:429
+ (inlined by) __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+0x42014fd1: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1766 (discriminator 1)
+0x42011785: vprintf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vprintf.c:34
+0x4201e845: esp_log_writev at /home/fracchio/esp/esp-idf/components/log/log.c:215
+0x403814ed: esp_log_write at /home/fracchio/esp/esp-idf/components/log/log.c:225
+0x4201da3a: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x4037b509: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375958: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40376ba0: __retarget_lock_acquire_recursive at /home/fracchio/esp/esp-idf/components/newlib/locks.c:313
+[0m
+[0;33m0x400556d5: strlen in ROM
+0x400556e5: strlen in ROM
+[0m
+[0;33m0x40376b9d: __retarget_lock_acquire_recursive at /home/fracchio/esp/esp-idf/components/newlib/locks.c:312
+0x420121de: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:846 (discriminator 2)
+0x42011785: vprintf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vprintf.c:34
+0x4201e845: esp_log_writev at /home/fracchio/esp/esp-idf/components/log/log.c:215
+0x403814ed: esp_log_write at /home/fracchio/esp/esp-idf/components/log/log.c:225
+0x4201da3a: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x4037b509: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375958: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x4005706c: memmove in ROM
+[0m
+[0;33m0x400556d5: strlen in ROM
+0x400556e5: strlen in ROM
+[0m
+[0;33m0x40057069: memmove in ROM
+0x42011342: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:177
+0x42015647: __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfiprintf.c:429
+ (inlined by) __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+0x42014fd1: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1766 (discriminator 1)
+0x42011785: vprintf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vprintf.c:34
+0x4201e845: esp_log_writev at /home/fracchio/esp/esp-idf/components/log/log.c:215
+0x403814ed: esp_log_write at /home/fracchio/esp/esp-idf/components/log/log.c:225
+0x4201da3a: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x4037b509: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375958: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40376ba0: __retarget_lock_acquire_recursive at /home/fracchio/esp/esp-idf/components/newlib/locks.c:313
+[0m
+[0;33m0x400556d5: strlen in ROM
+0x400556e5: strlen in ROM
+[0m
+[0;33m0x40376b9d: __retarget_lock_acquire_recursive at /home/fracchio/esp/esp-idf/components/newlib/locks.c:312
+0x420121de: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:846 (discriminator 2)
+0x42011785: vprintf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vprintf.c:34
+0x4201e845: esp_log_writev at /home/fracchio/esp/esp-idf/components/log/log.c:215
+0x403814ed: esp_log_write at /home/fracchio/esp/esp-idf/components/log/log.c:225
+0x4201da3a: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:209 (discriminator 1)
+0x4037b509: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375958: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0m

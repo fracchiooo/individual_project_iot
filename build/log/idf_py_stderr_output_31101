@@ -1,0 +1,107 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x4037593c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x4201ca66: .fft2r_l2 at /home/fracchio/Scrivania/progetto_singolo/components/fft/modules/fft/float/dsps_fft2r_fc32_aes3_.S:103
+[0m
+[0;33m0x400556d5: strlen in ROM
+0x400556e5: strlen in ROM
+[0m
+[0;33m0x4201ca63: .fft2r_l2 at /home/fracchio/Scrivania/progetto_singolo/components/fft/modules/fft/float/dsps_fft2r_fc32_aes3_.S:101
+0x4200899b: get_max_frequency_fft at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:69
+0x42008b17: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:129
+0x4201edfb: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b429: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4037593c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x4201ca66: .fft2r_l2 at /home/fracchio/Scrivania/progetto_singolo/components/fft/modules/fft/float/dsps_fft2r_fc32_aes3_.S:103
+[0m
+[0;33m0x400556d5: strlen in ROM
+0x400556e5: strlen in ROM
+[0m
+[0;33m0x4201ca63: .fft2r_l2 at /home/fracchio/Scrivania/progetto_singolo/components/fft/modules/fft/float/dsps_fft2r_fc32_aes3_.S:101
+0x4200899b: get_max_frequency_fft at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:69
+0x42008b17: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:129
+0x4201edfb: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b429: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4037593c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x4201ca66: .fft2r_l2 at /home/fracchio/Scrivania/progetto_singolo/components/fft/modules/fft/float/dsps_fft2r_fc32_aes3_.S:103
+[0m
+[0;33m0x400556d5: strlen in ROM
+0x400556e5: strlen in ROM
+[0m
+[0;33m0x4201ca63: .fft2r_l2 at /home/fracchio/Scrivania/progetto_singolo/components/fft/modules/fft/float/dsps_fft2r_fc32_aes3_.S:101
+0x4200899b: get_max_frequency_fft at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:69
+0x42008b17: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:129
+0x4201edfb: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b429: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4037593c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x4201ca66: .fft2r_l2 at /home/fracchio/Scrivania/progetto_singolo/components/fft/modules/fft/float/dsps_fft2r_fc32_aes3_.S:103
+[0m
+[0;33m0x400556d5: strlen in ROM
+0x400556e5: strlen in ROM
+[0m
+[0;33m0x4201ca63: .fft2r_l2 at /home/fracchio/Scrivania/progetto_singolo/components/fft/modules/fft/float/dsps_fft2r_fc32_aes3_.S:101
+0x4200899b: get_max_frequency_fft at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:69
+0x42008b17: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:129
+0x4201edfb: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b429: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4037593c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x4201ca66: .fft2r_l2 at /home/fracchio/Scrivania/progetto_singolo/components/fft/modules/fft/float/dsps_fft2r_fc32_aes3_.S:103
+[0m
+[0;33m0x400556d5: strlen in ROM
+0x400556e5: strlen in ROM
+[0m
+[0;33m0x4201ca63: .fft2r_l2 at /home/fracchio/Scrivania/progetto_singolo/components/fft/modules/fft/float/dsps_fft2r_fc32_aes3_.S:101
+0x4200899b: get_max_frequency_fft at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:69
+0x42008b17: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:129
+0x4201edfb: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b429: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4037593c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x4201ca66: .fft2r_l2 at /home/fracchio/Scrivania/progetto_singolo/components/fft/modules/fft/float/dsps_fft2r_fc32_aes3_.S:103
+[0m
+[0;33m0x400556d5: strlen in ROM
+0x400556e5: strlen in ROM
+[0m
+[0;33m0x4201ca63: .fft2r_l2 at /home/fracchio/Scrivania/progetto_singolo/components/fft/modules/fft/float/dsps_fft2r_fc32_aes3_.S:101
+0x4200899b: get_max_frequency_fft at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:69
+0x42008b17: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:129
+0x4201edfb: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b429: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4037593c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x4201ca66: .fft2r_l2 at /home/fracchio/Scrivania/progetto_singolo/components/fft/modules/fft/float/dsps_fft2r_fc32_aes3_.S:103
+[0m
+[0;33m0x400556d5: strlen in ROM
+0x400556e5: strlen in ROM
+[0m
+[0;33m0x4201ca63: .fft2r_l2 at /home/fracchio/Scrivania/progetto_singolo/components/fft/modules/fft/float/dsps_fft2r_fc32_aes3_.S:101
+0x4200899b: get_max_frequency_fft at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:69
+0x42008b17: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:129
+0x4201edfb: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b429: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4037593c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x4201ca66: .fft2r_l2 at /home/fracchio/Scrivania/progetto_singolo/components/fft/modules/fft/float/dsps_fft2r_fc32_aes3_.S:103
+[0m
+[0;33m0x400556d5: strlen in ROM
+0x400556e5: strlen in ROM
+[0m
+[0;33m0x4201ca63: .fft2r_l2 at /home/fracchio/Scrivania/progetto_singolo/components/fft/modules/fft/float/dsps_fft2r_fc32_aes3_.S:101
+0x4200899b: get_max_frequency_fft at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:69
+0x42008b17: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:129
+0x4201edfb: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b429: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0m

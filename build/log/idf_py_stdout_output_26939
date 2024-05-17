@@ -1,0 +1,249 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcbc
+load:0x403cc700,len:0x2da0
+entry 0x403c9914
+[0;32mI (27) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time May 15 2024 20:24:16[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (39) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (54) boot: Partition Table:[0m
+[0;32mI (57) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (65) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (72) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (80) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (87) boot: End of partition table[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=2ee74h (192116) map[0m
+[0;32mI (134) esp_image: segment 1: paddr=0003ee9c vaddr=3fc99600 size=0117ch (  4476) load[0m
+[0;32mI (136) esp_image: segment 2: paddr=00040020 vaddr=42000020 size=a03d8h (656344) map[0m
+[0;32mI (258) esp_image: segment 3: paddr=000e0400 vaddr=3fc9a77c size=035b4h ( 13748) load[0m
+[0;32mI (261) esp_image: segment 4: paddr=000e39bc vaddr=40374000 size=15524h ( 87332) load[0m
+[0;32mI (283) esp_image: segment 5: paddr=000f8ee8 vaddr=600fe010 size=00004h (     4) load[0m
+[0;32mI (292) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (292) boot: Disabling RNG early entropy source...[0m
+[0;32mI (303) cpu_start: Multicore app[0m
+[0;32mI (313) cpu_start: Pro cpu start user code[0m
+[0;32mI (314) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (314) cpu_start: Application information:[0m
+[0;32mI (317) cpu_start: Project name:     progetto_singolo[0m
+[0;32mI (322) cpu_start: App version:      1[0m
+[0;32mI (327) cpu_start: Compile time:     May 15 2024 20:24:07[0m
+[0;32mI (333) cpu_start: ELF file SHA256:  dd290a54e...[0m
+[0;32mI (338) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (344) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (348) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (353) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (358) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (365) heap_init: At 3FCA5DE8 len 00043928 (270 KiB): RAM[0m
+[0;32mI (371) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (377) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (383) heap_init: At 600FE014 len 00001FD4 (7 KiB): RTCRAM[0m
+[0;32mI (391) spi_flash: detected chip: gd[0m
+[0;32mI (394) spi_flash: flash io: dio[0m
+[0;33mW (398) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (412) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (418) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (425) main_task: Started on CPU0[0m
+[0;32mI (435) main_task: Calling app_main()[0m
+ sampling frequence is: 83333 and bit width is: 12
+
+[0;32mI (435) gpio: GPIO[1]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+ err esp timeout
+Signal x1 in log scale[0;32mI (565) view: Data min[74] = -64.153862, Data max[1] = 20.272169[0m
+ ________________________________________________________________
+0                                                                |
+1|                                                               |
+2|                                                               |
+3||                                                              |
+4|||                                                             |
+5 |||| |                                                         |
+6 |||||||| ||||| || |||| |  ||| |||| | |||||||||   ||| ||   ||| ||
+7  |||   |||| |||| | || | ||| ||| ||||| | ||||| ||| |||||||||||| |
+8         |   | |         ||  ||   ||       |   ||  |||  ||  |   |
+9                                                                |
+ 0123456789012345678901234567890123456789012345678901234567890123
+[0;32mI (635) view: Plot: Length=512, min=-60.000000, max=40.000000[0m
+Signal x1 in absolute scale[0;32mI (635) view: Data min[74] = 0.000000, Data max[1] = 106.467468[0m
+ ________________________________________________________________
+0|                                                               |
+1|                                                               |
+2|                                                               |
+3|                                                               |
+4||                                                              |
+5||                                                              |
+6||                                                              |
+7|||                                                             |
+8|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+9                                                                |
+ 0123456789012345678901234567890123456789012345678901234567890123
+[0;32mI (715) view: Plot: Length=512, min=0.000000, max=2.000000[0m
+the max frequency of the signal is: 81.379883
+the sampling frequency to use is: 162.759766
+the max sampling frequency due to memory limitations is 37683
+the max sampling frequency due to read time limitations is 28571
+the sampling frequence I will use is 162 Hz
+number of bytes of largest free block 188416
+I am trying to allocate 405 samples of 16 bits
+[0;32mI (2235) pp: pp rom version: e7ae62f[0m
+[0;32mI (2235) net80211: net80211 rom version: e7ae62f[0m
+I (2265) wifi:wifi driver task: 3fcb16ac, prio:23, stack:6656, core=0
+I (2285) wifi:wifi firmware version: a9f5b59
+I (2285) wifi:wifi certification version: v7.0
+I (2285) wifi:config NVS flash: enabled
+I (2285) wifi:config nano formating: disabled
+I (2285) wifi:Init data frame dynamic rx buffer num: 32
+I (2295) wifi:Init static rx mgmt buffer num: 5
+I (2295) wifi:Init management short buffer num: 32
+I (2295) wifi:Init dynamic tx buffer num: 32
+I (2305) wifi:Init static tx FG buffer num: 2
+I (2305) wifi:Init static rx buffer size: 1600
+I (2315) wifi:Init static rx buffer num: 10
+I (2315) wifi:Init dynamic rx buffer num: 32
+[0;32mI (2355) wifi_init: rx ba win: 6[0m
+[0;32mI (2355) wifi_init: tcpip mbox: 32[0m
+[0;32mI (2355) wifi_init: udp mbox: 6[0m
+[0;32mI (2355) wifi_init: tcp mbox: 6[0m
+[0;32mI (2355) wifi_init: tcp tx win: 5760[0m
+[0;32mI (2365) wifi_init: tcp rx win: 5760[0m
+[0;32mI (2375) wifi_init: tcp mss: 1440[0m
+[0;32mI (2375) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (2375) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (2415) phy_init: phy_version 640,cd64a1a,Jan 24 2024,17:28:12[0m
+I (2455) wifi:mode : sta (48:27:e2:e2:e5:e4)
+I (2455) wifi:enable tsf
+ il tempo veramente passato a samplare è: 2573634
+the mean is 483
+I (3695) wifi:new:<11,0>, old:<1,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (3695) wifi:state: init -> auth (b0)
+I (3695) wifi:state: auth -> assoc (0)
+I (3705) wifi:state: assoc -> run (10)
+I (3715) wifi:connected with TIM-69567495, aid = 14, channel 11, BW20, bssid = ce:b1:01:33:36:34
+I (3715) wifi:security: WPA2-PSK, phy: bgn, rssi: -85
+I (3735) wifi:pm start, type: 1
+
+I (3735) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (3735) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+Guru Meditation Error: Core  0 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x40056fc0  PS      : 0x00060733  A0      : 0x8037d0fe  A1      : 0x3fcae900  
+A2      : 0x3fcab65c  A3      : 0x00000000  A4      : 0x00000001  A5      : 0x3fcab65c  
+A6      : 0x00060023  A7      : 0x00000000  A8      : 0x40000000  A9      : 0x3fcae880  
+A10     : 0x00000000  A11     : 0x00000001  A12     : 0x00000014  A13     : 0x3fcae8b4  
+A14     : 0x40378eb0  A15     : 0x00000001  SAR     : 0x00000008  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x40056f5c  LEND    : 0x40056f72  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x40056fbd:0x3fcae900 0x4037d0fb:0x3fcae910 0x4037d529:0x3fcae930 0x4200a0f5:0x3fcae970 0x4209cead:0x3fcae990 0x4209c922:0x3fcae9c0 0x4209c9fd:0x3fcaea00 0x4037db95:0x3fcaea20
+
+
+
+
+ELF file SHA256: dd290a54e
+
+Rebooting...
+���ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40375a9c
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcbc
+load:0x403cc700,len:0x2da0
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time May 15 2024 20:24:16[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v0.2[0m
+[0;32mI (39) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (43) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=2ee74h (192116) map[0m
+[0;32mI (139) esp_image: segment 1: paddr=0003ee9c vaddr=3fc99600 size=0117ch (  4476) load[0m
+[0;32mI (140) esp_image: segment 2: paddr=00040020 vaddr=42000020 size=a03d8h (656344) map[0m
+[0;32mI (262) esp_image: segment 3: paddr=000e0400 vaddr=3fc9a77c size=035b4h ( 13748) load[0m
+[0;32mI (265) esp_image: segment 4: paddr=000e39bc vaddr=40374000 size=15524h ( 87332) load[0m
+[0;32mI (287) esp_image: segment 5: paddr=000f8ee8 vaddr=600fe010 size=00004h (     4) load[0m
+[0;32mI (296) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (296) boot: Disabling RNG early entropy source...[0m
+[0;32mI (308) cpu_start: Multicore app[0m
+[0;32mI (318) cpu_start: Pro cpu start user code[0m
+[0;32mI (318) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (318) cpu_start: Application information:[0m
+[0;32mI (321) cpu_start: Project name:     progetto_singolo[0m
+[0;32mI (327) cpu_start: App version:      1[0m
+[0;32mI (331) cpu_start: Compile time:     May 15 2024 20:24:07[0m
+[0;32mI (337) cpu_start: ELF file SHA256:  dd290a54e...[0m
+[0;32mI (343) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (348) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (353) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (358) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (362) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (370) heap_init: At 3FCA5DE8 len 00043928 (270 KiB): RAM[0m
+[0;32mI (376) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (382) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (388) heap_init: At 600FE014 len 00001FD4 (7 KiB): RTCRAM[0m
+[0;32mI (395) spi_flash: detected chip: gd[0m
+[0;32mI (398) spi_flash: flash io: dio[0m
+[0;33mW (402) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (416) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (422) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (430) main_task: Started on CPU0[0m
+[0;32mI (440) main_task: Calling app_main()[0m
+ sampling frequence is: 83333 and bit width is: 12
+
+[0;32mI (440) gpio: GPIO[1]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+ err esp timeout
+Signal x1 in log scale[0;32mI (570) view: Data min[480] = -65.774872, Data max[1] = 20.175217[0m
+ ________________________________________________________________
+0                                                                |
+1|                                                               |
+2|                                                               |
+3||                                                              |
+4|||                                                             |
+5||| | |                                                         |
+6 |||||| ||||||  ||||||| |   |     ||||||| ||||   |||||||  |   |||
+7   | | || ||||||||| || |||||||||||||| | |||  ||||| || |||||||||||
+8   |        | |          ||||||| ||           | |   | | |  ||   |
+9                                                                |
+ 0123456789012345678901234567890123456789012345678901234567890123
+[0;32mI (640) view: Plot: Length=512, min=-60.000000, max=40.000000[0m
+Signal x1 in absolute scale[0;32mI (640) view: Data min[480] = 0.000000, Data max[1] = 104.117020[0m
+ ________________________________________________________________
+0|                                                               |
+1|                                                               |
+2|                                                               |
+3|                                                               |
+4||                                                              |
+5||                                                              |
+6||                                                              |
+7|||                                                             |
+8|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+9                                                                |
+ 0123456789012345678901234567890123456789012345678901234567890123
+[0;32mI (720) view: Plot: Length=512, min=0.000000, max=2.000000[0m
+the max frequency of the signal is: 81.379883
+the sampling frequency to use is: 162.759766
+the max sampling frequency due to memory limitations is 37683
+the max sampling frequency due to read time limitations is 28571
+the sampling frequence I will use is 162 Hz
+number of bytes of largest free block 188416
+I am trying to allocate 405 samples of 16 bits

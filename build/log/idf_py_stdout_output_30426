@@ -1,0 +1,183 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcbc
+load:0x403cc700,len:0x2da0
+entry 0x403c9914
+[0;32mI (27) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time May 15 2024 20:24:16[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (39) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (54) boot: Partition Table:[0m
+[0;32mI (57) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (65) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (72) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (80) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (87) boot: End of partition table[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=2ee64h (192100) map[0m
+[0;32mI (134) esp_image: segment 1: paddr=0003ee8c vaddr=3fc99600 size=0118ch (  4492) load[0m
+[0;32mI (136) esp_image: segment 2: paddr=00040020 vaddr=42000020 size=a03dch (656348) map[0m
+[0;32mI (258) esp_image: segment 3: paddr=000e0404 vaddr=3fc9a78c size=035a4h ( 13732) load[0m
+[0;32mI (261) esp_image: segment 4: paddr=000e39b0 vaddr=40374000 size=15524h ( 87332) load[0m
+[0;32mI (283) esp_image: segment 5: paddr=000f8edc vaddr=600fe010 size=00004h (     4) load[0m
+[0;32mI (292) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (292) boot: Disabling RNG early entropy source...[0m
+[0;32mI (303) cpu_start: Multicore app[0m
+[0;32mI (313) cpu_start: Pro cpu start user code[0m
+[0;32mI (314) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (314) cpu_start: Application information:[0m
+[0;32mI (317) cpu_start: Project name:     progetto_singolo[0m
+[0;32mI (322) cpu_start: App version:      1[0m
+[0;32mI (327) cpu_start: Compile time:     May 15 2024 20:24:07[0m
+[0;32mI (333) cpu_start: ELF file SHA256:  e70eed101...[0m
+[0;32mI (338) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (344) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (348) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (353) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (358) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (365) heap_init: At 3FCA5DE8 len 00043928 (270 KiB): RAM[0m
+[0;32mI (371) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (377) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (383) heap_init: At 600FE014 len 00001FD4 (7 KiB): RTCRAM[0m
+[0;32mI (391) spi_flash: detected chip: gd[0m
+[0;32mI (394) spi_flash: flash io: dio[0m
+[0;33mW (398) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (412) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (418) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (425) main_task: Started on CPU0[0m
+[0;32mI (435) main_task: Calling app_main()[0m
+ sampling frequence is: 83333 and bit width is: 12
+
+[0;32mI (435) gpio: GPIO[1]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+ err esp timeout
+Signal x1 in log scale[0;32mI (565) view: Data min[426] = -60.863647, Data max[2] = 20.513727[0m
+ ________________________________________________________________
+0                                                                |
+1|                                                               |
+2|                                                               |
+3|                                                               |
+4||                                                              |
+5 ||                                                             |
+6  ||||||||||||| |||||||||||||||  |||||||  || |||||||||| || | || |
+7   ||| ||||||  |  |        | ||||| |||| ||||||| |||||| | || |||||
+8    |          |  |            ||        |  |        | |  |  | ||
+9                                                                |
+ 0123456789012345678901234567890123456789012345678901234567890123
+[0;32mI (635) view: Plot: Length=512, min=-60.000000, max=40.000000[0m
+Signal x1 in absolute scale[0;32mI (635) view: Data min[426] = 0.000001, Data max[2] = 112.557083[0m
+ ________________________________________________________________
+0|                                                               |
+1|                                                               |
+2|                                                               |
+3|                                                               |
+4|                                                               |
+5|                                                               |
+6|                                                               |
+7|                                                               |
+8|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+9                                                                |
+ 0123456789012345678901234567890123456789012345678901234567890123
+[0;32mI (715) view: Plot: Length=512, min=0.000000, max=2.000000[0m
+the max frequency of the signal is: 162.759766
+the sampling frequency to use is: 325.519531
+the max sampling frequency due to memory limitations is 26916
+the max sampling frequency due to read time limitations is 28571
+the sampling frequence I will use is 325 Hz
+number of bytes of largest free block 188416
+I am trying to allocate 1137 samples of 16 bits
+[0;32mI (2305) pp: pp rom version: e7ae62f[0m
+[0;32mI (2305) net80211: net80211 rom version: e7ae62f[0m
+I (2335) wifi:wifi driver task: 3fcb1bdc, prio:23, stack:6656, core=0
+I (2355) wifi:wifi firmware version: a9f5b59
+I (2355) wifi:wifi certification version: v7.0
+I (2355) wifi:config NVS flash: enabled
+I (2355) wifi:config nano formating: disabled
+I (2355) wifi:Init data frame dynamic rx buffer num: 32
+I (2365) wifi:Init static rx mgmt buffer num: 5
+I (2365) wifi:Init management short buffer num: 32
+I (2365) wifi:Init dynamic tx buffer num: 32
+I (2375) wifi:Init static tx FG buffer num: 2
+I (2375) wifi:Init static rx buffer size: 1600
+I (2385) wifi:Init static rx buffer num: 10
+I (2385) wifi:Init dynamic rx buffer num: 32
+[0;32mI (2425) wifi_init: rx ba win: 6[0m
+[0;32mI (2425) wifi_init: tcpip mbox: 32[0m
+[0;32mI (2425) wifi_init: udp mbox: 6[0m
+[0;32mI (2425) wifi_init: tcp mbox: 6[0m
+[0;32mI (2425) wifi_init: tcp tx win: 5760[0m
+[0;32mI (2435) wifi_init: tcp rx win: 5760[0m
+[0;32mI (2445) wifi_init: tcp mss: 1440[0m
+[0;32mI (2445) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (2445) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (2485) phy_init: phy_version 640,cd64a1a,Jan 24 2024,17:28:12[0m
+I (2525) wifi:mode : sta (48:27:e2:e2:e5:e4)
+I (2525) wifi:enable tsf
+I (2535) wifi:new:<11,0>, old:<1,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (2535) wifi:state: init -> auth (b0)
+I (3535) wifi:state: auth -> init (200)
+I (3535) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+[0;32mI (3535) WIFI: Disconnesso dal punto di accesso[0m
+ il tempo veramente passato a samplare è: 3581998
+the mean is 574
+[0;32mI (5945) WIFI: Disconnesso dal punto di accesso[0m
+I (5955) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (5955) wifi:state: init -> auth (b0)
+I (6955) wifi:state: auth -> init (200)
+I (6955) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+[0;32mI (6955) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (9365) WIFI: Disconnesso dal punto di accesso[0m
+I (9375) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (9375) wifi:state: init -> auth (b0)
+I (10375) wifi:state: auth -> init (200)
+I (10375) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+[0;32mI (10375) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (12785) WIFI: Disconnesso dal punto di accesso[0m
+I (12795) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (12795) wifi:state: init -> auth (b0)
+I (13795) wifi:state: auth -> init (200)
+I (13795) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+[0;32mI (13795) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (16215) WIFI: Disconnesso dal punto di accesso[0m
+I (16215) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (16215) wifi:state: init -> auth (b0)
+I (17215) wifi:state: auth -> init (200)
+I (17215) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+[0;32mI (17225) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (19635) WIFI: Disconnesso dal punto di accesso[0m
+I (19635) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (19635) wifi:state: init -> auth (b0)
+I (20635) wifi:state: auth -> init (200)
+I (20645) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+[0;32mI (20645) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (23055) WIFI: Disconnesso dal punto di accesso[0m
+I (23055) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (23055) wifi:state: init -> auth (b0)
+I (24065) wifi:state: auth -> init (200)
+I (24065) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+[0;32mI (24065) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (26475) WIFI: Disconnesso dal punto di accesso[0m
+I (26475) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (26485) wifi:state: init -> auth (b0)
+I (27485) wifi:state: auth -> init (200)
+I (27485) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+[0;32mI (27485) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (29895) WIFI: Disconnesso dal punto di accesso[0m
+I (29905) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (29905) wifi:state: init -> auth (b0)
+I (30905) wifi:state: auth -> init (200)
+I (30905) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+[0;32mI (30905) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (33315) WIFI: Disconnesso dal punto di accesso[0m
+I (33325) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (33325) wifi:state: init -> auth (b0)
+I (34325) wifi:state: auth -> init (200)
+I (34325) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+[0;32mI (34325) WIFI: Disconnesso dal punto di accesso[0m

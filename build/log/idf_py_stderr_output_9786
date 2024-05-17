@@ -1,0 +1,83 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x40383360: block_locate_free at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:566 (discriminator 1)
+ (inlined by) tlsf_malloc at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:1005 (discriminator 1)
+0x40382d25: multi_heap_malloc_impl at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:210
+0x403761c1: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:179
+0x4037621c: heap_caps_malloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:202
+0x4037e1c1: pvPortMalloc at /home/fracchio/esp/esp-idf/components/freertos/heap_idf.c:55
+0x40380991: xTaskCreatePinnedToCore at /home/fracchio/esp/esp-idf/components/freertos/esp_additions/freertos_tasks_c_additions.h:246
+0x4206f605: sys_thread_new at /home/fracchio/esp/esp-idf/components/lwip/port/freertos/sys_arch.c:403
+0x4205e9c0: tcpip_init at /home/fracchio/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:617
+0x420168e7: esp_netif_init at /home/fracchio/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:544
+0x42009f92: wifi_start_connection at /home/fracchio/Scrivania/progetto_singolo/components/wifi_wrapper/include/wifi_wrapper.h:33
+0x4200ab3a: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:149
+0x4209f30b: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x40383360: block_locate_free at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:566 (discriminator 1)
+ (inlined by) tlsf_malloc at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:1005 (discriminator 1)
+0x40382d25: multi_heap_malloc_impl at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:210
+0x403761c1: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:179
+0x4037621c: heap_caps_malloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:202
+0x4037e1c1: pvPortMalloc at /home/fracchio/esp/esp-idf/components/freertos/heap_idf.c:55
+0x40380991: xTaskCreatePinnedToCore at /home/fracchio/esp/esp-idf/components/freertos/esp_additions/freertos_tasks_c_additions.h:246
+0x4206f605: sys_thread_new at /home/fracchio/esp/esp-idf/components/lwip/port/freertos/sys_arch.c:403
+0x4205e9c0: tcpip_init at /home/fracchio/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:617
+0x420168e7: esp_netif_init at /home/fracchio/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:544
+0x42009f92: wifi_start_connection at /home/fracchio/Scrivania/progetto_singolo/components/wifi_wrapper/include/wifi_wrapper.h:33
+0x4200ab3a: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:149
+0x4209f30b: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x40383360: block_locate_free at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:566 (discriminator 1)
+ (inlined by) tlsf_malloc at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:1005 (discriminator 1)
+0x40382d25: multi_heap_malloc_impl at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:210
+0x403761c1: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:179
+0x4037621c: heap_caps_malloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:202
+0x4037e1c1: pvPortMalloc at /home/fracchio/esp/esp-idf/components/freertos/heap_idf.c:55
+0x40380991: xTaskCreatePinnedToCore at /home/fracchio/esp/esp-idf/components/freertos/esp_additions/freertos_tasks_c_additions.h:246
+0x4206f605: sys_thread_new at /home/fracchio/esp/esp-idf/components/lwip/port/freertos/sys_arch.c:403
+0x4205e9c0: tcpip_init at /home/fracchio/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:617
+0x420168e7: esp_netif_init at /home/fracchio/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:544
+0x42009f92: wifi_start_connection at /home/fracchio/Scrivania/progetto_singolo/components/wifi_wrapper/include/wifi_wrapper.h:33
+0x4200ab3a: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:149
+0x4209f30b: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x40383360: block_locate_free at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:566 (discriminator 1)
+ (inlined by) tlsf_malloc at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:1005 (discriminator 1)
+0x40382d25: multi_heap_malloc_impl at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:210
+0x403761c1: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:179
+0x4037621c: heap_caps_malloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:202
+0x4037e1c1: pvPortMalloc at /home/fracchio/esp/esp-idf/components/freertos/heap_idf.c:55
+0x40380991: xTaskCreatePinnedToCore at /home/fracchio/esp/esp-idf/components/freertos/esp_additions/freertos_tasks_c_additions.h:246
+0x4206f605: sys_thread_new at /home/fracchio/esp/esp-idf/components/lwip/port/freertos/sys_arch.c:403
+0x4205e9c0: tcpip_init at /home/fracchio/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:617
+0x420168e7: esp_netif_init at /home/fracchio/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:544
+0x42009f92: wifi_start_connection at /home/fracchio/Scrivania/progetto_singolo/components/wifi_wrapper/include/wifi_wrapper.h:33
+0x4200ab3a: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:149
+0x4209f30b: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0m

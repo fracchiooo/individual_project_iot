@@ -1,0 +1,142 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037df86: vApplicationStackOverflowHook at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:553
+0x4037f3b7: vTaskSwitchContext at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3630 (discriminator 7)
+0x4037e04c: _frxt_dispatch at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+0x4037e042: _frxt_int_exit at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m0x4037a90a: xt_utils_compare_and_set at /home/fracchio/esp/esp-idf/components/xtensa/include/xt_utils.h:215
+ (inlined by) esp_cpu_compare_and_set at /home/fracchio/esp/esp-idf/components/esp_hw_support/cpu.c:491
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037df86: vApplicationStackOverflowHook at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:553
+0x4037f3b7: vTaskSwitchContext at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3630 (discriminator 7)
+0x4037e04c: _frxt_dispatch at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+0x4037e042: _frxt_int_exit at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m0x4037ddf0: spinlock_acquire at /home/fracchio/esp/esp-idf/components/esp_hw_support/include/spinlock.h:131
+ (inlined by) xPortEnterCriticalTimeout at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:473
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037df86: vApplicationStackOverflowHook at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:553
+0x4037f3b7: vTaskSwitchContext at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3630 (discriminator 7)
+0x4037e04c: _frxt_dispatch at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+0x4037e042: _frxt_int_exit at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m0x4037a912: xt_utils_compare_and_set at /home/fracchio/esp/esp-idf/components/xtensa/include/xt_utils.h:222
+ (inlined by) esp_cpu_compare_and_set at /home/fracchio/esp/esp-idf/components/esp_hw_support/cpu.c:491
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037df86: vApplicationStackOverflowHook at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:553
+0x4037f3b7: vTaskSwitchContext at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3630 (discriminator 7)
+0x4037e04c: _frxt_dispatch at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+0x4037e042: _frxt_int_exit at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m0x4037dde7: spinlock_acquire at /home/fracchio/esp/esp-idf/components/esp_hw_support/include/spinlock.h:130
+ (inlined by) xPortEnterCriticalTimeout at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:473
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037df86: vApplicationStackOverflowHook at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:553
+0x4037f3b7: vTaskSwitchContext at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3630 (discriminator 7)
+0x4037e04c: _frxt_dispatch at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+0x4037e042: _frxt_int_exit at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m0x4037a907: xt_utils_compare_and_set at /home/fracchio/esp/esp-idf/components/xtensa/include/xt_utils.h:215
+ (inlined by) esp_cpu_compare_and_set at /home/fracchio/esp/esp-idf/components/esp_hw_support/cpu.c:491
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037df86: vApplicationStackOverflowHook at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:553
+0x4037f3b7: vTaskSwitchContext at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3630 (discriminator 7)
+0x4037e04c: _frxt_dispatch at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+0x4037e042: _frxt_int_exit at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m0x4037a907: xt_utils_compare_and_set at /home/fracchio/esp/esp-idf/components/xtensa/include/xt_utils.h:215
+ (inlined by) esp_cpu_compare_and_set at /home/fracchio/esp/esp-idf/components/esp_hw_support/cpu.c:491
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037df86: vApplicationStackOverflowHook at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:553
+0x4037f3b7: vTaskSwitchContext at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3630 (discriminator 7)
+0x4037e04c: _frxt_dispatch at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+0x4037e042: _frxt_int_exit at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m0x4037a904: esp_cpu_compare_and_set at /home/fracchio/esp/esp-idf/components/esp_hw_support/cpu.c:459
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037df86: vApplicationStackOverflowHook at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:553
+0x4037f3b7: vTaskSwitchContext at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3630 (discriminator 7)
+0x4037e04c: _frxt_dispatch at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+0x4037e042: _frxt_int_exit at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m0x4037ddf0: spinlock_acquire at /home/fracchio/esp/esp-idf/components/esp_hw_support/include/spinlock.h:131
+ (inlined by) xPortEnterCriticalTimeout at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:473
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037df86: vApplicationStackOverflowHook at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:553
+0x4037f3b7: vTaskSwitchContext at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3630 (discriminator 7)
+0x4037e04c: _frxt_dispatch at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+0x4037e042: _frxt_int_exit at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m0x4037dde4: spinlock_acquire at /home/fracchio/esp/esp-idf/components/esp_hw_support/include/spinlock.h:130
+ (inlined by) xPortEnterCriticalTimeout at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:473
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037df86: vApplicationStackOverflowHook at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:553
+0x4037f3b7: vTaskSwitchContext at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3630 (discriminator 7)
+0x4037e04c: _frxt_dispatch at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+0x4037e042: _frxt_int_exit at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m0x4037a90d: xt_utils_compare_and_set at /home/fracchio/esp/esp-idf/components/xtensa/include/xt_utils.h:222
+ (inlined by) esp_cpu_compare_and_set at /home/fracchio/esp/esp-idf/components/esp_hw_support/cpu.c:491
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037df86: vApplicationStackOverflowHook at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:553
+0x4037f3b7: vTaskSwitchContext at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3630 (discriminator 7)
+0x4037e04c: _frxt_dispatch at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+0x4037e042: _frxt_int_exit at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m0x4037a910: xt_utils_compare_and_set at /home/fracchio/esp/esp-idf/components/xtensa/include/xt_utils.h:222
+ (inlined by) esp_cpu_compare_and_set at /home/fracchio/esp/esp-idf/components/esp_hw_support/cpu.c:491
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037df86: vApplicationStackOverflowHook at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:553
+0x4037f3b7: vTaskSwitchContext at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3630 (discriminator 7)
+0x4037e04c: _frxt_dispatch at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+0x4037e042: _frxt_int_exit at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m0x4037ddf0: spinlock_acquire at /home/fracchio/esp/esp-idf/components/esp_hw_support/include/spinlock.h:131
+ (inlined by) xPortEnterCriticalTimeout at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:473
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+[0m
+[0;33m0x4037df86: vApplicationStackOverflowHook at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:553
+[0m
+[0;33m0x4037f3b7: vTaskSwitchContext at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3630 (discriminator 7)
+[0m
+[0;33m0x4037e04c: _frxt_dispatch at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+[0m
+[0;33m0x4037a904: esp_cpu_compare_and_set at /home/fracchio/esp/esp-idf/components/esp_hw_support/cpu.c:459
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037df86: vApplicationStackOverflowHook at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:553
+0x4037f3b7: vTaskSwitchContext at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3630 (discriminator 7)
+0x4037e04c: _frxt_dispatch at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:451
+0x4037e042: _frxt_int_exit at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:246
+[0m
+[0;33m0x4037a907: xt_utils_compare_and_set at /home/fracchio/esp/esp-idf/components/xtensa/include/xt_utils.h:215
+ (inlined by) esp_cpu_compare_and_set at /home/fracchio/esp/esp-idf/components/esp_hw_support/cpu.c:491
+[0m
+[0m

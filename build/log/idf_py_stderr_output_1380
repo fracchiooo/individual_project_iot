@@ -1,0 +1,84 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x42002b17: panic_handler at /home/fracchio/esp/esp-idf/components/esp_system/port/panic_handler.c:145
+[0m
+[0;33m0x40376ba0: __retarget_lock_acquire_recursive at /home/fracchio/esp/esp-idf/components/newlib/locks.c:313
+[0m
+[0;33m0x4201bbb4: .fft2r_l2 at /home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/fft/float/dsps_fft2r_fc32_aes3_.S:107
+0x4201bbea: .fft2r_l3 at /home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/fft/float/dsps_fft2r_fc32_aes3_.S:131
+[0m
+[0;33m0x40376b9d: __retarget_lock_acquire_recursive at /home/fracchio/esp/esp-idf/components/newlib/locks.c:312
+0x420111ef: _fflush_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fflush.c:277 (discriminator 2)
+ (inlined by) _fflush_r at /builds/idf/crosstool-NG/.build/src/newlib-git-af24ceb7/newlib/libc/include/stdio.h:417 (discriminator 2)
+0x4201123d: fflush at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fflush.c:291 (discriminator 1)
+0x42008a67: get_max_frequency_fft at /home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h:96 (discriminator 1)
+0x42008c36: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:122
+0x4201df53: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b509: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375958: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x4037602c: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:155
+[0m
+[0;33m0x400556d5: strlen in ROM
+0x400556e5: strlen in ROM
+[0m
+[0;33m0x40376029: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:154
+0x403760d8: heap_caps_malloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:202
+0x4037610d: heap_caps_malloc_default at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:228
+0x40381789: malloc at /home/fracchio/esp/esp-idf/components/newlib/heap.c:24
+0x4200f73d: operator new(unsigned int) at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/new_op.cc:50
+0x4200f5a5: operator new[](unsigned int) at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/new_opv.cc:32
+0x42008ef3: dsps_view at /home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/support/view/dsps_view.cpp:10
+0x42008a95: get_max_frequency_fft at /home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h:105
+0x42008c36: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:122
+0x4201df53: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b509: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375958: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x4005706c: memmove in ROM
+[0m
+[0;33m0x400556d5: strlen in ROM
+0x400556e5: strlen in ROM
+[0m
+[0;33m0x40057069: memmove in ROM
+0x42011712: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:177
+0x420119df: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+0x42011a17: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+0x42008a6d: get_max_frequency_fft at /home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h:98
+0x42008c36: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:122
+0x4201df53: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b509: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375958: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x400556d5: strlen in ROM
+0x400556e5: strlen in ROM
+[0m
+[0;33m0x420119df: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+0x42011a17: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+0x42008a6d: get_max_frequency_fft at /home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h:98
+0x42008c36: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:122
+0x4201df53: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b509: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375958: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40057053: memmove in ROM
+[0m
+[0;33m0x400556d5: strlen in ROM
+0x400556e5: strlen in ROM
+[0m
+[0;33m0x40057050: memmove in ROM
+0x420117d2: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:229
+0x420119df: _puts_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:91
+0x42011a17: puts at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/puts.c:129 (discriminator 1)
+0x42008a6d: get_max_frequency_fft at /home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h:98
+0x42008c36: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:122
+0x4201df53: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b509: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375958: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0m

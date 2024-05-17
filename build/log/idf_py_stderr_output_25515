@@ -1,0 +1,326 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fded: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x4037b962: xTaskRemoveFromEventList at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x4037a1e4: xQueueSemaphoreTake at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x40376854: lock_acquire_generic at /home/fracchio/esp/esp-idf/components/newlib/locks.c:146
+0x40376935: _lock_try_acquire at /home/fracchio/esp/esp-idf/components/newlib/locks.c:162
+0x4200b9d3: adc_lock_try_acquire at /home/fracchio/esp/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c:162
+0x4200c23c: adc_oneshot_read at /home/fracchio/esp/esp-idf/components/esp_adc/adc_oneshot.c:166
+0x420082fd: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:110
+0x42008443: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008454: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a297: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fded: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x4037b962: xTaskRemoveFromEventList at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x4037a1e4: xQueueSemaphoreTake at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x40376854: lock_acquire_generic at /home/fracchio/esp/esp-idf/components/newlib/locks.c:146
+0x40376935: _lock_try_acquire at /home/fracchio/esp/esp-idf/components/newlib/locks.c:162
+0x4200b9d3: adc_lock_try_acquire at /home/fracchio/esp/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c:162
+0x4200c23c: adc_oneshot_read at /home/fracchio/esp/esp-idf/components/esp_adc/adc_oneshot.c:166
+0x420082fd: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:110
+0x42008443: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008454: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a297: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fded: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x4037b962: xTaskRemoveFromEventList at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x4037a1e4: xQueueSemaphoreTake at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x40376854: lock_acquire_generic at /home/fracchio/esp/esp-idf/components/newlib/locks.c:146
+0x40376935: _lock_try_acquire at /home/fracchio/esp/esp-idf/components/newlib/locks.c:162
+0x4200b9d3: adc_lock_try_acquire at /home/fracchio/esp/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c:162
+0x4200c23c: adc_oneshot_read at /home/fracchio/esp/esp-idf/components/esp_adc/adc_oneshot.c:166
+0x420082fd: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:110
+0x42008443: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008454: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a297: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fded: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x4037b962: xTaskRemoveFromEventList at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x4037a1e4: xQueueSemaphoreTake at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x40376854: lock_acquire_generic at /home/fracchio/esp/esp-idf/components/newlib/locks.c:146
+0x40376935: _lock_try_acquire at /home/fracchio/esp/esp-idf/components/newlib/locks.c:162
+0x4200b9d3: adc_lock_try_acquire at /home/fracchio/esp/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c:162
+0x4200c23c: adc_oneshot_read at /home/fracchio/esp/esp-idf/components/esp_adc/adc_oneshot.c:166
+0x420082fd: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:110
+0x42008443: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008454: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a297: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fded: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x4037b962: xTaskRemoveFromEventList at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x4037a1e4: xQueueSemaphoreTake at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x40376854: lock_acquire_generic at /home/fracchio/esp/esp-idf/components/newlib/locks.c:146
+0x40376935: _lock_try_acquire at /home/fracchio/esp/esp-idf/components/newlib/locks.c:162
+0x4200b9d3: adc_lock_try_acquire at /home/fracchio/esp/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c:162
+0x4200c23c: adc_oneshot_read at /home/fracchio/esp/esp-idf/components/esp_adc/adc_oneshot.c:166
+0x420082fd: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:110
+0x42008443: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008454: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a297: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fded: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x4037b962: xTaskRemoveFromEventList at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x4037a1e4: xQueueSemaphoreTake at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x40376854: lock_acquire_generic at /home/fracchio/esp/esp-idf/components/newlib/locks.c:146
+0x40376935: _lock_try_acquire at /home/fracchio/esp/esp-idf/components/newlib/locks.c:162
+0x4200b9d3: adc_lock_try_acquire at /home/fracchio/esp/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c:162
+0x4200c23c: adc_oneshot_read at /home/fracchio/esp/esp-idf/components/esp_adc/adc_oneshot.c:166
+0x420082fd: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:110
+0x42008443: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008454: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a297: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fded: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x4037b962: xTaskRemoveFromEventList at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x4037a1e4: xQueueSemaphoreTake at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x40376854: lock_acquire_generic at /home/fracchio/esp/esp-idf/components/newlib/locks.c:146
+0x40376935: _lock_try_acquire at /home/fracchio/esp/esp-idf/components/newlib/locks.c:162
+0x4200b9d3: adc_lock_try_acquire at /home/fracchio/esp/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c:162
+0x4200c23c: adc_oneshot_read at /home/fracchio/esp/esp-idf/components/esp_adc/adc_oneshot.c:166
+0x420082fd: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:110
+0x42008443: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008454: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a297: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fded: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x4037b962: xTaskRemoveFromEventList at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x4037a1e4: xQueueSemaphoreTake at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x40376854: lock_acquire_generic at /home/fracchio/esp/esp-idf/components/newlib/locks.c:146
+0x40376935: _lock_try_acquire at /home/fracchio/esp/esp-idf/components/newlib/locks.c:162
+0x4200b9d3: adc_lock_try_acquire at /home/fracchio/esp/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c:162
+0x4200c23c: adc_oneshot_read at /home/fracchio/esp/esp-idf/components/esp_adc/adc_oneshot.c:166
+0x420082fd: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:110
+0x42008443: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008454: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a297: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fded: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x4037b962: xTaskRemoveFromEventList at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x4037a1e4: xQueueSemaphoreTake at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x40376854: lock_acquire_generic at /home/fracchio/esp/esp-idf/components/newlib/locks.c:146
+0x40376935: _lock_try_acquire at /home/fracchio/esp/esp-idf/components/newlib/locks.c:162
+0x4200b9d3: adc_lock_try_acquire at /home/fracchio/esp/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c:162
+0x4200c23c: adc_oneshot_read at /home/fracchio/esp/esp-idf/components/esp_adc/adc_oneshot.c:166
+0x420082fd: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:110
+0x42008443: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008454: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a297: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fded: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x4037b962: xTaskRemoveFromEventList at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x4037a1e4: xQueueSemaphoreTake at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x40376854: lock_acquire_generic at /home/fracchio/esp/esp-idf/components/newlib/locks.c:146
+0x40376935: _lock_try_acquire at /home/fracchio/esp/esp-idf/components/newlib/locks.c:162
+0x4200b9d3: adc_lock_try_acquire at /home/fracchio/esp/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c:162
+0x4200c23c: adc_oneshot_read at /home/fracchio/esp/esp-idf/components/esp_adc/adc_oneshot.c:166
+0x420082fd: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:110
+0x42008443: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008454: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a297: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fded: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x4037b962: xTaskRemoveFromEventList at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x4037a1e4: xQueueSemaphoreTake at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x40376854: lock_acquire_generic at /home/fracchio/esp/esp-idf/components/newlib/locks.c:146
+0x40376935: _lock_try_acquire at /home/fracchio/esp/esp-idf/components/newlib/locks.c:162
+0x4200b9d3: adc_lock_try_acquire at /home/fracchio/esp/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c:162
+0x4200c23c: adc_oneshot_read at /home/fracchio/esp/esp-idf/components/esp_adc/adc_oneshot.c:166
+0x420082fd: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:110
+0x42008443: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008454: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a297: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fded: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x4037b962: xTaskRemoveFromEventList at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x4037a1e4: xQueueSemaphoreTake at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x40376854: lock_acquire_generic at /home/fracchio/esp/esp-idf/components/newlib/locks.c:146
+0x40376935: _lock_try_acquire at /home/fracchio/esp/esp-idf/components/newlib/locks.c:162
+0x4200b9d3: adc_lock_try_acquire at /home/fracchio/esp/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c:162
+0x4200c23c: adc_oneshot_read at /home/fracchio/esp/esp-idf/components/esp_adc/adc_oneshot.c:166
+0x420082fd: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:110
+0x42008443: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008454: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a297: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fded: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x4037b962: xTaskRemoveFromEventList at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x4037a1e4: xQueueSemaphoreTake at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x40376854: lock_acquire_generic at /home/fracchio/esp/esp-idf/components/newlib/locks.c:146
+0x40376935: _lock_try_acquire at /home/fracchio/esp/esp-idf/components/newlib/locks.c:162
+0x4200b9d3: adc_lock_try_acquire at /home/fracchio/esp/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c:162
+0x4200c23c: adc_oneshot_read at /home/fracchio/esp/esp-idf/components/esp_adc/adc_oneshot.c:166
+0x420082fd: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:110
+0x42008443: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008454: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a297: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fded: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x4037b962: xTaskRemoveFromEventList at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x4037a1e4: xQueueSemaphoreTake at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x40376854: lock_acquire_generic at /home/fracchio/esp/esp-idf/components/newlib/locks.c:146
+0x40376935: _lock_try_acquire at /home/fracchio/esp/esp-idf/components/newlib/locks.c:162
+0x4200b9d3: adc_lock_try_acquire at /home/fracchio/esp/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c:162
+0x4200c23c: adc_oneshot_read at /home/fracchio/esp/esp-idf/components/esp_adc/adc_oneshot.c:166
+0x420082fd: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:110
+0x42008443: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008454: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a297: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fded: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x4037b962: xTaskRemoveFromEventList at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x4037a1e4: xQueueSemaphoreTake at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x40376854: lock_acquire_generic at /home/fracchio/esp/esp-idf/components/newlib/locks.c:146
+0x40376935: _lock_try_acquire at /home/fracchio/esp/esp-idf/components/newlib/locks.c:162
+0x4200b9d3: adc_lock_try_acquire at /home/fracchio/esp/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c:162
+0x4200c23c: adc_oneshot_read at /home/fracchio/esp/esp-idf/components/esp_adc/adc_oneshot.c:166
+0x420082fd: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:110
+0x42008443: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008454: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a297: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fded: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x4037b962: xTaskRemoveFromEventList at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x4037a1e4: xQueueSemaphoreTake at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x40376854: lock_acquire_generic at /home/fracchio/esp/esp-idf/components/newlib/locks.c:146
+0x40376935: _lock_try_acquire at /home/fracchio/esp/esp-idf/components/newlib/locks.c:162
+0x4200b9d3: adc_lock_try_acquire at /home/fracchio/esp/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c:162
+0x4200c23c: adc_oneshot_read at /home/fracchio/esp/esp-idf/components/esp_adc/adc_oneshot.c:166
+0x420082fd: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:110
+0x42008443: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008454: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a297: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fded: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x4037b962: xTaskRemoveFromEventList at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x4037a1e4: xQueueSemaphoreTake at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x40376854: lock_acquire_generic at /home/fracchio/esp/esp-idf/components/newlib/locks.c:146
+0x40376935: _lock_try_acquire at /home/fracchio/esp/esp-idf/components/newlib/locks.c:162
+0x4200b9d3: adc_lock_try_acquire at /home/fracchio/esp/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c:162
+0x4200c23c: adc_oneshot_read at /home/fracchio/esp/esp-idf/components/esp_adc/adc_oneshot.c:166
+0x420082fd: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:110
+0x42008443: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008454: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a297: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fded: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x4037b962: xTaskRemoveFromEventList at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x4037a1e4: xQueueSemaphoreTake at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x40376854: lock_acquire_generic at /home/fracchio/esp/esp-idf/components/newlib/locks.c:146
+0x40376935: _lock_try_acquire at /home/fracchio/esp/esp-idf/components/newlib/locks.c:162
+0x4200b9d3: adc_lock_try_acquire at /home/fracchio/esp/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c:162
+0x4200c23c: adc_oneshot_read at /home/fracchio/esp/esp-idf/components/esp_adc/adc_oneshot.c:166
+0x420082fd: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:110
+0x42008443: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008454: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a297: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fded: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x4037b962: xTaskRemoveFromEventList at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3826 (discriminator 1)
+0x4037a1e4: xQueueSemaphoreTake at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1763
+0x40376854: lock_acquire_generic at /home/fracchio/esp/esp-idf/components/newlib/locks.c:146
+0x40376935: _lock_try_acquire at /home/fracchio/esp/esp-idf/components/newlib/locks.c:162
+0x4200b9d3: adc_lock_try_acquire at /home/fracchio/esp/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c:162
+0x4200c23c: adc_oneshot_read at /home/fracchio/esp/esp-idf/components/esp_adc/adc_oneshot.c:166
+0x420082fd: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:110
+0x42008443: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x42008454: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a297: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0m

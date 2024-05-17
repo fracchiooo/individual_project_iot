@@ -1,0 +1,23 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40056fc0: memcpy in ROM
+[0m
+[0;33m0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m0x40378eb0: task_ms_to_tick_wrapper at /home/fracchio/esp/esp-idf/components/esp_wifi/esp32s3/esp_adapter.c:307
+[0m
+[0;33m0x40056f5c: memcpy in ROM
+0x40056f72: memcpy in ROM
+[0m
+[0;33m0x40056fbd: memcpy in ROM
+0x4037d0fb: prvCopyDataToQueue at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:2481
+0x4037d529: xQueueGenericSend at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:964
+0x4200a0f5: wifi_event_handler at /home/fracchio/Scrivania/progetto_singolo/components/wifi_wrapper/include/wifi_wrapper.h:25 (discriminator 1)
+0x4209cead: handler_execute at /home/fracchio/esp/esp-idf/components/esp_event/esp_event.c:137
+0x4209c922: esp_event_loop_run at /home/fracchio/esp/esp-idf/components/esp_event/esp_event.c:593
+0x4209c9fd: esp_event_loop_run_task at /home/fracchio/esp/esp-idf/components/esp_event/esp_event.c:107
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0m

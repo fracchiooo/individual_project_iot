@@ -1,0 +1,363 @@
+32mI (436) main: Start Example.[0m
+la max frequency è: 0.000000
+[0;33mW (456) main: Signal x1[0m
+[0;32mI (456) view: Data min[426] = 12.295547, Data max[0] = 72.281456[0m
+ ________________________________________________________________
+0|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+1  ||      | ||||||||  ||    ||| ||||  |     | ||| || |   |  |||||
+2               | |                                 | |          |
+3                                                                |
+4                                                                |
+5                                                                |
+6                                                                |
+7                                                                |
+8                                                                |
+9                                                                |
+ 0123456789012345678901234567890123456789012345678901234567890123
+[0;32mI (526) view: Plot: Length=512, min=-60.000000, max=40.000000[0m
+[0;33mW (536) main: Signal x2[0m
+[0;32mI (536) view: Data min[426] = 12.295547, Data max[0] = 72.281456[0m
+ ________________________________________________________________
+0|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+1  ||      | ||||||||  ||    ||| ||||  |     | ||| || |   |  |||||
+2               | |                                 | |          |
+3                                                                |
+4                                                                |
+5                                                                |
+6                                                                |
+7                                                                |
+8                                                                |
+9                                                                |
+ 0123456789012345678901234567890123456789012345678901234567890123
+[0;32mI (616) view: Plot: Length=512, min=-60.000000, max=40.000000[0m
+[0;33mW (616) main: Difference between signals x1 and x2 on one plot[0m
+[0;32mI (626) view: Data min[0] = 0.000000, Data max[0] = 0.000000[0m
+ ________________________________________________________________
+0                                                                |
+1                                                                |
+2                                                                |
+3                              �ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcbc
+load:0x403cc700,len:0x2da0
+entry 0x403c9914
+[0;32mI (27) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time May 14 2024 00:03:09[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (39) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (54) boot: Partition Table:[0m
+[0;32mI (57) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (65) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (72) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (80) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (87) boot: End of partition table[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=16258h ( 90712) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=00026280 vaddr=3fc93700 size=029b0h ( 10672) load[0m
+[0;32mI (119) esp_image: segment 2: paddr=00028c38 vaddr=40374000 size=073e0h ( 29664) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00030020 vaddr=42000020 size=20420h (132128) map[0m
+[0;32mI (154) esp_image: segment 4: paddr=00050448 vaddr=4037b3e0 size=082b0h ( 33456) load[0m
+[0;32mI (168) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (168) boot: Disabling RNG early entropy source...[0m
+[0;32mI (179) cpu_start: Multicore app[0m
+[0;32mI (190) cpu_start: Pro cpu start user code[0m
+[0;32mI (190) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (190) cpu_start: Application information:[0m
+[0;32mI (193) cpu_start: Project name:     progetto_singolo[0m
+[0;32mI (198) cpu_start: App version:      1[0m
+[0;32mI (203) cpu_start: Compile time:     May 14 2024 00:02:58[0m
+[0;32mI (209) cpu_start: ELF file SHA256:  6873fa285...[0m
+[0;32mI (214) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (220) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (224) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (229) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (234) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (241) heap_init: At 3FC9A1D8 len 0004F538 (317 KiB): RAM[0m
+[0;32mI (247) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (253) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (260) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (267) spi_flash: detected chip: gd[0m
+[0;32mI (270) spi_flash: flash io: dio[0m
+[0;33mW (274) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (288) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (294) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (301) main_task: Started on CPU0[0m
+[0;32mI (311) main_task: Calling app_main()[0m
+ sampling frequence is: 83333 and bit width is: 12
+
+[0;32mI (311) gpio: GPIO[1]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+ err esp timeout
+[0;32mI (431) main: Start Example.[0m
+la max frequency è: 81.379883
+[0;33mW (451) main: Signal x1[0m
+[0;32mI (451) view: Data min[379] = 8.164575, Data max[0] = 72.296211[0m
+ ________________________________________________________________
+0|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+1| ||      | ||||| ||   |  ||||| ||||||||||| || | |||||   |  || ||
+2  |                          |        |     |  |             |  |
+3                                                                |
+4                                                                |
+5                                                                |
+6                                                                |
+7                                                                |
+8                                                                |
+9                                                                |
+ 0123456789012345678901234567890123456789012345678901234567890123
+[0;32mI (521) view: Plot: Length=512, min=-60.000000, max=40.000000[0m
+[0;33mW (531) main: Signal x2[0m
+[0;32mI (531) view: Data min[379] = 8.164575, Data max[0] = 72.296211[0m
+ ________________________________________________________________
+0|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+1| ||      | ||||| ||   |  ||||| ||||||||||| || | |||||   |  || ||
+2  |                          |        |     |  |             |  |
+3                                                                |
+4                                                                |
+5                                                                |
+6                                                                |
+7                                                                |
+8                                                                |
+9                                                                |
+ 0123456789012345678901234567890123456789012345678901234567890123
+[0;32mI (611) view: Plot: Length=512, min=-60.000000, max=40.000000[0m
+[0;33mW (611) main: Difference between signals x1 and x2 on one plot[0m
+[0;32mI (621) view: Data min[0] = 0.000000, Data max[0] = 0.000000[0m
+ ________________________________________________________________
+0                                                                |
+1                                                                |
+2                                                                |
+3                                                                |
+4                                                                |
+5                                                                |
+6                                                                |
+7                                                                |
+8                                                                |
+9----------------------------------------------------------------|
+ 0123456789012345678901234567890123456789012345678901234567890123
+[0;32mI (701) view: Plot: Length=512, min=0.000000, max=40.000000[0m
+[0;32mI (701) main: FFT Radix 2 for 512 complex points take 1044992 cycles[0m
+[0;32mI (711) main: FFT Radix 4 for 512 complex points take 37477 cycles[0m
+[0;32mI (721) main: End Example.[0m
+[0;32mI (721) main_task: Returned from app_main()[0m
+
+***ERROR*** A stack overflow in task main has been detected.
+
+
+Backtrace: 0x403759e2:0x3fc9e430 0x4037aba1:0x3fc9e450 0x4037b8fa:0x3fc9e470 0x4037ca5f:0x3fc9e4f0 0x4037b9c0:0x3fc9e510 0x4037b9b6:0x00000037 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 6873fa285
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40375958
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcbc
+load:0x403cc700,len:0x2da0
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time May 14 2024 00:03:09[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v0.2[0m
+[0;32mI (39) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (43) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=16258h ( 90712) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=00026280 vaddr=3fc93700 size=029b0h ( 10672) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=00028c38 vaddr=40374000 size=073e0h ( 29664) load[0m
+[0;32mI (133) esp_image: segment 3: paddr=00030020 vaddr=42000020 size=20420h (132128) map[0m
+[0;32mI (158) esp_image: segment 4: paddr=00050448 vaddr=4037b3e0 size=082b0h ( 33456) load[0m
+[0;32mI (172) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (172) boot: Disabling RNG early entropy source...[0m
+[0;32mI (184) cpu_start: Multicore app[0m
+[0;32mI (194) cpu_start: Pro cpu start user code[0m
+[0;32mI (194) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (194) cpu_start: Application information:[0m
+[0;32mI (197) cpu_start: Project name:     progetto_singolo[0m
+[0;32mI (203) cpu_start: App version:      1[0m
+[0;32mI (207) cpu_start: Compile time:     May 14 2024 00:02:58[0m
+[0;32mI (213) cpu_start: ELF file SHA256:  6873fa285...[0m
+[0;32mI (219) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (224) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (229) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (234) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (238) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (246) heap_init: At 3FC9A1D8 len 0004F538 (317 KiB): RAM[0m
+[0;32mI (252) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (258) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (264) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (271) spi_flash: detected chip: gd[0m
+[0;32mI (274) spi_flash: flash io: dio[0m
+[0;33mW (278) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (292) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (298) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (306) main_task: Started on CPU0[0m
+[0;32mI (316) main_task: Calling app_main()[0m
+ sampling frequence is: 83333 and bit width is: 12
+
+[0;32mI (316) gpio: GPIO[1]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+ err esp timeout
+[0;32mI (436) main: Start Example.[0m
+la max frequency è: 81.379883
+[0;33mW (456) main: Signal x1[0m
+[0;32mI (456) view: Data min[461] = -0.695479, Data max[0] = 72.332153[0m
+ ________________________________________________________________
+0|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+1   ||||     |||| | |  ||    || |    | || |  ||||   |    ||||||  |
+2      |     |                                            |      |
+3                                                         |      |
+4                                                                |
+5                                                                |
+6                                                                |
+7                                                                |
+8                                                                |
+9                                                                |
+ 0123456789012345678901234567890123456789012345678901234567890123
+[0;32mI (526) view: Plot: Length=512, min=-60.000000, max=40.000000[0m
+[0;33mW (536) main: Signal x2[0m
+[0;32mI (536) view: Data min[461] = -0.695479, Data max[0] = 72.332153[0m
+ ________________________________________________________________
+0|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+1   ||||     |||| | |  ||    || |    | || |  ||||   |    ||||||  |
+2      |     |                                            |      |
+3                                                         |      |
+4                                                                |
+5                                                                |
+6                                                                |
+7                                                                |
+8                                                                |
+9                                                                |
+ 0123456789012345678901234567890123456789012345678901234567890123
+[0;32mI (616) view: Plot: Length=512, min=-60.000000, max=40.000000[0m
+[0;33mW (616) main: Difference between signals x1 and x2 on one plot[0m
+[0;32mI (626) view: Data min[0] = 0.000000, Data max[0] = 0.000000[0m
+ ________________________________________________________________
+0                                                                |
+1                                                                |
+2                                                                |
+3                                                                |
+4                                                                |
+5                                                                |
+6                                                                |
+7                                                                |
+8                                                                |
+9----------------------------------------------------------------|
+ 0123456789012345678901234567890123456789012345678901234567890123
+[0;32mI (706) view: Plot: Length=512, min=0.000000, max=40.000000[0m
+[0;32mI (706) main: FFT Radix 2 for 512 complex points take 1046172 cycles[0m
+[0;32mI (716) main: FFT Radix 4 for 512 complex points take 37477 cycles[0m
+[0;32mI (726) main: End Example.[0m
+[0;32mI (726) main_task: Returned from app_main()[0m
+
+***ERROR*** A stack overflow in task main has been detected.
+
+
+Backtrace: 0x403759e2:0x3fc9e430 0x4037aba1:0x3fc9e450 0x4037b8fa:0x3fc9e470 0x4037ca5f:0x3fc9e4f0 0x4037b9c0:0x3fc9e510 0x4037b9b6:0x00000037 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 6873fa285
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40375958
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcbc
+load:0x403cc700,len:0x2da0
+entry 0x403c9914
+[0;32mI (31) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time May 14 2024 00:03:09[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v0.2[0m
+[0;32mI (39) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (43) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=16258h ( 90712) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=00026280 vaddr=3fc93700 size=029b0h ( 10672) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=00028c38 vaddr=40374000 size=073e0h ( 29664) load[0m
+[0;32mI (133) esp_image: segment 3: paddr=00030020 vaddr=42000020 size=20420h (132128) map[0m
+[0;32mI (158) esp_image: segment 4: paddr=00050448 vaddr=4037b3e0 size=082b0h ( 33456) load[0m
+[0;32mI (172) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (172) boot: Disabling RNG early entropy source...[0m
+[0;32mI (184) cpu_start: Multicore app[0m
+[0;32mI (194) cpu_start: Pro cpu start user code[0m
+[0;32mI (194) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (194) cpu_start: Application information:[0m
+[0;32mI (197) cpu_start: Project name:     progetto_singolo[0m
+[0;32mI (203) cpu_start: App version:      1[0m
+[0;32mI (207) cpu_start: Compile time:     May 14 2024 00:02:58[0m
+[0;32mI (213) cpu_start: ELF file SHA256:  6873fa285...[0m
+[0;32mI (219) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (224) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (229) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (234) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (238) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (246) heap_init: At 3FC9A1D8 len 0004F538 (317 KiB): RAM[0m
+[0;32mI (252) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (258) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (264) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (271) spi_flash: detected chip: gd[0m
+[0;32mI (274) spi_flash: flash io: dio[0m
+[0;33mW (278) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (292) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (298) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (306) main_task: Started on CPU0[0m
+[0;32mI (316) main_task: Calling app_main()[0m
+ sampling frequence is: 83333 and bit width is: 12
+
+[0;32mI (316) gpio: GPIO[1]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+ err esp timeout
+[0;32mI (436) main: Start Example.[0m
+la max frequency è: 0.000000
+[0;33mW (456) main: Signal x1[0m
+[0;32mI (456) view: Data min[101] = 1.791631, Data max[0] = 72.346809[0m
+ ________________________________________________________________
+0|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+1|  |  ||  ||||     |        ||||  ||  ||||  || |  |||||  |  |   |
+2       |  | |                     |   ||             |          |
+3            |                                                   |
+4                                                                |
+5                                                                |
+6                                                                |
+7                                                                |
+8                                                                |
+9                                                                |
+ 0123456789012345678901234567890123456789012345678901234567890123
+[0;32mI (526) view: Plot: Length=512, min=-60.000000, max=40.000000[0m
+[0;33mW (536) main: Signal x2[0m
+[0;32mI (536) view: Data min[101] = 1.791631, Data max[0] = 72.346809[0m
+ ________________________________________________________________

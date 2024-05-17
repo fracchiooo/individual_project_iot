@@ -1,0 +1,23 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x4200ab37: task_wdt_timeout_handling at /home/fracchio/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x4200af54: task_wdt_isr at /home/fracchio/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40377145: _xt_lowint1 at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x40041a73: ets_delay_us in ROM
+0x4200833e: get_mean_window_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:125
+0x42008433: do_read_mean_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:72
+0x42008468: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:179
+0x4201a0d7: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a341: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4200ab37: task_wdt_timeout_handling at /home/fracchio/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x4200af54: task_wdt_isr at /home/fracchio/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40377145: _xt_lowint1 at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x40041a76: ets_delay_us in ROM
+0x4200833e: get_mean_window_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:125
+0x42008433: do_read_mean_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:72
+0x42008468: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:179
+0x4201a0d7: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a341: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0m

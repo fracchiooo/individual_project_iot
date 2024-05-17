@@ -1,0 +1,59 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40375f5a: find_containing_heap at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:370
+[0m
+[0;33m0x4201b684: .fft2r_l2 at /home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/fft/float/dsps_fft2r_fc32_aes3_.S:107
+0x4201b6ba: .fft2r_l3 at /home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/fft/float/dsps_fft2r_fc32_aes3_.S:131
+[0m
+[0;33m0x40375f57: find_containing_heap at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:369
+0x40376182: heap_caps_free at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:391
+0x40381795: free at /home/fracchio/esp/esp-idf/components/newlib/heap.c:39
+0x42008b52: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:128
+0x4201da23: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b509: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375958: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375f5a: find_containing_heap at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:370
+[0m
+[0;33m0x4201b684: .fft2r_l2 at /home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/fft/float/dsps_fft2r_fc32_aes3_.S:107
+0x4201b6ba: .fft2r_l3 at /home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/fft/float/dsps_fft2r_fc32_aes3_.S:131
+[0m
+[0;33m0x40375f57: find_containing_heap at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:369
+0x40376182: heap_caps_free at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:391
+0x40381795: free at /home/fracchio/esp/esp-idf/components/newlib/heap.c:39
+0x42008b52: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:128
+0x4201da23: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b509: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375958: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375f5a: find_containing_heap at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:370
+[0m
+[0;33m0x4201b684: .fft2r_l2 at /home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/fft/float/dsps_fft2r_fc32_aes3_.S:107
+0x4201b6ba: .fft2r_l3 at /home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/fft/float/dsps_fft2r_fc32_aes3_.S:131
+[0m
+[0;33m0x40375f57: find_containing_heap at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:369
+0x40376182: heap_caps_free at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:391
+0x40381795: free at /home/fracchio/esp/esp-idf/components/newlib/heap.c:39
+0x42008b52: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:128
+0x4201da23: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b509: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375958: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375f5a: find_containing_heap at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:370
+[0m
+[0;33m0x4201b684: .fft2r_l2 at /home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/fft/float/dsps_fft2r_fc32_aes3_.S:107
+0x4201b6ba: .fft2r_l3 at /home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/fft/float/dsps_fft2r_fc32_aes3_.S:131
+[0m
+[0;33m0x40375f57: find_containing_heap at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:369
+0x40376182: heap_caps_free at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:391
+0x40381795: free at /home/fracchio/esp/esp-idf/components/newlib/heap.c:39
+0x42008b52: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:128
+0x4201da23: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037b509: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375958: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0m

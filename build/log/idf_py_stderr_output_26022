@@ -1,0 +1,153 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x42009d77: check_adc_oneshot_driver_conflict at /home/fracchio/esp/esp-idf/components/driver/deprecated/adc_legacy.c:931
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fcb1: abort at /home/fracchio/esp/esp-idf/components/newlib/abort.c:38
+0x42009d77: check_adc_oneshot_driver_conflict at /home/fracchio/esp/esp-idf/components/driver/deprecated/adc_legacy.c:931
+0x420023e3: do_global_ctors at /home/fracchio/esp/esp-idf/components/esp_system/startup.c:206
+0x420026d7: start_cpu0_default at /home/fracchio/esp/esp-idf/components/esp_system/startup.c:470
+0x40375596: call_start_cpu0 at /home/fracchio/esp/esp-idf/components/esp_system/port/cpu_start.c:784 (discriminator 1)
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42009d77: check_adc_oneshot_driver_conflict at /home/fracchio/esp/esp-idf/components/driver/deprecated/adc_legacy.c:931
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fcb1: abort at /home/fracchio/esp/esp-idf/components/newlib/abort.c:38
+0x42009d77: check_adc_oneshot_driver_conflict at /home/fracchio/esp/esp-idf/components/driver/deprecated/adc_legacy.c:931
+0x420023e3: do_global_ctors at /home/fracchio/esp/esp-idf/components/esp_system/startup.c:206
+0x420026d7: start_cpu0_default at /home/fracchio/esp/esp-idf/components/esp_system/startup.c:470
+0x40375596: call_start_cpu0 at /home/fracchio/esp/esp-idf/components/esp_system/port/cpu_start.c:784 (discriminator 1)
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42009d77: check_adc_oneshot_driver_conflict at /home/fracchio/esp/esp-idf/components/driver/deprecated/adc_legacy.c:931
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fcb1: abort at /home/fracchio/esp/esp-idf/components/newlib/abort.c:38
+0x42009d77: check_adc_oneshot_driver_conflict at /home/fracchio/esp/esp-idf/components/driver/deprecated/adc_legacy.c:931
+0x420023e3: do_global_ctors at /home/fracchio/esp/esp-idf/components/esp_system/startup.c:206
+0x420026d7: start_cpu0_default at /home/fracchio/esp/esp-idf/components/esp_system/startup.c:470
+0x40375596: call_start_cpu0 at /home/fracchio/esp/esp-idf/components/esp_system/port/cpu_start.c:784 (discriminator 1)
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42009d77: check_adc_oneshot_driver_conflict at /home/fracchio/esp/esp-idf/components/driver/deprecated/adc_legacy.c:931
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fcb1: abort at /home/fracchio/esp/esp-idf/components/newlib/abort.c:38
+0x42009d77: check_adc_oneshot_driver_conflict at /home/fracchio/esp/esp-idf/components/driver/deprecated/adc_legacy.c:931
+0x420023e3: do_global_ctors at /home/fracchio/esp/esp-idf/components/esp_system/startup.c:206
+0x420026d7: start_cpu0_default at /home/fracchio/esp/esp-idf/components/esp_system/startup.c:470
+0x40375596: call_start_cpu0 at /home/fracchio/esp/esp-idf/components/esp_system/port/cpu_start.c:784 (discriminator 1)
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42009d77: check_adc_oneshot_driver_conflict at /home/fracchio/esp/esp-idf/components/driver/deprecated/adc_legacy.c:931
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fcb1: abort at /home/fracchio/esp/esp-idf/components/newlib/abort.c:38
+0x42009d77: check_adc_oneshot_driver_conflict at /home/fracchio/esp/esp-idf/components/driver/deprecated/adc_legacy.c:931
+0x420023e3: do_global_ctors at /home/fracchio/esp/esp-idf/components/esp_system/startup.c:206
+0x420026d7: start_cpu0_default at /home/fracchio/esp/esp-idf/components/esp_system/startup.c:470
+0x40375596: call_start_cpu0 at /home/fracchio/esp/esp-idf/components/esp_system/port/cpu_start.c:784 (discriminator 1)
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42009d77: check_adc_oneshot_driver_conflict at /home/fracchio/esp/esp-idf/components/driver/deprecated/adc_legacy.c:931
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fcb1: abort at /home/fracchio/esp/esp-idf/components/newlib/abort.c:38
+0x42009d77: check_adc_oneshot_driver_conflict at /home/fracchio/esp/esp-idf/components/driver/deprecated/adc_legacy.c:931
+0x420023e3: do_global_ctors at /home/fracchio/esp/esp-idf/components/esp_system/startup.c:206
+0x420026d7: start_cpu0_default at /home/fracchio/esp/esp-idf/components/esp_system/startup.c:470
+0x40375596: call_start_cpu0 at /home/fracchio/esp/esp-idf/components/esp_system/port/cpu_start.c:784 (discriminator 1)
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42009d77: check_adc_oneshot_driver_conflict at /home/fracchio/esp/esp-idf/components/driver/deprecated/adc_legacy.c:931
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fcb1: abort at /home/fracchio/esp/esp-idf/components/newlib/abort.c:38
+0x42009d77: check_adc_oneshot_driver_conflict at /home/fracchio/esp/esp-idf/components/driver/deprecated/adc_legacy.c:931
+0x420023e3: do_global_ctors at /home/fracchio/esp/esp-idf/components/esp_system/startup.c:206
+0x420026d7: start_cpu0_default at /home/fracchio/esp/esp-idf/components/esp_system/startup.c:470
+0x40375596: call_start_cpu0 at /home/fracchio/esp/esp-idf/components/esp_system/port/cpu_start.c:784 (discriminator 1)
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42009d77: check_adc_oneshot_driver_conflict at /home/fracchio/esp/esp-idf/components/driver/deprecated/adc_legacy.c:931
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fcb1: abort at /home/fracchio/esp/esp-idf/components/newlib/abort.c:38
+0x42009d77: check_adc_oneshot_driver_conflict at /home/fracchio/esp/esp-idf/components/driver/deprecated/adc_legacy.c:931
+0x420023e3: do_global_ctors at /home/fracchio/esp/esp-idf/components/esp_system/startup.c:206
+0x420026d7: start_cpu0_default at /home/fracchio/esp/esp-idf/components/esp_system/startup.c:470
+0x40375596: call_start_cpu0 at /home/fracchio/esp/esp-idf/components/esp_system/port/cpu_start.c:784 (discriminator 1)
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42009d77: check_adc_oneshot_driver_conflict at /home/fracchio/esp/esp-idf/components/driver/deprecated/adc_legacy.c:931
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fcb1: abort at /home/fracchio/esp/esp-idf/components/newlib/abort.c:38
+0x42009d77: check_adc_oneshot_driver_conflict at /home/fracchio/esp/esp-idf/components/driver/deprecated/adc_legacy.c:931
+0x420023e3: do_global_ctors at /home/fracchio/esp/esp-idf/components/esp_system/startup.c:206
+0x420026d7: start_cpu0_default at /home/fracchio/esp/esp-idf/components/esp_system/startup.c:470
+0x40375596: call_start_cpu0 at /home/fracchio/esp/esp-idf/components/esp_system/port/cpu_start.c:784 (discriminator 1)
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42009d77: check_adc_oneshot_driver_conflict at /home/fracchio/esp/esp-idf/components/driver/deprecated/adc_legacy.c:931
+[0m
+[0;33m0x403758c2: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x40379afd: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4037fcb1: abort at /home/fracchio/esp/esp-idf/components/newlib/abort.c:38
+0x42009d77: check_adc_oneshot_driver_conflict at /home/fracchio/esp/esp-idf/components/driver/deprecated/adc_legacy.c:931
+0x420023e3: do_global_ctors at /home/fracchio/esp/esp-idf/components/esp_system/startup.c:206
+0x420026d7: start_cpu0_default at /home/fracchio/esp/esp-idf/components/esp_system/startup.c:470
+0x40375596: call_start_cpu0 at /home/fracchio/esp/esp-idf/components/esp_system/port/cpu_start.c:784 (discriminator 1)
+0x40045c01: ets_run_flash_bootloader in ROM
+0x40043ab6: main in ROM
+0x40034c45: .stack_ok in ROM
+[0m
+[0;33m0x40375838: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0m

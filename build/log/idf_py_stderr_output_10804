@@ -1,0 +1,16 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x4200aac7: task_wdt_timeout_handling at /home/fracchio/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x4200aee4: task_wdt_isr at /home/fracchio/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x4037714d: _xt_lowint1 at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400559dd: _xtos_set_intlevel in ROM
+0x4037a707: vPortClearInterruptMaskFromISR at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:564
+ (inlined by) vPortExitCritical at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:504
+0x4200c249: adc_oneshot_read at /home/fracchio/esp/esp-idf/components/esp_adc/adc_oneshot.c:180
+0x4200829b: read_and_get_data_fixed_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:95
+0x420083e7: do_read_oneshot_stuff at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:74
+0x420083f8: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:176
+0x4201a23b: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037a361: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0m

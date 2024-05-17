@@ -1,0 +1,32 @@
+CMake Error in CMakeLists.txt:
+  Cannot find source file:
+
+    /home/fracchio/Scrivania/progetto_singolo/component/mqtt_wrapper/object_project.cert.pem
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+  .f95 .f03 .hip .ispc
+
+
+CMake Error in CMakeLists.txt:
+  Cannot find source file:
+
+    /home/fracchio/Scrivania/progetto_singolo/component/mqtt_wrapper/object_project.private.key
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+  .f95 .f03 .hip .ispc
+
+
+CMake Error in CMakeLists.txt:
+  Cannot find source file:
+
+    /home/fracchio/Scrivania/progetto_singolo/component/mqtt_wrapper/root-CA.crt
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+  .f95 .f03 .hip .ispc
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+ninja: error: rebuilding 'build.ninja': subcommand failed

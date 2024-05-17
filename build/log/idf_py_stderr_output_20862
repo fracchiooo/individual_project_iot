@@ -1,0 +1,120 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40377358: _xt_kernel_exc at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:599
+0x40374306: _KernelExceptionVector at ??:?
+[0m
+[0;33m0x4037e04f: _frxt_dispatch at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:452
+[0m
+[0;33m0x40377355: _xt_debugexception at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:483
+0x40374303: _KernelExceptionVector at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:589
+[0m
+[0;33m0x42009007: uart_ll_get_txfifo_len at /home/fracchio/esp/esp-idf/components/hal/esp32s3/include/hal/uart_ll.h:387
+ (inlined by) uart_tx_char at /home/fracchio/esp/esp-idf/components/vfs/vfs_uart.c:165
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x40383360: block_locate_free at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:566 (discriminator 1)
+ (inlined by) tlsf_malloc at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:1005 (discriminator 1)
+0x40382d25: multi_heap_malloc_impl at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:210
+0x403761c1: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:179
+0x4037621c: heap_caps_malloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:202
+0x4037e1c1: pvPortMalloc at /home/fracchio/esp/esp-idf/components/freertos/heap_idf.c:55
+0x4037d3ba: xQueueGenericCreate at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:545
+0x4037d620: xQueueCreateMutex at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:669
+0x42012c9d: nvs::Lock::init() at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_platform.hpp:63
+0x42012cbd: nvs_flash_init_partition at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:129
+0x42012ce2: nvs_flash_init at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:163
+0x42009f9b: wifi_start_connection at /home/fracchio/Scrivania/progetto_singolo/components/wifi_wrapper/include/wifi_wrapper.h:32
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42009007: uart_ll_get_txfifo_len at /home/fracchio/esp/esp-idf/components/hal/esp32s3/include/hal/uart_ll.h:387
+ (inlined by) uart_tx_char at /home/fracchio/esp/esp-idf/components/vfs/vfs_uart.c:165
+[0m
+[0;33m0x40377358: _xt_kernel_exc at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:599
+0x40374306: _KernelExceptionVector at ??:?
+[0m
+[0;33m0x4037e04f: _frxt_dispatch at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:452
+[0m
+[0;33m0x40377355: _xt_debugexception at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:483
+0x40374303: _KernelExceptionVector at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:589
+[0m
+[0;33m0x42009007: uart_ll_get_txfifo_len at /home/fracchio/esp/esp-idf/components/hal/esp32s3/include/hal/uart_ll.h:387
+ (inlined by) uart_tx_char at /home/fracchio/esp/esp-idf/components/vfs/vfs_uart.c:165
+[0m
+[0;33m0x40377358: _xt_kernel_exc at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:599
+0x40374306: _KernelExceptionVector at ??:?
+[0m
+[0;33m0x4037e04f: _frxt_dispatch at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:452
+[0m
+[0;33m0x40377355: _xt_debugexception at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:483
+0x40374303: _KernelExceptionVector at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:589
+[0m
+[0;33m0x42009007: uart_ll_get_txfifo_len at /home/fracchio/esp/esp-idf/components/hal/esp32s3/include/hal/uart_ll.h:387
+ (inlined by) uart_tx_char at /home/fracchio/esp/esp-idf/components/vfs/vfs_uart.c:165
+[0m
+[0;33m0x40377358: _xt_kernel_exc at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:599
+0x40374306: _KernelExceptionVector at ??:?
+[0m
+[0;33m0x4037e04f: _frxt_dispatch at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:452
+[0m
+[0;33m0x40377355: _xt_debugexception at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:483
+0x40374303: _KernelExceptionVector at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:589
+[0m
+[0;33m0x42009007: uart_ll_get_txfifo_len at /home/fracchio/esp/esp-idf/components/hal/esp32s3/include/hal/uart_ll.h:387
+ (inlined by) uart_tx_char at /home/fracchio/esp/esp-idf/components/vfs/vfs_uart.c:165
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x40383360: block_locate_free at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:566 (discriminator 1)
+ (inlined by) tlsf_malloc at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:1005 (discriminator 1)
+0x40382d25: multi_heap_malloc_impl at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:210
+0x403761c1: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:179
+0x4037621c: heap_caps_malloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:202
+0x4037e1c1: pvPortMalloc at /home/fracchio/esp/esp-idf/components/freertos/heap_idf.c:55
+0x4037d3ba: xQueueGenericCreate at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:545
+0x4037d620: xQueueCreateMutex at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:669
+0x42012c9d: nvs::Lock::init() at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_platform.hpp:63
+0x42012cbd: nvs_flash_init_partition at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:129
+0x42012ce2: nvs_flash_init at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:163
+0x42009f9b: wifi_start_connection at /home/fracchio/Scrivania/progetto_singolo/components/wifi_wrapper/include/wifi_wrapper.h:32
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42009007: uart_ll_get_txfifo_len at /home/fracchio/esp/esp-idf/components/hal/esp32s3/include/hal/uart_ll.h:387
+ (inlined by) uart_tx_char at /home/fracchio/esp/esp-idf/components/vfs/vfs_uart.c:165
+[0m
+[0;33m0x40377358: _xt_kernel_exc at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:599
+0x40374306: _KernelExceptionVector at ??:?
+[0m
+[0;33m0x4037e04f: _frxt_dispatch at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:452
+[0m
+[0;33m0x40377355: _xt_debugexception at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:483
+0x40374303: _KernelExceptionVector at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:589
+[0m
+[0;33m0x42009007: uart_ll_get_txfifo_len at /home/fracchio/esp/esp-idf/components/hal/esp32s3/include/hal/uart_ll.h:387
+ (inlined by) uart_tx_char at /home/fracchio/esp/esp-idf/components/vfs/vfs_uart.c:165
+[0m
+[0;33m0x40377358: _xt_kernel_exc at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:599
+0x40374306: _KernelExceptionVector at ??:?
+[0m
+[0;33m0x4037e04f: _frxt_dispatch at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:452
+[0m
+[0;33m0x40377355: _xt_debugexception at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:483
+0x40374303: _KernelExceptionVector at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:589
+[0m
+[0;33m0x42009007: uart_ll_get_txfifo_len at /home/fracchio/esp/esp-idf/components/hal/esp32s3/include/hal/uart_ll.h:387
+ (inlined by) uart_tx_char at /home/fracchio/esp/esp-idf/components/vfs/vfs_uart.c:165
+[0m
+[0;33m0x40377358: _xt_kernel_exc at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:599
+0x40374306: _KernelExceptionVector at ??:?
+[0m
+[0;33m0x4037e04f: _frxt_dispatch at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:452
+[0m
+[0;33m0x40377355: _xt_debugexception at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:483
+0x40374303: _KernelExceptionVector at /home/fracchio/esp/esp-idf/components/xtensa/xtensa_vectors.S:589
+[0m
+[0;33m0x42009007: uart_ll_get_txfifo_len at /home/fracchio/esp/esp-idf/components/hal/esp32s3/include/hal/uart_ll.h:387
+ (inlined by) uart_tx_char at /home/fracchio/esp/esp-idf/components/vfs/vfs_uart.c:165
+[0m
+[0m
