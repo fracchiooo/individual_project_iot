@@ -1,17 +1,18 @@
 #ifndef WIFI_WRAPPER_H
 #define WIFI_WRAPPER_H
 
+
+#include "sdkconfig.h"
 #include "esp_wifi.h"
 #include "esp_event.h"
 #include "esp_netif.h"
 #include "esp_log.h"
 #include "nvs_flash.h"
 
-//#define WIFI_SSID "TIM-69567495"
-//#define WIFI_PASS "AREGx2k5Z5dckDHyNCRucTcN"
 
-#define WIFI_SSID "OnePlus Nord"
-#define WIFI_PASS "123456789"
+#define WIFI_SSID   CONFIG_WIFI_SSID
+#define WIFI_PASS   CONFIG_WIFI_PASS
+
 
 QueueHandle_t publish_queue=NULL;
 

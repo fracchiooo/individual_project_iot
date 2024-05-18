@@ -17,12 +17,9 @@ if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "")
   "isrgrootx1.pem.S"
   "ldgen_libraries"
   "ldgen_libraries.in"
-  "object_project.cert.pem.S"
-  "object_project.private.key.S"
   "progetto_singolo.bin"
   "progetto_singolo.map"
   "project_elf_src_esp32s3.c"
-  "root_CA.crt.S"
   "x509_crt_bundle.S"
   )
 endif()

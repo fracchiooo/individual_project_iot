@@ -1,0 +1,44 @@
+[1/7] Performing build step for 'bootloader'
+[1/1] cd /home/fracchio/Scrivania/progetto_singolo/build/bootloader/esp-idf/esptool_py && /home/fracchio/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/fracchio/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/fracchio/Scrivania/progetto_singolo/build/bootloader/bootloader.bin
+Bootloader binary size 0x5250 bytes. 0x2db0 bytes (36%) free.
+[2/7] No install step for 'bootloader'
+[3/7] Completed 'bootloader'
+[4/7] Generating ld/sections.ld
+FAILED: esp-idf/esp_system/ld/sections.ld /home/fracchio/Scrivania/progetto_singolo/build/esp-idf/esp_system/ld/sections.ld 
+cd /home/fracchio/Scrivania/progetto_singolo/build/esp-idf/esp_system && /home/fracchio/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/fracchio/esp/esp-idf/tools/ldgen/ldgen.py --config /home/fracchio/Scrivania/progetto_singolo/sdkconfig --fragments-list "/home/fracchio/esp/esp-idf/components/xtensa/linker.lf;/home/fracchio/esp/esp-idf/components/esp_ringbuf/linker.lf;/home/fracchio/esp/esp-idf/components/esp_mm/linker.lf;/home/fracchio/esp/esp-idf/components/driver/linker.lf;/home/fracchio/esp/esp-idf/components/driver/gpio/linker.lf;/home/fracchio/esp/esp-idf/components/driver/gptimer/linker.lf;/home/fracchio/esp/esp-idf/components/driver/i2c/linker.lf;/home/fracchio/esp/esp-idf/components/driver/ledc/linker.lf;/home/fracchio/esp/esp-idf/components/driver/mcpwm/linker.lf;/home/fracchio/esp/esp-idf/components/driver/rmt/linker.lf;/home/fracchio/esp/esp-idf/components/driver/twai/linker.lf;/home/fracchio/esp/esp-idf/components/driver/uart/linker.lf;/home/fracchio/esp/esp-idf/components/esp_pm/linker.lf;/home/fracchio/esp/esp-idf/components/spi_flash/linker.lf;/home/fracchio/esp/esp-idf/components/esp_system/linker.lf;/home/fracchio/esp/esp-idf/components/esp_system/app.lf;/home/fracchio/esp/esp-idf/components/esp_rom/linker.lf;/home/fracchio/esp/esp-idf/components/hal/linker.lf;/home/fracchio/esp/esp-idf/components/log/linker.lf;/home/fracchio/esp/esp-idf/components/heap/linker.lf;/home/fracchio/esp/esp-idf/components/soc/linker.lf;/home/fracchio/esp/esp-idf/components/esp_hw_support/linker.lf;/home/fracchio/esp/esp-idf/components/esp_hw_support/dma/linker.lf;/home/fracchio/esp/esp-idf/components/freertos/linker_common.lf;/home/fracchio/esp/esp-idf/components/freertos/linker.lf;/home/fracchio/esp/esp-idf/components/newlib/newlib.lf;/home/fracchio/esp/esp-idf/components/newlib/system_libs.lf;/home/fracchio/esp/esp-idf/components/esp_common/common.lf;/home/fracchio/esp/esp-idf/components/esp_common/soc.lf;/home/fracchio/esp/esp-idf/components/app_trace/linker.lf;/home/fracchio/esp/esp-idf/components/esp_event/linker.lf;/home/fracchio/esp/esp-idf/components/esp_phy/linker.lf;/home/fracchio/esp/esp-idf/components/vfs/linker.lf;/home/fracchio/esp/esp-idf/components/lwip/linker.lf;/home/fracchio/esp/esp-idf/components/esp_netif/linker.lf;/home/fracchio/esp/esp-idf/components/wpa_supplicant/linker.lf;/home/fracchio/esp/esp-idf/components/esp_wifi/linker.lf;/home/fracchio/esp/esp-idf/components/esp_adc/linker.lf;/home/fracchio/esp/esp-idf/components/esp_eth/linker.lf;/home/fracchio/esp/esp-idf/components/esp_gdbstub/linker.lf;/home/fracchio/esp/esp-idf/components/esp_psram/linker.lf;/home/fracchio/esp/esp-idf/components/esp_lcd/linker.lf;/home/fracchio/esp/esp-idf/components/espcoredump/linker.lf;/home/fracchio/esp/esp-idf/components/ieee802154/linker.lf;/home/fracchio/esp/esp-idf/components/openthread/linker.lf" --input /home/fracchio/esp/esp-idf/components/esp_system/ld/esp32s3/sections.ld.in --output /home/fracchio/Scrivania/progetto_singolo/build/esp-idf/esp_system/ld/sections.ld --kconfig /home/fracchio/esp/esp-idf/Kconfig --env-file /home/fracchio/Scrivania/progetto_singolo/build/config.env --libraries-file /home/fracchio/Scrivania/progetto_singolo/build/ldgen_libraries --objdump /home/fracchio/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32s3-elf-objdump
+Traceback (most recent call last):
+  File "/home/fracchio/esp/esp-idf/tools/ldgen/ldgen.py", line 175, in <module>
+    main()
+  File "/home/fracchio/esp/esp-idf/tools/ldgen/ldgen.py", line 139, in main
+    sdkconfig = SDKConfig(kconfig_file, config_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fracchio/esp/esp-idf/tools/ldgen/ldgen/sdkconfig.py", line 14, in __init__
+    self.config = kconfiglib.Kconfig(kconfig_file)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fracchio/.espressif/python_env/idf5.2_py3.11_env/lib64/python3.11/site-packages/kconfiglib.py", line 947, in __init__
+    self._init(filename, warn, warn_to_stderr, encoding)
+  File "/home/fracchio/.espressif/python_env/idf5.2_py3.11_env/lib64/python3.11/site-packages/kconfiglib.py", line 1085, in _init
+    self._parse_block(None, self.top_node, self.top_node).next = None
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fracchio/.espressif/python_env/idf5.2_py3.11_env/lib64/python3.11/site-packages/kconfiglib.py", line 2989, in _parse_block
+    prev = self._parse_block(None, parent, prev)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fracchio/.espressif/python_env/idf5.2_py3.11_env/lib64/python3.11/site-packages/kconfiglib.py", line 2989, in _parse_block
+    prev = self._parse_block(None, parent, prev)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fracchio/.espressif/python_env/idf5.2_py3.11_env/lib64/python3.11/site-packages/kconfiglib.py", line 3028, in _parse_block
+    self._parse_block(_T_ENDMENU, node, node)
+  File "/home/fracchio/.espressif/python_env/idf5.2_py3.11_env/lib64/python3.11/site-packages/kconfiglib.py", line 2941, in _parse_block
+    self._parse_props(node)
+  File "/home/fracchio/.espressif/python_env/idf5.2_py3.11_env/lib64/python3.11/site-packages/kconfiglib.py", line 3141, in _parse_props
+    while self._next_line():
+          ^^^^^^^^^^^^^^^^^
+  File "/home/fracchio/.espressif/python_env/idf5.2_py3.11_env/lib64/python3.11/site-packages/kconfiglib.py", line 2236, in _next_line
+    self._tokens = self._tokenize(line)
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/fracchio/.espressif/python_env/idf5.2_py3.11_env/lib64/python3.11/site-packages/kconfiglib.py", line 2525, in _tokenize
+    self._parse_error("unknown tokens in line")
+  File "/home/fracchio/.espressif/python_env/idf5.2_py3.11_env/lib64/python3.11/site-packages/kconfiglib.py", line 3879, in _parse_error
+    raise KconfigError("{}error: couldn't parse '{}': {}".format(
+kconfiglib.KconfigError: /home/fracchio/Scrivania/progetto_singolo/main/Kconfig.projbuild:5: error: couldn't parse 'default 1024,': unknown tokens in line
+ninja: build stopped: subcommand failed.

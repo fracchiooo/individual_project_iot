@@ -1,16 +1,10 @@
 #include <string.h>
 #include <stdio.h>
 #include "sdkconfig.h"
-#include "esp_log.h"
 #include "freertos/FreeRTOS.h"
-#include "freertos/task.h"
-#include "freertos/semphr.h"
-#include "esp_adc/adc_continuous.h"
 #include "esp_adc/adc_cali.h"
-#include "esp_adc/adc_cali_scheme.h"
 #include "read_continuous.h"
 #include "fft_wrapper.h"
-#include <math.h>
 #include "wifi_wrapper.h"
 #include "mqtt_wrapper.h"
 #include "freertos/queue.h"
@@ -31,35 +25,12 @@ float wind[READ_LEN];
 float y_cf[READ_LEN * 2];
 
 
-void print_array_int(uint32_t* array, size_t size){
-  printf("[");
-  for(int i=0;i<size; i++){
-      printf("%ld, ", array[i]);
-  }
-  printf("]");
-  printf("\n");
-}
-
-
-
-void print_array_double(double* array, size_t size){
-  for(int i=0;i<size; i++){
-      printf("%f - ", array[i]);
-  }
-  printf("\n");
-}
-
-
-
-
-
-
-
 
 void app_main(void)
 {
      
   queue = xQueueCreate(5, sizeof(bool));
+  wifi_start_connection(queue);
   
   adc_cali_handle_t adc1_cali_chan0_handle = NULL; //ADC calibration handle
     bool do_calibration1_chan0 = adc_calibration_init(ADC_UNIT, CHANNEL, ADC_ATTEN, &adc1_cali_chan0_handle, ADC_BIT_WIDTH);
@@ -92,8 +63,7 @@ void app_main(void)
   adc_calibration_deinit(adc1_cali_chan0_handle); // deinit of the calibration
 
   printf("the mean is %ld\n", mean);
-  
-  wifi_start_connection(queue);
+
 
     // connecting the esp to the broker
   esp_mqtt_client_handle_t client= mqtt_app_start("mqtts://cb8e2462247645a3823484e7851a5d68.s1.eu.hivemq.cloud", "object1", "Progettoiot1", queue);

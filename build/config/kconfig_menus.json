@@ -5989,6 +5989,26 @@
                 "range": null,
                 "title": "Read Length",
                 "type": "int"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": null,
+                "id": "WIFI_SSID",
+                "name": "WIFI_SSID",
+                "range": null,
+                "title": "ID WiFi",
+                "type": "string"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": null,
+                "id": "WIFI_PASS",
+                "name": "WIFI_PASS",
+                "range": null,
+                "title": "WiFi password",
+                "type": "string"
             }
         ],
         "depends_on": null,

@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "progetto_singolo",
-    "project_version":    "1",
+    "project_version":    "da97617-dirty",
     "project_path":       "/home/fracchio/Scrivania/progetto_singolo",
     "idf_path":           "/home/fracchio/esp/esp-idf",
     "build_dir":          "/home/fracchio/Scrivania/progetto_singolo/build",
@@ -680,10 +680,10 @@
             "dir": "/home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper",
             "type": "LIBRARY",
             "lib": "__idf_fft_wrapper",
-            "reqs": [],
-            "priv_reqs": [ "espressif__esp-dsp" ],
+            "reqs": [ "espressif__esp-dsp" ],
+            "priv_reqs": [],
             "managed_reqs": [],
-            "managed_priv_reqs": [ "espressif__esp-dsp" ],
+            "managed_priv_reqs": [],
             "file": "/home/fracchio/Scrivania/progetto_singolo/build/esp-idf/fft_wrapper/libfft_wrapper.a",
             "sources": [ "/home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/fft_wrapper.c" ],
             "include_dirs": [ "include" ]
@@ -2214,10 +2214,10 @@
             "prefix": "idf",
             "dir": "/home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper",
             "lib": "__idf_fft_wrapper",
-            "reqs": [],
-            "priv_reqs": [ "espressif__esp-dsp" ],
+            "reqs": [ "espressif__esp-dsp" ],
+            "priv_reqs": [],
             "managed_reqs": [],
-            "managed_priv_reqs": [ "espressif__esp-dsp" ],
+            "managed_priv_reqs": [],
             "include_dirs": [ "include" ]
         },
         "mqtt_wrapper": {

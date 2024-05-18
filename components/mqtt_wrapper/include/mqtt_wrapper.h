@@ -3,15 +3,6 @@
 #include "mqtt_client.h"
 static const char *TAG_mqtt = "mqtt_example";
 
-
-/*extern const uint8_t client_cert_start[] asm("_binary_object_project_cert_pem_start");
-extern const uint8_t client_cert_end[] asm("_binary_object_project_cert_pem_end");
-extern const uint8_t client_key_start[] asm("_binary_object_project_private_key_start");
-extern const uint8_t client_key_end[] asm("_binary_object_project_private_key_end");
-extern const uint8_t server_cert_start[] asm("_binary_root_CA_crt_start");
-extern const uint8_t server_cert_end[] asm("_binary_root_CA_crt_end");
-*/
-
 extern const uint8_t server_cert_start[] asm("_binary_isrgrootx1_pem_start");
 extern const uint8_t server_cert_end[] asm("_binary_isrgrootx1_pem_end");
 

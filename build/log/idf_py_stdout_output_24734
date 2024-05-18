@@ -1,0 +1,10 @@
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32s3
+Manifest files have changed, solving dependencies.
+...Updating lock file at /home/fracchio/Scrivania/progetto_singolo/dependencies.lock
+Processing 2 dependencies:
+[1/2] espressif/esp-dsp (1.4.12)
+[2/2] idf (5.2.1)
+-- Configuring incomplete, errors occurred!
+FAILED: build.ninja 
+/usr/bin/cmake --regenerate-during-build -S/home/fracchio/Scrivania/progetto_singolo -B/home/fracchio/Scrivania/progetto_singolo/build

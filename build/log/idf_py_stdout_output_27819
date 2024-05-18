@@ -1,124 +1,116 @@
-��¢bj�r������bj�r�ʪ���bj�r����ʚb�r������b�r����b�r������b�r¢����b�r²����b�5
-
-
-[0;33mW (1347) main: Signal x1 in log scale[0m
-[0;32mI (1357) view: Data min[30] = -63.578640, Data max[78] = 21.200087[0m
- ________________________________________________________________
-0                                                                |
-1                   |                                            |
-2|                  |                                            |
-3|                  |                                            |
-4|                  |                                            |
-5|                   |                                           |
-6| || |||||||||  ||| |  ||| |||   |  |||||  |  ||| ||||| |   ||| |
-7 |  |  |      ||  | |||   ||||||| || | | || ||  |||    | ||| | ||
-8       |      ||           |      |      |   |   |        |     |
-9                                                                |
- 0123456789012345678901234567890123456789012345678901234567890123
-[0;32mI (1427) view: Plot: Length=256, min=-60.000000, max=40.000000[0m
-[0;33mW (1437) main: Signal x1 in absolute scale[0m
-[0;32mI (1447) view: Data min[30] = 0.000000, Data max[78] = 131.828339[0m
- ________________________________________________________________
-0|                  |                                            |
-1|                  |                                            |
-2|                  |                                            |
-3|                  |                                            |
-4|                  |                                            |
-5|                  |                                            |
-6|                  |                                            |
-7|                  |                                            |
-8|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-9                                                                |
- 0123456789012345678901234567890123456789012345678901234567890123
-[0;32mI (1517) view: Plot: Length=256, min=0.000000, max=2.000000[0m
-la max frequency è: 12695.261719
-max magnitude 131.828339
-indice array 78.000000
-[0;32mI (1537) main_task: Returned from app_main()[0m
-ESP-ROM:esp32s3-20210327
-Build:Mar 27 2021
-rst:0x1 (POWERON),boot:0xb (SPI_FAST_FLASH_BOOT)
-SPIWP:0xee
-mode:DIO, clock div:1
-load:0x3fce3810,len:0x178c
-load:0x403c9700,len:0x4
-load:0x403c9704,len:0xcbc
-load:0x403cc700,len:0x2da0
-entry 0x403c9914
-[0;32mI (27) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
-[0;32mI (27) boot: compile time May 14 2024 00:03:09[0m
-[0;32mI (27) boot: Multicore bootloader[0m
-[0;32mI (30) boot: chip revision: v0.2[0m
-[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
-[0;32mI (39) boot.esp32s3: SPI Mode       : DIO[0m
-[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
-[0;32mI (48) boot: Enabling RNG early entropy source...[0m
-[0;32mI (54) boot: Partition Table:[0m
-[0;32mI (57) boot: ## Label            Usage          Type ST Offset   Length[0m
-[0;32mI (65) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
-[0;32mI (72) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
-[0;32mI (80) boot:  2 factory          factory app      00 00 00010000 00100000[0m
-[0;32mI (87) boot: End of partition table[0m
-[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=137a8h ( 79784) map[0m
-[0;32mI (114) esp_image: segment 1: paddr=000237d0 vaddr=3fc93700 size=029a0h ( 10656) load[0m
-[0;32mI (117) esp_image: segment 2: paddr=00026178 vaddr=40374000 size=09ea0h ( 40608) load[0m
-[0;32mI (129) esp_image: segment 3: paddr=00030020 vaddr=42000020 size=1ee44h (126532) map[0m
-[0;32mI (152) esp_image: segment 4: paddr=0004ee6c vaddr=4037dea0 size=057f0h ( 22512) load[0m
-[0;32mI (163) boot: Loaded app from partition at offset 0x10000[0m
-[0;32mI (164) boot: Disabling RNG early entropy source...[0m
-[0;32mI (175) cpu_start: Multicore app[0m
-[0;32mI (185) cpu_start: Pro cpu start user code[0m
-[0;32mI (185) cpu_start: cpu freq: 160000000 Hz[0m
-[0;32mI (185) cpu_start: Application information:[0m
-[0;32mI (188) cpu_start: Project name:     progetto_singolo[0m
-[0;32mI (194) cpu_start: App version:      1[0m
-[0;32mI (198) cpu_start: Compile time:     May 14 2024 00:02:58[0m
-[0;32mI (204) cpu_start: ELF file SHA256:  73860cef6...[0m
-[0;32mI (210) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
-[0;32mI (215) cpu_start: Min chip rev:     v0.0[0m
-[0;32mI (220) cpu_start: Max chip rev:     v0.99 [0m
-[0;32mI (225) cpu_start: Chip rev:         v0.2[0m
-[0;32mI (230) heap_init: Initializing. RAM available for dynamic allocation:[0m
-[0;32mI (237) heap_init: At 3FC9A9B8 len 0004ED58 (315 KiB): RAM[0m
-[0;32mI (243) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
-[0;32mI (249) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
-[0;32mI (255) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
-[0;32mI (262) spi_flash: detected chip: gd[0m
-[0;32mI (266) spi_flash: flash io: dio[0m
-[0;33mW (269) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
-[0;32mI (283) sleep: Configure to isolate all GPIO pins in sleep state[0m
-[0;32mI (290) sleep: Enable automatic switching of GPIO sleep configuration[0m
-[0;32mI (297) main_task: Started on CPU0[0m
-[0;32mI (307) main_task: Calling app_main()[0m
- sampling frequence is: 83333 and bit width is: 12
-
-[0;32mI (307) gpio: GPIO[1]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
- err esp timeout
-[0;32mI (427) main: Start Example.[0m
-[0.449768, 0.449768, 0.856216, 0.876602, 0.730077, 0.446583, 0.119131, -0.215965, -0.451042, -0.556795, -0.501371, -0.278398, 0.035039, 0.375232, 0.651081, 0.855579, 0.867683, 0.758108, 0.482896, 0.152896, -0.205772, -0.416641, -0.541506, -0.514112, -0.317259, -0.031853, 0.331274, 0.627510, 0.831371, 0.907181, 0.777857, 0.528764, 0.227432, -0.126776, -0.399440, -0.530039, -0.522394, -0.364402, -0.062432, 0.287317, 0.610309, 0.807162, 0.891892, 0.804614, 0.562529, 0.240174, -0.087915, -0.374595, -0.515386, -0.551062, -0.386699, -0.102568, 0.235077, 0.561255, 0.794421, 0.870869, 0.830096, 0.607123, 0.307703, -0.026120, -0.334459, -0.498185, -0.538958, -0.418552, -0.137606, 0.186660, 0.508378, 0.761293, 0.888706, 0.865135, 0.654266, 0.356120, 0.006371, -0.283494, -0.513475, -0.558707, -0.431293, -0.200676, 0.136332, 0.638977, 0.896988, 0.943494, 0.868320, 0.680386, 0.405174, 0.071351, -0.261834, -0.468880, -0.547876, -0.518571, -0.265656, 0.277123, 0.509652, 0.707780, 0.856216, 0.858127, 0.695039, 0.450405, 0.106390, -0.203861, -0.514749, -0.314073, -0.920560, -0.330637, 0.061795, 0.382876, 0.670830, 0.854305, 0.873417, 0.707143, 0.496274, 0.145251, -0.226158, -0.730714, -0.551062, -0.505193, -0.276487, -0.022934, 0.332548, 0.637066, 0.842838, 0.888706, 0.800154, 0.523031, 0.203861, -0.131236, -0.410270, -0.522394, -0.512201, -0.352934, -0.042683, 0.277123, 0.611583, 0.809710, 0.911004, 0.810984, 0.582915, 0.273301, -0.080270, -0.364402, -0.535135, -0.533861, -0.402626, -0.107027, 0.242085, 0.550425, 0.796969, 0.890618, 0.819266, 0.619865, 0.294961, -0.024209, -0.322355, -0.540869, -0.533861, -0.417278, -0.154170, 0.177741, 0.512838, 0.761930, 0.885521, 0.842838, 0.662548, 0.356757, 0.005096, -0.307703, -0.480348, -0.542143, -0.433842, -0.196853, 0.128687, 0.470791, 0.730714, 0.883610, 0.860039, 0.690579, 0.406448, 0.059247, -0.267568, -0.484807, -0.554884, -0.449768, -0.235077, 0.087278, 0.421100, 0.719247, 0.855579, 0.881699, 0.724981, 0.456776, 0.113398, -0.211506, -0.442761, -0.545965, -0.493089, -0.255463, 0.036313, 0.376506, 0.682934, 0.863224, 0.868320, 0.758745, 0.493089, 0.161815, -0.178378, -0.424286, -0.561255, -0.508378, -0.326815, -0.032490, 0.300695, 0.630058, 0.847297, 0.905907, 0.785502, 0.524305, 0.200676, -0.135695, -0.423649, -0.515386, -0.523031, -0.352934, -0.087915, 0.263745, 0.614768, 0.806525, 0.911004, 0.835830, 0.588649, 0.260560, -0.087915, -0.352934, -0.531313, -0.546602, -0.372683, -0.108938, 0.226795, 0.558069, 0.794421, 0.901448, 0.841564, 0.644073, 0.315984, -0.035676, -0.325541, -0.509015, -0.540232, -0.418552, -0.194942, 0.173282, 0.505193, 0.771486, 0.875965, 0.851757, 0.644710, 0.349112, 0.043957, -0.307703, -0.484807, -0.532587, -0.446583, -0.196216, 0.170734, 0.451679, 0.745367, 0.889981, 0.864498, 0.695039, 0.395618, 0.068803, -0.260560, -0.474614, -0.551062, -0.468243, -0.258649, 0.080907, 0.425560, 0.711602, 0.879151, 0.882336, 0.724344, 0.458050, 0.110212, -0.210869, -0.454228, -0.558070, -0.490541, -0.273301, 0.035039, 0.366950, 0.669556, 0.866409, 0.875965, 0.756834, 0.482896, 0.163089, -0.161815, -0.433842, -0.539595, -0.492452, -0.328089, -0.022934, 0.326178, 0.611583, 0.811622, 0.896988, 0.798243, 0.538957, 0.203861, -0.138880, -0.399440, -0.551062, -0.506467, -0.365039, -0.021023, 0.280309, 0.592471, 0.805251, 0.885521, 0.790598, 0.584189, 0.253552, -0.072626, -0.375869, -0.524942, -0.521757, -0.391795, -0.103205, 0.233166, 0.546602, 0.790598, 0.876602, 0.828185, 0.613494, 0.311525, -0.021023, -0.331274, -0.498185, -0.514112, -0.445946, -0.155444, 0.160540, 0.516023, 0.747278, 0.890618, 0.851120, 0.626873, 0.358031, 0.018475, -0.283494, -0.493089, -0.548514, -0.408996, -0.202587, 0.162452, 0.470791, 0.740907, 0.863224, 0.858127, 0.669556, 0.406448, 0.066255, -0.249730, -0.470154, -0.590560, -0.480348, -0.235714, 0.089189, 0.390521, 0.685483, 0.853031, 0.880425, 0.731351, 0.445309, 0.117857, -0.230618, -0.441487, -0.547876, -0.491815, -0.283494, 0.028031, 0.365676, 0.654903, 0.860676, 0.882336, 0.770212, 0.493089, 0.177741, -0.157992, -0.427471, -0.558070, -0.507741, -0.320444, -0.029305, 0.304517, 0.633880, 0.832645, 0.889981, 0.789961, 0.540232, 0.211506, -0.117857, -0.405811, -0.523031, -0.482896, -0.350386, -0.075811, 0.274575, 0.592471, 0.809710, 0.855579, 0.824363, 0.579093, 0.265656, -0.094286, -0.353571, -0.516023, -0.507741, -0.402626, -0.109575, 0.226795, 0.555521, 0.794421, 0.889981, 0.834556, 0.638977, 0.306429, -0.019112, -0.344015, -0.509015, -0.533861, -0.430656, -0.178378, 0.171371, 0.512838, 0.760656, 0.871506, 0.811622, 0.652355, 0.359942, 0.012104, -0.273301, -0.496911, -0.554884, -0.423649, -0.202587, 0.131873, 0.472066, 0.709691, 0.876602, 0.862587, 0.695039, 0.409633, 0.050965, -0.236988, -0.470154, -0.545965, -0.489904, -0.244633, 0.071351, 0.398803, 0.686120, 0.873417, 0.854305, 0.698861, 0.444672, 0.114035, -0.219788, -0.439575, -0.555521, -0.498185, -0.30374008, 0.849846, 0.884884, 0.736448, 0.493089, 0.155444, -0.159904, -0.427471, -0.532587, -0.508378, -0.326178, -0.010193, 0.314073, 0.619228, 0.858127, 0.895077, 0.819266, 0.521120, 0.219151, -0.125502, -0.399440, -0.540232, -0.500097, -0.352934, -0.092375, 0.272664, 0.581641, 0.804614, 0.895077, 0.802066, 0.577181, 0.277123, -0.087278, -0.368861, -0.551062, -0.529402, -0.398166, -0.101293, 0.222973, 0.554247, 0.792510, 0.881699, 0.805251, 0.611583, 0.318533, -0.044595, -0.331274, -0.521120, -0.565714, -0.425560, -0.154170, 0.176467, 0.507741, 0.753649, 0.891892, 0.834556, 0.653629, 0.374595, 0.024845, -0.303243, -0.508378, -0.556795, -0.461236, -0.186023, 0.130598, 0.477162, 0.726892, 0.867683, 0.879151, 0.695039, 0.405811, 0.063069, -0.235077, -0.456776, -0.551062, -0.441487, -0.229344, 0.048417, 0.416004, 0.703957, 0.856216, 0.874691, 0.707780, 0.445946, 0.119768, -0.205772, -0.442761, -0.540232, -0.489904, -0.291776, 0.019112, 0.376506, 0.651081, 0.849846, 0.878513, 0.756834, 0.484170, 0.152896, -0.168822, -0.423012, -0.542143, -0.503282, -0.324266, -0.031853, 0.310251, 0.630058, 0.817355, 0.899537, 0.779131, 0.546602, 0.212780, -0.098108, -0.384151, -0.518571, -0.540869, -0.368224, -0.073263, 0.284768, 0.609672, 0.830096, 0.902085, 0.809073, 0.565714, 0.267568, -0.087278, -0.366950, -0.531313, -0.540869, -0.374595, -0.103205, 0.211506, 0.541506, 0.793147, 0.882336, 0.837741, 0.631332, 0.315347, -0.028668, -0.321081, -0.529402, -0.558070, -0.419826, -0.177104, 0.176467, 0.514112, 0.746004, 0.888706, 0.847297, 0.676564, 0.371409, 0.033764, -0.303243, -0.495000,9-88, 0.891892, 0.847297, 0.747278, 0.423012, 0.089189, -0.241448, -0.456776, -0.554884, -0.484807, -0.242722, 0.082181, 0.382876, 0.681660, 0.854305, 0.867683, 0.738359, 0.458050, 0.106390, -0.209595, -0.441487, -0.553610, -0.489904, -0.286680, 0.019112,.0891255, 0.777857, 0.552336, 0.224884, -0.117857, -0.381602, -0.533861, -0.535772, -0.372683, -0.080270, 0.227432, 0.595656, 0.834556, 0.899537, 0.810984, 0.570811, 0.290502, -0.077722, -0.370135, -0.537683, -0.528764, -0.398803, -0.115946, 0.222973, 0.554247, 0.774672, 0.889981, 0.835830, 0.621776, 0.315347, -0.014653, -0.339556, -0.517934, -0.537683, -0.415367, -0.172008, 0.154170, 0..0293050, -0.472066, -0.546602, -0.454865, -0.219788, 0.122954, 0.461873, 0.731351, 0.876602, 0.872143, 0.691853, 0.432567, 0.078996, -0.258012, -0.503919, -0.565077, -0.480985, -0.261834, 0.103205, 0.405174, 0.689305, 0.860676, 0.872143, 0.729440, 0.460598, 0.137606, -0.221062, -0.441487, -0.551062, -0.498185, -0.286680, 0.031216, 0.357394, 0.665734, 0.847934, 0.888069, 0.752374, 0.503919, 0.187934, -0.186023, -0.423649, -0.529402, -0.517934, -0.317896, -0.043320, 0.322992, 0.594382, 0.874691, 0.876602, 0.796969, 0.546602, 0.211506, -0.117857, -0.406448, -0.539595, -0.530676, -0.367587, -0.064981, 0.272664, 0.585463, 0.798243, 0.896988, 0.814170, 0.585463, 0.270753, -0.097471, -0.352934, -0.525579, -0.540869, -0.364402, -0.122954, 0.222973, 0.527490, 0.793147, 0.885521, 0.844112, 0.623050, 0.323629, -0.006371, -0.311525, -0.501371, -0.518571, -0.434479, -0.161811,78, 0.377780, 0.035039, -0.284768, -0.493089, -0.540869, -0.416641, -0.226158, 0.124865, 0.453591, 0.721158, 0.883610, 0.838378, 0.707780, 0.427471, 0.080907, -0.276487, -0.470154, -0.556795, -0.466332, -0.249093, 0.070077, 0.401351, 0.711602, 0.865135, 0.876602, 0.731988, 0.468880, 0.119768, -0.208958, -0.424286, -0.542143, -0.493089, -0.284131, 0.035039, 0.367587, 0.645347, 0.842201, 0.895714, 0.751737, 0.509652, 0.179015, -0.138880, -0.415367, -0.533861, -0.503919, -0.328089, -0.022934, 0.303243, 0.647896, 0.836467, 0.885521, 0.785502, 0.548513, 0.218513, -0.107027, -0.405811, -0.526216, -0.508378, -0.359942, -0.075811, 0.272664, 0.585463, 0.767664, 0.893803, 0.835830, 0.558069, 0.268205, -0.070714, -0.352297, -0.539595, -0.549788, -0.405811, -0.133147, 0.219151, 0.547876, 0.774035, 0.896988, 0.840927, 0.618591, 0.306429, -0.017838, -0.344015, -0.506467, -0.558070, -0.418552, -0.170734, 0.178378, 0.472066, 0.736448, 0.888069, 0.854305, 0.670830, 0.370772, 0.028031, -0.290502, -0.475251, -0.539595, -0.463147, -0.202587, 0.098108, 0.447857, 0.739633, 0.864498, 0.884247, 0.700772, 0.424923, 0.063069, -0.252915, -0.458050, -0.545965, -0.473977, -0.238900, 0.063069, 0.397529, 0.685483, 0.883610, 0.874691, 0.726892, 0.467606, 0.108938, -0.203861, -0.442124, -0.538958, -0.489904, -0.310888, 0.000637, 0.342104, 0.645347, 0.844112, 0.907181, 0.763205, 0.516023, 0.176467, -0.172008, -0.418552, -0.565077, -0.516023, -0.331274, -0.042046, 0.315347, 0.602664, 0.819266, 0.895077, 0.792510, 0.545328, 0.236351, -0.136969, -0.394981, -0.533861, -0.520483, -0.374595, -0.117857, 0.06.803340, 0.572722, 0.268205, -0.064981, -0.368224, -0.530676, -0.554884, -0.384151, -0.143977, 0.205772, 0.555521, 0.774035, 0.891892, 0.829459, 0.621776, 0.323629, -0.010193, -0.328726, -0.490541, -0.537683, -0.419826, -0.175193, 0.179015, 0.496274, 0.760019, 0.906544, 0.862587, 0.668919, 0.380328, 0.023571, -0.273301, -0.484170, -0.556795, -0.470154, -0.221699, 0.128050, 0.445946, 0.723069, 0.895077, 0.854305, 0.702683, 0.417278, 0.095560, -0.241448, -0.461236, -0.547876, -0.475251, -0.222973, 0.060521, 0.397529, 0.696950, 0.865772, 0.889981, 0.705869, 0.463147, 0.128050, -0.200676, -0.425560, -0.573996, -0.527490, -0.310251, ]
-
-
-[0;33mW (1347) main: Signal x1 in log scale[0m
-[0;32mI (1357) view: Data min[235] = -56.380138, Data max[78] = 21.196445[0m
- ________________________________________________________________
-0                                                                |
-1                   |                                            |
-2|                  |                                            |
-3|                  |                                            |
-4|                  |                                            |
-5|                 | |                                           |
-6| ||||||| ||||||||| |||||||||||||||||  ||||| ||||||||||| ||||||||
-7 |      |||  |                      |
- 0123456789012345678901234567890123456789012345678901234567890123
-[0;32mI (1427) view: Plot: Length=256, min=-60.000000, max=40.000000[0m
-[0;33mW (1437) main: Signal x1 in absolute scale[0m
-[0;32mI (1437) view: Data min[235                                   |
-5|                  |                                            |
-6|                  |                                            |
-7|                  |                                            |
-8|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-9               (1517) view: Plot: Length=256, min=0.000000, max=2.000000[0m
-la max frequency è: 12695.261719
-max magnitude 131.717819
-indice array 78.000000
-[0;32mI (1537) main_task: Returned from app_main()[0m
+[1/12] Performing build step for 'bootloader'
+[1/1] cd /home/fracchio/Scrivania/progetto_singolo/build/bootloader/esp-idf/esptool_py && /home/fracchio/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/fracchio/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/fracchio/Scrivania/progetto_singolo/build/bootloader/bootloader.bin
+Bootloader binary size 0x5250 bytes. 0x2db0 bytes (36%) free.
+[2/12] No install step for 'bootloader'
+[3/12] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/progetto_singolo.c.obj
+FAILED: esp-idf/main/CMakeFiles/__idf_main.dir/progetto_singolo.c.obj 
+/home/fracchio/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -DESP_PLATFORM -DIDF_VER=\"v5.2.1-dirty\" -DMBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -I/home/fracchio/Scrivania/progetto_singolo/build/config -I/home/fracchio/Scrivania/progetto_singolo/main -I/home/fracchio/esp/esp-idf/components/newlib/platform_include -I/home/fracchio/esp/esp-idf/components/freertos/config/include -I/home/fracchio/esp/esp-idf/components/freertos/config/include/freertos -I/home/fracchio/esp/esp-idf/components/freertos/config/xtensa/include -I/home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos -I/home/fracchio/esp/esp-idf/components/freertos/esp_additions/include -I/home/fracchio/esp/esp-idf/components/esp_hw_support/include -I/home/fracchio/esp/esp-idf/components/esp_hw_support/include/soc -I/home/fracchio/esp/esp-idf/components/esp_hw_support/include/soc/esp32s3 -I/home/fracchio/esp/esp-idf/components/esp_hw_support/port/esp32s3/. -I/home/fracchio/esp/esp-idf/components/heap/include -I/home/fracchio/esp/esp-idf/components/log/include -I/home/fracchio/esp/esp-idf/components/soc/include -I/home/fracchio/esp/esp-idf/components/soc/esp32s3 -I/home/fracchio/esp/esp-idf/components/soc/esp32s3/include -I/home/fracchio/esp/esp-idf/components/hal/platform_port/include -I/home/fracchio/esp/esp-idf/components/hal/esp32s3/include -I/home/fracchio/esp/esp-idf/components/hal/include -I/home/fracchio/esp/esp-idf/components/esp_rom/include -I/home/fracchio/esp/esp-idf/components/esp_rom/include/esp32s3 -I/home/fracchio/esp/esp-idf/components/esp_rom/esp32s3 -I/home/fracchio/esp/esp-idf/components/esp_common/include -I/home/fracchio/esp/esp-idf/components/esp_system/include -I/home/fracchio/esp/esp-idf/components/esp_system/port/soc -I/home/fracchio/esp/esp-idf/components/esp_system/port/include/private -I/home/fracchio/esp/esp-idf/components/xtensa/esp32s3/include -I/home/fracchio/esp/esp-idf/components/xtensa/include -I/home/fracchio/esp/esp-idf/components/xtensa/deprecated_include -I/home/fracchio/esp/esp-idf/components/lwip/include -I/home/fracchio/esp/esp-idf/components/lwip/include/apps -I/home/fracchio/esp/esp-idf/components/lwip/include/apps/sntp -I/home/fracchio/esp/esp-idf/components/lwip/lwip/src/include -I/home/fracchio/esp/esp-idf/components/lwip/port/include -I/home/fracchio/esp/esp-idf/components/lwip/port/freertos/include -I/home/fracchio/esp/esp-idf/components/lwip/port/esp32xx/include -I/home/fracchio/esp/esp-idf/components/lwip/port/esp32xx/include/arch -I/home/fracchio/esp/esp-idf/components/lwip/port/esp32xx/include/sys -I/home/fracchio/esp/esp-idf/components/esp_adc/include -I/home/fracchio/esp/esp-idf/components/esp_adc/interface -I/home/fracchio/esp/esp-idf/components/esp_adc/esp32s3/include -I/home/fracchio/esp/esp-idf/components/esp_adc/deprecated/include -I/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include -I/home/fracchio/esp/esp-idf/components/esp_timer/include -I/home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/dotprod/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/support/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/support/mem/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/windows/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/windows/hann/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/windows/blackman/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/windows/blackman_harris/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/windows/blackman_nuttall/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/windows/nuttall/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/windows/flat_top/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/iir/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/fir/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/math/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/math/add/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/math/sub/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/math/mul/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/math/addc/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/math/mulc/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/math/sqrt/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/matrix/mul/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/matrix/add/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/matrix/addc/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/matrix/mulc/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/matrix/sub/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/matrix/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/fft/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/dct/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/conv/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/common/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/matrix/mul/test/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/kalman/ekf/include -I/home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp/modules/kalman/ekf_imu13states/include -I/home/fracchio/Scrivania/progetto_singolo/components/mqtt_wrapper/include -I/home/fracchio/esp/esp-idf/components/mqtt/esp-mqtt/include -I/home/fracchio/esp/esp-idf/components/esp_event/include -I/home/fracchio/esp/esp-idf/components/tcp_transport/include -I/home/fracchio/esp/esp-idf/components/esp-tls -I/home/fracchio/esp/esp-idf/components/esp-tls/esp-tls-crypto -I/home/fracchio/esp/esp-idf/components/mbedtls/port/include -I/home/fracchio/esp/esp-idf/components/mbedtls/mbedtls/include -I/home/fracchio/esp/esp-idf/components/mbedtls/mbedtls/library -I/home/fracchio/esp/esp-idf/components/mbedtls/esp_crt_bundle/include -I/home/fracchio/esp/esp-idf/components/mbedtls/mbedtls/3rdparty/everest/include -I/home/fracchio/esp/esp-idf/components/mbedtls/mbedtls/3rdparty/p256-m -I/home/fracchio/esp/esp-idf/components/mbedtls/mbedtls/3rdparty/p256-m/p256-m -I/home/fracchio/Scrivania/progetto_singolo/components/wifi_wrapper/include -I/home/fracchio/esp/esp-idf/components/esp_wifi/include -I/home/fracchio/esp/esp-idf/components/esp_wifi/wifi_apps/include -I/home/fracchio/esp/esp-idf/components/esp_phy/include -I/home/fracchio/esp/esp-idf/components/esp_phy/esp32s3/include -I/home/fracchio/esp/esp-idf/components/esp_netif/include -I/home/fracchio/esp/esp-idf/components/nvs_flash/include -I/home/fracchio/esp/esp-idf/components/spi_flash/include -I/home/fracchio/esp/esp-idf/components/esp_partition/include -mlongcalls  -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap -fmacro-prefix-map=/home/fracchio/Scrivania/progetto_singolo=. -fmacro-prefix-map=/home/fracchio/esp/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/progetto_singolo.c.obj -MF esp-idf/main/CMakeFiles/__idf_main.dir/progetto_singolo.c.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/progetto_singolo.c.obj -c /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c
+In file included from /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:6:
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h: In function 'get_mean_window_time':
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:138:23: warning: comparison of unsigned expression in '< 0' is always false [-Wtype-limits]
+  138 |     if(sampl_period_us<0){
+      |                       ^
+In file included from /home/fracchio/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h:12,
+                 from /home/fracchio/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:20,
+                 from /home/fracchio/esp/esp-idf/components/esp_hw_support/include/spinlock.h:11,
+                 from /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:49,
+                 from /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:57,
+                 from /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:69,
+                 from /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:4:
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:162:55: warning: passing argument 3 of 'adc_oneshot_read' from incompatible pointer type [-Wincompatible-pointer-types]
+  162 |     ESP_ERROR_CHECK(adc_oneshot_read(handle, CHANNEL, &raw_values[i]));
+      |                                                       ^~~~~~~~~~~~~~
+      |                                                       |
+      |                                                       uint16_t * {aka short unsigned int *}
+/home/fracchio/esp/esp-idf/components/esp_common/include/esp_err.h:117:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  117 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+In file included from /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:10:
+/home/fracchio/esp/esp-idf/components/esp_adc/include/esp_adc/adc_oneshot.h:89:87: note: expected 'int *' but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+   89 | esp_err_t adc_oneshot_read(adc_oneshot_unit_handle_t handle, adc_channel_t chan, int *out_raw);
+      |                                                                                  ~~~~~^~~~~~~
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h: In function 'read_and_get_data_fixed_samples':
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:275:85: warning: passing argument 3 of 'adc_cali_raw_to_voltage' from incompatible pointer type [-Wincompatible-pointer-types]
+  275 |               ESP_ERROR_CHECK(adc_cali_raw_to_voltage(adc1_cali_chan0_handle, data, &converted_result[ii])); //converts raw data to calibrated voltage
+      |                                                                                     ^~~~~~~~~~~~~~~~~~~~~
+      |                                                                                     |
+      |                                                                                     uint32_t * {aka long unsigned int *}
+/home/fracchio/esp/esp-idf/components/esp_common/include/esp_err.h:117:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  117 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+In file included from /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:5:
+/home/fracchio/esp/esp-idf/components/esp_adc/include/esp_adc/adc_cali.h:54:75: note: expected 'int *' but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
+   54 | esp_err_t adc_cali_raw_to_voltage(adc_cali_handle_t handle, int raw, int *voltage);
+      |                                                                      ~~~~~^~~~~~~
+In file included from /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:7:
+/home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h: At top level:
+/home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h:23:15: warning: 'y1_cf' initialized and declared 'extern'
+   23 | extern float *y1_cf = &y_cf[0];
+      |               ^~~~~
+In file included from /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:8:
+/home/fracchio/Scrivania/progetto_singolo/components/wifi_wrapper/include/wifi_wrapper.h: In function 'wifi_start_connection':
+/home/fracchio/Scrivania/progetto_singolo/components/wifi_wrapper/include/wifi_wrapper.h:13:21: error: 'WIFI_SSID' undeclared (first use in this function)
+   13 | #define WIFI_SSID   WIFI_SSID
+      |                     ^~~~~~~~~
+/home/fracchio/Scrivania/progetto_singolo/components/wifi_wrapper/include/wifi_wrapper.h:42:44: note: in expansion of macro 'WIFI_SSID'
+   42 |   printf("wifi ssid and pass are %s %s\n", WIFI_SSID, WIFI_PASS);
+      |                                            ^~~~~~~~~
+/home/fracchio/Scrivania/progetto_singolo/components/wifi_wrapper/include/wifi_wrapper.h:13:21: note: each undeclared identifier is reported only once for each function it appears in
+   13 | #define WIFI_SSID   WIFI_SSID
+      |                     ^~~~~~~~~
+/home/fracchio/Scrivania/progetto_singolo/components/wifi_wrapper/include/wifi_wrapper.h:42:44: note: in expansion of macro 'WIFI_SSID'
+   42 |   printf("wifi ssid and pass are %s %s\n", WIFI_SSID, WIFI_PASS);
+      |                                            ^~~~~~~~~
+/home/fracchio/Scrivania/progetto_singolo/components/wifi_wrapper/include/wifi_wrapper.h:14:21: error: 'WIFI_PASS' undeclared (first use in this function)
+   14 | #define WIFI_PASS   WIFI_PASS
+      |                     ^~~~~~~~~
+/home/fracchio/Scrivania/progetto_singolo/components/wifi_wrapper/include/wifi_wrapper.h:42:55: note: in expansion of macro 'WIFI_PASS'
+   42 |   printf("wifi ssid and pass are %s %s\n", WIFI_SSID, WIFI_PASS);
+      |                                                       ^~~~~~~~~
+[4/12] Building C object esp-idf/read_continuous/CMakeFiles/__idf_read_continuous.dir/read_continuous.c.obj
+In file included from /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/read_continuous.c:1:
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h: In function 'get_mean_window_time':
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:138:23: warning: comparison of unsigned expression in '< 0' is always false [-Wtype-limits]
+  138 |     if(sampl_period_us<0){
+      |                       ^
+In file included from /home/fracchio/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h:12,
+                 from /home/fracchio/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:20,
+                 from /home/fracchio/esp/esp-idf/components/esp_hw_support/include/spinlock.h:11,
+                 from /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:49,
+                 from /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:57,
+                 from /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:69,
+                 from /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:8:
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:162:55: warning: passing argument 3 of 'adc_oneshot_read' from incompatible pointer type [-Wincompatible-pointer-types]
+  162 |     ESP_ERROR_CHECK(adc_oneshot_read(handle, CHANNEL, &raw_values[i]));
+      |                                                       ^~~~~~~~~~~~~~
+      |                                                       |
+      |                                                       uint16_t * {aka short unsigned int *}
+/home/fracchio/esp/esp-idf/components/esp_common/include/esp_err.h:117:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  117 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+In file included from /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:10:
+/home/fracchio/esp/esp-idf/components/esp_adc/include/esp_adc/adc_oneshot.h:89:87: note: expected 'int *' but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+   89 | esp_err_t adc_oneshot_read(adc_oneshot_unit_handle_t handle, adc_channel_t chan, int *out_raw);
+      |                                                                                  ~~~~~^~~~~~~
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h: In function 'read_and_get_data_fixed_samples':
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:275:85: warning: passing argument 3 of 'adc_cali_raw_to_voltage' from incompatible pointer type [-Wincompatible-pointer-types]
+  275 |               ESP_ERROR_CHECK(adc_cali_raw_to_voltage(adc1_cali_chan0_handle, data, &converted_result[ii])); //converts raw data to calibrated voltage
+      |                                                                                     ^~~~~~~~~~~~~~~~~~~~~
+      |                                                                                     |
+      |                                                                                     uint32_t * {aka long unsigned int *}
+/home/fracchio/esp/esp-idf/components/esp_common/include/esp_err.h:117:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  117 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+In file included from /home/fracchio/esp/esp-idf/components/esp_adc/include/esp_adc/adc_oneshot.h:13:
+/home/fracchio/esp/esp-idf/components/esp_adc/include/esp_adc/adc_cali.h:54:75: note: expected 'int *' but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
+   54 | esp_err_t adc_cali_raw_to_voltage(adc_cali_handle_t handle, int raw, int *voltage);
+      |                                                                      ~~~~~^~~~~~~
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h: At top level:
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:352:13: warning: 'adc_calibration_deinit' defined but not used [-Wunused-function]
+  352 | static void adc_calibration_deinit(adc_cali_handle_t handle)
+      |             ^~~~~~~~~~~~~~~~~~~~~~
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:305:13: warning: 'adc_calibration_init' defined but not used [-Wunused-function]
+  305 | static bool adc_calibration_init(adc_unit_t unit, adc_channel_t channel, adc_atten_t atten, adc_cali_handle_t *out_handle, uint8_t bitWidth)
+      |             ^~~~~~~~~~~~~~~~~~~~
+[5/12] Completed 'bootloader'
+ninja: build stopped: subcommand failed.
