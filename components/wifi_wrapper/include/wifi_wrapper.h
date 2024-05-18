@@ -28,6 +28,8 @@ static void wifi_event_handler(void* arg, esp_event_base_t event_base,
         esp_wifi_connect();
     } else if (event_id == IP_EVENT_STA_GOT_IP) {
         if(publish_queue!=NULL){
+          printf("got ip, proceeding to unblock mqtt");
+          fflush(stdout);
           bool res=true;
           xQueueSend(publish_queue, &res, (TickType_t)0);
         }
@@ -62,8 +64,6 @@ static void wifi_start_connection(QueueHandle_t queue){
     esp_wifi_set_mode(WIFI_MODE_STA);
     esp_wifi_set_config(WIFI_IF_STA, &wifi_config);
     esp_wifi_start();
-    
-    vTaskDelete(NULL);
 
 }
 

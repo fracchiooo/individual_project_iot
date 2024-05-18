@@ -1,0 +1,199 @@
+bjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjjbjESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x9 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcbc
+load:0x403cc700,len:0x2da0
+entry 0x403c9914
+[0;32mI (27) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time May 15 2024 20:24:16[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (39) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (54) boot: Partition Table:[0m
+[0;32mI (57) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (65) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (72) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (80) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (87) boot: End of partition table[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=2edd4h (191956) map[0m
+[0;32mI (134) esp_image: segment 1: paddr=0003edfc vaddr=3fc99600 size=0121ch (  4636) load[0m
+[0;32mI (136) esp_image: segment 2: paddr=00040020 vaddr=42000020 size=a0028h (655400) map[0m
+[0;32mI (257) esp_image: segment 3: paddr=000e0050 vaddr=3fc9a81c size=03514h ( 13588) load[0m
+[0;32mI (261) esp_image: segment 4: paddr=000e356c vaddr=40374000 size=15524h ( 87332) load[0m
+[0;32mI (282) esp_image: segment 5: paddr=000f8a98 vaddr=600fe010 size=00004h (     4) load[0m
+[0;32mI (291) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (292) boot: Disabling RNG early entropy source...[0m
+[0;32mI (303) cpu_start: Multicore app[0m
+[0;32mI (313) cpu_start: Pro cpu start user code[0m
+[0;32mI (313) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (313) cpu_start: Application information:[0m
+[0;32mI (316) cpu_start: Project name:     progetto_singolo[0m
+[0;32mI (322) cpu_start: App version:      1[0m
+[0;32mI (327) cpu_start: Compile time:     May 15 2024 20:24:07[0m
+[0;32mI (333) cpu_start: ELF file SHA256:  469064324...[0m
+[0;32mI (338) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (343) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (348) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (353) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (358) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (365) heap_init: At 3FCA5DE8 len 00043928 (270 KiB): RAM[0m
+[0;32mI (371) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (377) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (383) heap_init: At 600FE014 len 00001FD4 (7 KiB): RTCRAM[0m
+[0;32mI (390) spi_flash: detected chip: gd[0m
+[0;32mI (394) spi_flash: flash io: dio[0m
+[0;33mW (398) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (411) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (418) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (425) main_task: Started on CPU0[0m
+[0;32mI (435) main_task: Calling app_main()[0m
+the max sampling frequency due to adc limitations is 83333
+the max sampling frequency due to memory limitations is 35108
+the max sampling frequency due to read time limitations is 28571
+the bottleneck frequency is 28571
+[0;32mI (455) gpio: GPIO[1]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+ err esp timeout
+[87.883987, 87.723129, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, 2.211884, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, 3.596791, 10.657461, 93.953049, 349.731842, 291.559814, 40.531193, 6.700068, 2.823296, 2.200600, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, 2.019510, --, 2.016869, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, 3.582684, --, 10.640958, --, 93.911285, --, --, 13.313655, 291.359436, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, --, ]
+
+
+Signal x1 in absolute scale[0;32mI (945) view: Data min[200] = -0.000011, Data max[2] = 0.000015[0m
+ ________________________________________________________________
+0                                                                |
+1                                                                |
+2                                                                |
+3                                                                |
+4                                                                |
+5                                                                |
+6                                                                |
+7                                                                |
+8|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||
+9                                                              | |
+ 0123456789012345678901234567890123456789012345678901234567890123
+[0;32mI (1025) view: Plot: Length=512, min=0.000000, max=2.000000[0m
+the max frequency of the signal is: 9960.788086
+the sampling frequency result of fft*2: 19922
+the sampling frequence I will use is 19922 Hz
+[0;32mI (2305) pp: pp rom version: e7ae62f[0m
+[0;32mI (2305) net80211: net80211 rom version: e7ae62f[0m
+I (2345) wifi:wifi driver task: 3fcb0f74, prio:23, stack:6656, core=0
+I (2365) wifi:wifi firmware version: a9f5b59
+I (2365) wifi:wifi certification version: v7.0
+I (2365) wifi:config NVS flash: enabled
+I (2365) wifi:config nano formating: disabled
+I (2365) wifi:Init data frame dynamic rx buffer num: 32
+I (2375) wifi:Init static rx mgmt buffer num: 5
+I (2375) wifi:Init management short buffer num: 32
+I (2375) wifi:Init dynamic tx buffer num: 32
+I (2385) wifi:Init static tx FG buffer num: 2
+I (2385) wifi:Init static rx buffer size: 1600
+I (2395) wifi:Init static rx buffer num: 10
+I (2395) wifi:Init dynamic rx buffer num: 32
+[0;32mI (2435) wifi_init: rx ba win: 6[0m
+[0;32mI (2435) wifi_init: tcpip mbox: 32[0m
+[0;32mI (2435) wifi_init: udp mbox: 6[0m
+[0;32mI (2435) wifi_init: tcp mbox: 6[0m
+[0;32mI (2435) wifi_init: tcp tx win: 5760[0m
+[0;32mI (2445) wifi_init: tcp rx win: 5760[0m
+[0;32mI (2455) wifi_init: tcp mss: 1440[0m
+[0;32mI (2455) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (2455) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (2495) phy_init: phy_version 640,cd64a1a,Jan 24 2024,17:28:12[0m
+I (2535) wifi:mode : sta (48:27:e2:e2:e5:e4)
+I (2535) wifi:enable tsf
+ il tempo veramente passato a samplare è: 3736965
+[0;32mI (4945) WIFI: Disconnesso dal punto di accesso[0m
+the mean is 2094
+[0;32mI (7355) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (9765) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (12175) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (14585) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (16995) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (19405) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (21815) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (24225) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (26635) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (29045) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (31455) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (33865) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (36275) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (38685) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (41095) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (43505) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (45915) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (48325) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (50735) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (53145) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (55555) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (57965) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (60375) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (62785) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (65185) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (67595) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (70005) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (72415) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (74825) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (77235) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (79645) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (82055) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (84465) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (86875) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (89285) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (91695) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (94105) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (96515) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (98925) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (101335) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (103745) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (106155) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (108565) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (110975) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (113385) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (115795) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (118205) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (120615) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (123025) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (125435) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (127845) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (130255) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (132655) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (135065) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (137475) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (139885) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (142295) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (144705) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (147115) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (149525) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (151935) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (154345) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (156755) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (159165) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (161575) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (163985) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (166395) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (168805) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (171215) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (173625) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (176035) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (178445) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (180855) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (183265) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (185675) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (188085) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (190495) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (192905) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (195315) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (197715) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (200125) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (202535) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (204945) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (207355) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (209765) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (212175) WIFI: Disconnesso dal punto di accesso[0m
+[0;32mI (214585) WIFI: Disconnesso dal punto di accesso[0m

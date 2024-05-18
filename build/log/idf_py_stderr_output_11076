@@ -1,0 +1,155 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x42014514: nvs::HashList::insert(nvs::Item const&, unsigned int) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_item_hash_list.cpp:51
+[0m
+[0;33m0x40056f5c: memcpy in ROM
+0x40056f72: memcpy in ROM
+[0m
+[0;33m0x42014511: nvs::HashList::insert(nvs::Item const&, unsigned int) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_item_hash_list.cpp:49 (discriminator 1)
+0x4201544b: nvs::Page::mLoadEntryTable() at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_page.cpp:736
+0x420155d4: nvs::Page::load(nvs::Partition*, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_page.cpp:84
+0x42015837: nvs::PageManager::load(nvs::Partition*, unsigned long, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_pagemanager.cpp:25 (discriminator 1)
+0x420137a1: nvs::Storage::init(unsigned long, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_storage.cpp:95
+0x420142a4: nvs::NVSPartitionManager::init_custom(nvs::Partition*, unsigned long, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_partition_manager.cpp:92
+0x42014312: nvs::NVSPartitionManager::init_partition(char const*) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_partition_manager.cpp:54
+0x42012c12: nvs_flash_init_partition at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:135 (discriminator 1)
+0x42012c26: nvs_flash_init at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:163
+0x42009f58: wifi_start_connection at /home/fracchio/Scrivania/progetto_singolo/components/wifi_wrapper/include/wifi_wrapper.h:41
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4200a5f8: get_mean_window_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:156
+[0m
+[0;33m0x42014514: nvs::HashList::insert(nvs::Item const&, unsigned int) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_item_hash_list.cpp:51
+[0m
+[0;33m0x40056f5c: memcpy in ROM
+0x40056f72: memcpy in ROM
+[0m
+[0;33m0x42014511: nvs::HashList::insert(nvs::Item const&, unsigned int) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_item_hash_list.cpp:49 (discriminator 1)
+0x4201544b: nvs::Page::mLoadEntryTable() at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_page.cpp:736
+0x420155d4: nvs::Page::load(nvs::Partition*, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_page.cpp:84
+0x42015837: nvs::PageManager::load(nvs::Partition*, unsigned long, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_pagemanager.cpp:25 (discriminator 1)
+0x420137a1: nvs::Storage::init(unsigned long, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_storage.cpp:95
+0x420142a4: nvs::NVSPartitionManager::init_custom(nvs::Partition*, unsigned long, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_partition_manager.cpp:92
+0x42014312: nvs::NVSPartitionManager::init_partition(char const*) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_partition_manager.cpp:54
+0x42012c12: nvs_flash_init_partition at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:135 (discriminator 1)
+0x42012c26: nvs_flash_init at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:163
+0x42009f58: wifi_start_connection at /home/fracchio/Scrivania/progetto_singolo/components/wifi_wrapper/include/wifi_wrapper.h:41
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4200a609: get_mean_window_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:154
+[0m
+[0;33m0x42014514: nvs::HashList::insert(nvs::Item const&, unsigned int) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_item_hash_list.cpp:51
+[0m
+[0;33m0x40056f5c: memcpy in ROM
+0x40056f72: memcpy in ROM
+[0m
+[0;33m0x42014511: nvs::HashList::insert(nvs::Item const&, unsigned int) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_item_hash_list.cpp:49 (discriminator 1)
+0x4201544b: nvs::Page::mLoadEntryTable() at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_page.cpp:736
+0x420155d4: nvs::Page::load(nvs::Partition*, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_page.cpp:84
+0x42015837: nvs::PageManager::load(nvs::Partition*, unsigned long, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_pagemanager.cpp:25 (discriminator 1)
+0x420137a1: nvs::Storage::init(unsigned long, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_storage.cpp:95
+0x420142a4: nvs::NVSPartitionManager::init_custom(nvs::Partition*, unsigned long, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_partition_manager.cpp:92
+0x42014312: nvs::NVSPartitionManager::init_partition(char const*) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_partition_manager.cpp:54
+0x42012c12: nvs_flash_init_partition at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:135 (discriminator 1)
+0x42012c26: nvs_flash_init at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:163
+0x42009f58: wifi_start_connection at /home/fracchio/Scrivania/progetto_singolo/components/wifi_wrapper/include/wifi_wrapper.h:41
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4200a609: get_mean_window_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:154
+[0m
+[0;33m0x42014514: nvs::HashList::insert(nvs::Item const&, unsigned int) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_item_hash_list.cpp:51
+[0m
+[0;33m0x40056f5c: memcpy in ROM
+0x40056f72: memcpy in ROM
+[0m
+[0;33m0x42014511: nvs::HashList::insert(nvs::Item const&, unsigned int) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_item_hash_list.cpp:49 (discriminator 1)
+0x4201544b: nvs::Page::mLoadEntryTable() at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_page.cpp:736
+0x420155d4: nvs::Page::load(nvs::Partition*, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_page.cpp:84
+0x42015837: nvs::PageManager::load(nvs::Partition*, unsigned long, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_pagemanager.cpp:25 (discriminator 1)
+0x420137a1: nvs::Storage::init(unsigned long, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_storage.cpp:95
+0x420142a4: nvs::NVSPartitionManager::init_custom(nvs::Partition*, unsigned long, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_partition_manager.cpp:92
+0x42014312: nvs::NVSPartitionManager::init_partition(char const*) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_partition_manager.cpp:54
+0x42012c12: nvs_flash_init_partition at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:135 (discriminator 1)
+0x42012c26: nvs_flash_init at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:163
+0x42009f58: wifi_start_connection at /home/fracchio/Scrivania/progetto_singolo/components/wifi_wrapper/include/wifi_wrapper.h:41
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4200a602: get_mean_window_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:157
+[0m
+[0;33m0x42014514: nvs::HashList::insert(nvs::Item const&, unsigned int) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_item_hash_list.cpp:51
+[0m
+[0;33m0x40056f5c: memcpy in ROM
+0x40056f72: memcpy in ROM
+[0m
+[0;33m0x42014511: nvs::HashList::insert(nvs::Item const&, unsigned int) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_item_hash_list.cpp:49 (discriminator 1)
+0x4201544b: nvs::Page::mLoadEntryTable() at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_page.cpp:736
+0x420155d4: nvs::Page::load(nvs::Partition*, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_page.cpp:84
+0x42015837: nvs::PageManager::load(nvs::Partition*, unsigned long, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_pagemanager.cpp:25 (discriminator 1)
+0x420137a1: nvs::Storage::init(unsigned long, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_storage.cpp:95
+0x420142a4: nvs::NVSPartitionManager::init_custom(nvs::Partition*, unsigned long, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_partition_manager.cpp:92
+0x42014312: nvs::NVSPartitionManager::init_partition(char const*) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_partition_manager.cpp:54
+0x42012c12: nvs_flash_init_partition at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:135 (discriminator 1)
+0x42012c26: nvs_flash_init at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:163
+0x42009f58: wifi_start_connection at /home/fracchio/Scrivania/progetto_singolo/components/wifi_wrapper/include/wifi_wrapper.h:41
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4200a5f8: get_mean_window_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:156
+[0m
+[0;33m0x42014514: nvs::HashList::insert(nvs::Item const&, unsigned int) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_item_hash_list.cpp:51
+[0m
+[0;33m0x40056f5c: memcpy in ROM
+0x40056f72: memcpy in ROM
+[0m
+[0;33m0x42014511: nvs::HashList::insert(nvs::Item const&, unsigned int) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_item_hash_list.cpp:49 (discriminator 1)
+0x4201544b: nvs::Page::mLoadEntryTable() at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_page.cpp:736
+0x420155d4: nvs::Page::load(nvs::Partition*, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_page.cpp:84
+0x42015837: nvs::PageManager::load(nvs::Partition*, unsigned long, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_pagemanager.cpp:25 (discriminator 1)
+0x420137a1: nvs::Storage::init(unsigned long, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_storage.cpp:95
+0x420142a4: nvs::NVSPartitionManager::init_custom(nvs::Partition*, unsigned long, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_partition_manager.cpp:92
+0x42014312: nvs::NVSPartitionManager::init_partition(char const*) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_partition_manager.cpp:54
+0x42012c12: nvs_flash_init_partition at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:135 (discriminator 1)
+0x42012c26: nvs_flash_init at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:163
+0x42009f58: wifi_start_connection at /home/fracchio/Scrivania/progetto_singolo/components/wifi_wrapper/include/wifi_wrapper.h:41
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4200a609: get_mean_window_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:154
+[0m
+[0;33m0x42014514: nvs::HashList::insert(nvs::Item const&, unsigned int) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_item_hash_list.cpp:51
+[0m
+[0;33m0x40056f5c: memcpy in ROM
+0x40056f72: memcpy in ROM
+[0m
+[0;33m0x42014511: nvs::HashList::insert(nvs::Item const&, unsigned int) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_item_hash_list.cpp:49 (discriminator 1)
+0x4201544b: nvs::Page::mLoadEntryTable() at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_page.cpp:736
+0x420155d4: nvs::Page::load(nvs::Partition*, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_page.cpp:84
+0x42015837: nvs::PageManager::load(nvs::Partition*, unsigned long, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_pagemanager.cpp:25 (discriminator 1)
+0x420137a1: nvs::Storage::init(unsigned long, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_storage.cpp:95
+0x420142a4: nvs::NVSPartitionManager::init_custom(nvs::Partition*, unsigned long, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_partition_manager.cpp:92
+0x42014312: nvs::NVSPartitionManager::init_partition(char const*) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_partition_manager.cpp:54
+0x42012c12: nvs_flash_init_partition at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:135 (discriminator 1)
+0x42012c26: nvs_flash_init at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:163
+0x42009f58: wifi_start_connection at /home/fracchio/Scrivania/progetto_singolo/components/wifi_wrapper/include/wifi_wrapper.h:41
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4200a609: get_mean_window_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:154
+[0m
+[0;33m0x42014514: nvs::HashList::insert(nvs::Item const&, unsigned int) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_item_hash_list.cpp:51
+[0m
+[0;33m0x40056f5c: memcpy in ROM
+0x40056f72: memcpy in ROM
+[0m
+[0;33m0x42014511: nvs::HashList::insert(nvs::Item const&, unsigned int) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_item_hash_list.cpp:49 (discriminator 1)
+0x4201544b: nvs::Page::mLoadEntryTable() at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_page.cpp:736
+0x420155d4: nvs::Page::load(nvs::Partition*, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_page.cpp:84
+0x42015837: nvs::PageManager::load(nvs::Partition*, unsigned long, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_pagemanager.cpp:25 (discriminator 1)
+0x420137a1: nvs::Storage::init(unsigned long, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_storage.cpp:95
+0x420142a4: nvs::NVSPartitionManager::init_custom(nvs::Partition*, unsigned long, unsigned long) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_partition_manager.cpp:92
+0x42014312: nvs::NVSPartitionManager::init_partition(char const*) at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_partition_manager.cpp:54
+0x42012c12: nvs_flash_init_partition at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:135 (discriminator 1)
+0x42012c26: nvs_flash_init at /home/fracchio/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:163
+0x42009f58: wifi_start_connection at /home/fracchio/Scrivania/progetto_singolo/components/wifi_wrapper/include/wifi_wrapper.h:41
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4200a609: get_mean_window_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:154
+[0m
+[0m

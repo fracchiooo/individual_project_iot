@@ -19,9 +19,9 @@ extern float wind[READ_LEN];
 // working complex array
 __attribute__((aligned(16)))
 extern float y_cf[READ_LEN * 2];
-// Pointers to result arrays
+// Pointer to result arrays
 extern float *y1_cf = &y_cf[0];
-extern float *y2_cf = &y_cf[READ_LEN];
+
 
 
 void normalize(float array[], int N) {
@@ -78,8 +78,6 @@ float get_max_frequency_fft(uint32_t* samples, size_t N, uint32_t sample_frequen
 
 
     dsps_fft2r_fc32(y_cf, N);
-    //print_array_float(y_cf, N*2);
-    unsigned int end_b = xthal_get_ccount();
     // Bit reverse 
     dsps_bit_rev_fc32(y_cf, N);
     // Convert one complex vector to two complex vectors
@@ -93,7 +91,7 @@ float get_max_frequency_fft(uint32_t* samples, size_t N, uint32_t sample_frequen
      
      int idx=0;
      
-     for(int k=(N/2)-1; k>=0; k--){
+     for(int k=N/2; k>=0; k--){
      
         if(y1_cf[k] > 100.0f ){
           idx=k;
@@ -101,13 +99,12 @@ float get_max_frequency_fft(uint32_t* samples, size_t N, uint32_t sample_frequen
         }
      
      }
-
-  
+    
     // Show power spectrum in 64x10 window from -60 to 0 dB from 0..N/2 samples
     //printf("Signal x1 in log scale");
     //dsps_view(y1_cf, N/2, 64, 10,  -60, 40, '|');
     printf("Signal x1 in absolute scale");
-    dsps_view(y2_cf, N/2, 64, 10,  0, 2, '|');
+    dsps_view(y1_cf, N/2, 64, 10,  0, 2, '|');
 
 
     float max_frequency=(idx*sample_frequency)*1.0f/N*1.0f;

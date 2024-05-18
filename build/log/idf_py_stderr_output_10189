@@ -1,0 +1,29 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x4205a08a: adc_oneshot_ll_set_output_bits at /home/fracchio/esp/esp-idf/components/hal/esp32s3/include/hal/adc_ll.h:902 (discriminator 1)
+0x4205a135: adc_oneshot_hal_setup at /home/fracchio/esp/esp-idf/components/hal/adc_oneshot_hal.c:74
+0x4201af7d: adc_oneshot_read at /home/fracchio/esp/esp-idf/components/esp_adc/adc_oneshot.c:171
+0x4200a622: get_mean_window_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:156
+0x4200aaf0: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:102
+0x4209efb7: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x4205a08a: adc_oneshot_ll_set_output_bits at /home/fracchio/esp/esp-idf/components/hal/esp32s3/include/hal/adc_ll.h:902 (discriminator 1)
+0x4205a135: adc_oneshot_hal_setup at /home/fracchio/esp/esp-idf/components/hal/adc_oneshot_hal.c:74
+0x4201af7d: adc_oneshot_read at /home/fracchio/esp/esp-idf/components/esp_adc/adc_oneshot.c:171
+0x4200a622: get_mean_window_time at /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:156
+0x4200aaf0: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:102
+0x4209efb7: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0m

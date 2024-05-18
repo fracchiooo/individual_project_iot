@@ -1,0 +1,28 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x4037dde4: spinlock_acquire at /home/fracchio/esp/esp-idf/components/esp_hw_support/include/spinlock.h:130
+ (inlined by) xPortEnterCriticalTimeout at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:473
+[0m
+[0;33m0x40056f5c: memcpy in ROM
+0x40056f72: memcpy in ROM
+[0m
+[0;33m0x4037dde1: spinlock_acquire at /home/fracchio/esp/esp-idf/components/esp_hw_support/include/spinlock.h:135 (discriminator 1)
+ (inlined by) xPortEnterCriticalTimeout at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:473 (discriminator 1)
+0x4037d8cf: vPortEnterCritical at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:571
+ (inlined by) xQueueReceive at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1549
+0x4206f463: sys_arch_mbox_fetch at /home/fracchio/esp/esp-idf/components/lwip/port/freertos/sys_arch.c:317
+0x4205e60c: tcpip_timeouts_mbox_fetch at /home/fracchio/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:104
+[0m
+[0;33m0x4037a9fa: esp_cpu_wait_for_intr at /home/fracchio/esp/esp-idf/components/esp_hw_support/cpu.c:145
+[0m
+[0;33m0x40378d78: ipc_task at /home/fracchio/esp/esp-idf/components/esp_system/esp_ipc.c:48
+[0m
+[0;33m0x4037a9f7: xt_utils_wait_for_intr at /home/fracchio/esp/esp-idf/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /home/fracchio/esp/esp-idf/components/esp_hw_support/cpu.c:132
+0x42003ef6: esp_vApplicationIdleHook at /home/fracchio/esp/esp-idf/components/esp_system/freertos_hooks.c:59
+0x4037eda5: prvIdleTask at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4273 (discriminator 1)
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0m

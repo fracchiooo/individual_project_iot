@@ -37,17 +37,12 @@ static void mqtt_event_handler(void *handler_args, esp_event_base_t base, int32_
 {
     ESP_LOGD(TAG_mqtt, "Event dispatched from event loop base=%s, event_id=%" PRIi32 "", base, event_id);
     esp_mqtt_event_handle_t event = event_data;
-    esp_mqtt_client_handle_t client = event->client;
+    //esp_mqtt_client_handle_t client = event->client;
     int msg_id=-1000;
     switch ((esp_mqtt_event_id_t)event_id) {
     case MQTT_EVENT_CONNECTED:
     //una volta connessso al broker mi sottoscrivo al topic "mean" con qos 1
         ESP_LOGI(TAG_mqtt, "MQTT_EVENT_CONNECTED");
-        /*msg_id = esp_mqtt_client_subscribe(client, "mean", 1);
-        ESP_LOGI(TAG_mqtt, "sent subscribe successful, msg_id=%d", msg_id);
-        msg_id = esp_mqtt_client_publish(client, "mean", "dat inviati dall iot", 0, 1, 0);
-        ESP_LOGI(TAG_mqtt, "sent publish successful, msg_id=%d", msg_id);*/
-        
         break;
     case MQTT_EVENT_DISCONNECTED:
         ESP_LOGI(TAG_mqtt, "MQTT_EVENT_DISCONNECTED");
@@ -99,15 +94,15 @@ static esp_mqtt_client_handle_t mqtt_app_start(char* broker_url, char* username,
     bool value;
     
     while(1){
-    
       if(xQueueReceive(queue, &value, (TickType_t)5)){
         if(value==true){
-          printf("mqtt could proceed, connection established\n");
+          printf("mqtt could proceed, connection established and ip address received\n");
+          fflush(stdout);
           break;
         }
       }
     
-      vTaskDelay(300/ portTICK_PERIOD_MS);
+      vTaskDelay(400/ portTICK_PERIOD_MS);
     }
     
     
