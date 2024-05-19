@@ -1,3 +1,3 @@
 # individual_project_iot
 
-  The Round Trip Time from when the message is published until the PubACK message is received by the broker is (in mean) 62.8 ms.
+  The time from when the mqtt message is sent and it is received by the broker is 420 ms (average).
