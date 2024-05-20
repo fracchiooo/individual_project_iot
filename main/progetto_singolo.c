@@ -30,7 +30,9 @@ void app_main(void)
 {
      
   queue = xQueueCreate(5, sizeof(bool));
-  wifi_start_connection(queue);
+  
+  xTaskCreatePinnedToCore(wifi_start_connection, "WiFi Task", 4096, queue, 0, NULL, 1);
+  //wifi_start_connection(queue);
   
   adc_cali_handle_t adc1_cali_chan0_handle = NULL; //ADC calibration handle
     bool do_calibration1_chan0 = adc_calibration_init(ADC_UNIT, CHANNEL, ADC_ATTEN, &adc1_cali_chan0_handle, ADC_BIT_WIDTH);
@@ -41,24 +43,22 @@ void app_main(void)
     
 
 //i use the SOC_ADC_SAMPLE_FREQ_THRES_HIGH instead of the max_sample_freq, because is more precise for calculating the fft, also if that frequency probabily cannot be used in mean
-  uint32_t* sampled_signal  = read_and_get_data_fixed_samples(SOC_ADC_SAMPLE_FREQ_THRES_HIGH, adc1_cali_chan0_handle);
+ uint32_t* sampled_signal  = read_and_get_data_fixed_samples(SOC_ADC_SAMPLE_FREQ_THRES_HIGH, adc1_cali_chan0_handle);
   if(sampled_signal == NULL){
     printf("the sampling function returns NULL value\n");
     return;
   }
   
 
-  //print_array_int(sampled_signal, READ_LEN);
 
   float max_freq=get_max_frequency_fft(sampled_signal, READ_LEN, SOC_ADC_SAMPLE_FREQ_THRES_HIGH);
   free(sampled_signal);
   
-  uint32_t new_sampling_freq=2* ((uint32_t)max_freq +1); //approximation to uint32
+  uint32_t new_sampling_freq=2* ((uint32_t)max_freq); //approximation to uint32
 
   printf("the sampling frequency result of fft*2: %ld\n", new_sampling_freq);
 
-    // connecting the esp to the broker
-  esp_mqtt_client_handle_t client= mqtt_app_start("mqtts://cb8e2462247645a3823484e7851a5d68.s1.eu.hivemq.cloud", "object1", "Progettoiot1", queue);
+//uint32_t new_sampling_freq=SOC_ADC_SAMPLE_FREQ_THRES_HIGH;
 
   uint32_t mean= get_mean_window_time(TIME_WINDOW, adc1_cali_chan0_handle, new_sampling_freq);
 
@@ -66,7 +66,8 @@ void app_main(void)
 
   printf("the mean is %ld\n", mean);
   
-
+    // connecting the esp to the broker
+  esp_mqtt_client_handle_t client= mqtt_app_start("mqtts://cb8e2462247645a3823484e7851a5d68.s1.eu.hivemq.cloud", "object1", "Progettoiot1", queue);
 
 
 

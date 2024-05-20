@@ -155,10 +155,13 @@ uint32_t get_mean_window_time(float time_interval_s, adc_cali_handle_t adc1_cali
     
     adc_oneshot_unit_handle_t handle= configure_read_oneshot();
     
+    uint32_t temp;
+    
     int i=0;
     uint64_t time_really_past1=esp_timer_get_time();
     while(i<num_samples){
-    ESP_ERROR_CHECK(adc_oneshot_read(handle, CHANNEL, &raw_values[i]));
+    ESP_ERROR_CHECK(adc_oneshot_read(handle, CHANNEL, &temp));
+    raw_values[i]= (uint16_t) temp;
     i++;
     ets_delay_us(sampl_period_us); 
     }

@@ -1,0 +1,26 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40375a1a: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037c051: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40383aa1: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x40381d68: block_next at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf_block_functions.h:94 (discriminator 1)
+ (inlined by) block_link_next at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf_block_functions.h:101 (discriminator 1)
+ (inlined by) block_mark_as_free at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf_block_functions.h:109 (discriminator 1)
+ (inlined by) tlsf_free at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:1121 (discriminator 1)
+0x40381bcc: multi_heap_free_impl at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:234
+0x4037625e: heap_caps_free at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:393
+0x4202cd9d: esp_mbedtls_mem_free at /home/fracchio/esp/esp-idf/components/mbedtls/port/esp_mem.c:38
+0x4202a5b6: mbedtls_free at /home/fracchio/esp/esp-idf/components/mbedtls/mbedtls/library/platform.c:54
+0x4202a5e2: mbedtls_zeroize_and_free at /home/fracchio/esp/esp-idf/components/mbedtls/mbedtls/library/platform_util.c:147
+0x4201d946: mbedtls_ssl_free at /home/fracchio/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_tls.c:4883 (discriminator 1)
+0x42018a84: esp_mbedtls_cleanup at /home/fracchio/esp/esp-idf/components/esp-tls/esp_tls_mbedtls.c:366
+0x42018a95: esp_mbedtls_conn_delete at /home/fracchio/esp/esp-idf/components/esp-tls/esp_tls_mbedtls.c:309
+0x420182c9: esp_tls_conn_destroy at /home/fracchio/esp/esp-idf/components/esp-tls/esp_tls.c:148
+0x42019faf: base_close at /home/fracchio/esp/esp-idf/components/tcp_transport/transport_ssl.c:314
+0x42093a87: esp_transport_close at /home/fracchio/esp/esp-idf/components/tcp_transport/transport.c:172
+0x4200bcd0: esp_mqtt_task at /home/fracchio/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:1694
+0x4037cb5d: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375990: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0m
