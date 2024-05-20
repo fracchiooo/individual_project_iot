@@ -89,7 +89,6 @@ uint32_t get_time_window_max_available_frequency(float time_interval_s, uint32_t
     
 }
 
-void print_array_uint16(){}
 
 
 float exp_weigh_moving_avg_filter(uint16_t* data, size_t t, adc_cali_handle_t calibration){
@@ -284,7 +283,7 @@ uint32_t* read_and_get_data_fixed_samples(uint32_t sampling_freq, adc_cali_handl
       vTaskDelay(1);
       break;
       } else if (ret == ESP_ERR_TIMEOUT) {
-              printf(" err esp timeout\n");
+              //printf(" err esp timeout\n");
               vTaskDelay(10);
               continue;
       }

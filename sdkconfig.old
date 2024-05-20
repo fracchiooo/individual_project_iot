@@ -511,9 +511,9 @@ CONFIG_PARTITION_TABLE_MD5=y
 #
 # Project Configuration Options
 #
-CONFIG_READ_LEN=1024
-CONFIG_WIFI_SSID=""
-CONFIG_WIFI_PASS=""
+CONFIG_READ_LEN=512
+CONFIG_WIFI_SSID="OnePlus Nord"
+CONFIG_WIFI_PASS="123456789"
 # end of Project Configuration Options
 
 #

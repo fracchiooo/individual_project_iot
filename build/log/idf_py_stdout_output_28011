@@ -1,0 +1,76 @@
+[1/5] cd /home/fracchio/Scrivania/progetto_singolo/build/esp-idf/esptool_py && /home/fracchio/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/fracchio/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/fracchio/Scrivania/progetto_singolo/build/partition_table/partition-table.bin /home/fracchio/Scrivania/progetto_singolo/build/progetto_singolo.bin
+progetto_singolo.bin binary size 0xe8be0 bytes. Smallest app partition is 0x100000 bytes. 0x17420 bytes (9%) free.
+[2/5] Performing build step for 'bootloader'
+[1/1] cd /home/fracchio/Scrivania/progetto_singolo/build/bootloader/esp-idf/esptool_py && /home/fracchio/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/fracchio/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/fracchio/Scrivania/progetto_singolo/build/bootloader/bootloader.bin
+Bootloader binary size 0x5250 bytes. 0x2db0 bytes (36%) free.
+[3/5] No install step for 'bootloader'
+[4/5] Completed 'bootloader'
+[4/5] cd /home/fracchio/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/fracchio/esp/esp-idf -D "SERIAL_TOOL=/home/fracchio/.espressif/python_env/idf5.2_py3.11_env/bin/python;;/home/fracchio/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32s3" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/fracchio/Scrivania/progetto_singolo/build -P /home/fracchio/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32s3 -p /dev/ttyUSB0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 2MB 0x0 bootloader/bootloader.bin 0x10000 progetto_singolo.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.0
+Serial port /dev/ttyUSB0
+Connecting....
+Chip is ESP32-S3 (QFN56) (revision v0.2)
+Features: WiFi, BLE, Embedded Flash 8MB (GD)
+Crystal is 40MHz
+MAC: 48:27:e2:e2:e5:e4
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00000000 to 0x00005fff...
+Flash will be erased from 0x00010000 to 0x000f8fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 21072 bytes to 13079...
+Writing at 0x00000000... (100 %)
+Wrote 21072 bytes (13079 compressed) at 0x00000000 in 0.8 seconds (effective 199.9 kbit/s)...
+Hash of data verified.
+Compressed 953312 bytes to 591933...
+Writing at 0x00010000... (2 %)
+Writing at 0x0001cc4e... (5 %)
+Writing at 0x00027213... (8 %)
+Writing at 0x0002d177... (10 %)
+Writing at 0x00031fa5... (13 %)
+Writing at 0x000396db... (16 %)
+Writing at 0x00043854... (18 %)
+Writing at 0x00049caf... (21 %)
+Writing at 0x0004fdb2... (24 %)
+Writing at 0x000560d4... (27 %)
+Writing at 0x0005c093... (29 %)
+Writing at 0x00061d9b... (32 %)
+Writing at 0x00067d6a... (35 %)
+Writing at 0x0006e24b... (37 %)
+Writing at 0x0007406d... (40 %)
+Writing at 0x00079626... (43 %)
+Writing at 0x0007e553... (45 %)
+Writing at 0x0008369b... (48 %)
+Writing at 0x00088760... (51 %)
+Writing at 0x0008d9c8... (54 %)
+Writing at 0x00092df7... (56 %)
+Writing at 0x00098b38... (59 %)
+Writing at 0x0009e9b4... (62 %)
+Writing at 0x000a431b... (64 %)
+Writing at 0x000a9fe5... (67 %)
+Writing at 0x000afce5... (70 %)
+Writing at 0x000b5505... (72 %)
+Writing at 0x000bb207... (75 %)
+Writing at 0x000c0f8f... (78 %)
+Writing at 0x000c63cd... (81 %)
+Writing at 0x000cd901... (83 %)
+Writing at 0x000d7f7a... (86 %)
+Writing at 0x000ddc01... (89 %)
+Writing at 0x000e5fb9... (91 %)
+Writing at 0x000ebfd3... (94 %)
+Writing at 0x000f2793... (97 %)
+Writing at 0x000f7c32... (100 %)
+Wrote 953312 bytes (591933 compressed) at 0x00010000 in 26.5 seconds (effective 287.6 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.2 seconds (effective 117.9 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

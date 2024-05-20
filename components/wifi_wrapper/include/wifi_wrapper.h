@@ -14,6 +14,10 @@
 #define WIFI_PASS   CONFIG_WIFI_PASS
 
 
+//#define WIFI_SSID   "TIM-69567495"
+//#define WIFI_PASS   "AREGx2k5Z5dckDHyNCRucTcN"
+
+
 QueueHandle_t publish_queue=NULL;
 
 
@@ -65,6 +69,19 @@ static void wifi_start_connection(QueueHandle_t queue){
     esp_wifi_set_mode(WIFI_MODE_STA);
     esp_wifi_set_config(WIFI_IF_STA, &wifi_config);
     esp_wifi_start();
+
+}
+
+
+static void disconnect_wifi(){
+
+  ESP_ERROR_CHECK(esp_wifi_disconnect());
+  
+  ESP_ERROR_CHECK(esp_wifi_stop());
+  
+  ESP_ERROR_CHECK(esp_wifi_deinit());
+  
+  ESP_LOGI("WIFI", "WIFI disconnected and deallocated");
 
 }
 

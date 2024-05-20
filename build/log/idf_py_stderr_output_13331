@@ -1,0 +1,236 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x40383360: block_locate_free at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:566 (discriminator 1)
+ (inlined by) tlsf_malloc at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:1005 (discriminator 1)
+0x40382d25: multi_heap_malloc_impl at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:210
+0x403761c1: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:179
+0x4037621c: heap_caps_malloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:202
+0x40376251: heap_caps_malloc_default at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:228
+0x40385245: _malloc_r at /home/fracchio/esp/esp-idf/components/newlib/heap.c:44
+0x400509e2: _malloc_r in ROM
+0x40055634: _strdup_r in ROM
+0x40055619: strdup in ROM
+0x4200d162: esp_mqtt_set_if_config at /home/fracchio/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:284
+0x4200d50e: esp_mqtt_set_config at /home/fracchio/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:408
+0x4200de90: esp_mqtt_client_init at /home/fracchio/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:846
+0x4200a8ef: mqtt_app_start at /home/fracchio/Scrivania/progetto_singolo/components/mqtt_wrapper/include/mqtt_wrapper.h:168
+0x4200b32f: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:69
+0x420a35cb: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x40383360: block_locate_free at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:566 (discriminator 1)
+ (inlined by) tlsf_malloc at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:1005 (discriminator 1)
+0x40382d25: multi_heap_malloc_impl at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:210
+0x403761c1: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:179
+0x4037621c: heap_caps_malloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:202
+0x40376251: heap_caps_malloc_default at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:228
+0x40385219: malloc at /home/fracchio/esp/esp-idf/components/newlib/heap.c:24
+0x40378ec5: wifi_malloc at /home/fracchio/esp/esp-idf/components/esp_wifi/esp32s3/esp_adapter.c:68
+0x4209f0c1: esf_buf_alloc_dynamic at ??:?
+0x40386571: esf_buf_alloc at ??:?
+0x40387108: wDev_IndicateFrame at ??:?
+0x40387591: wDev_ProcessRxSucData at ??:?
+0x40041502: wdevProcessRxSucDataAll in ROM
+0x40385bdd: ppTask at ??:?
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x40383360: block_locate_free at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:566 (discriminator 1)
+ (inlined by) tlsf_malloc at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:1005 (discriminator 1)
+0x40382d25: multi_heap_malloc_impl at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:210
+0x403761c1: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:179
+0x4037621c: heap_caps_malloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:202
+0x40376251: heap_caps_malloc_default at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:228
+0x40385219: malloc at /home/fracchio/esp/esp-idf/components/newlib/heap.c:24
+0x40378ec5: wifi_malloc at /home/fracchio/esp/esp-idf/components/esp_wifi/esp32s3/esp_adapter.c:68
+0x4209f0c1: esf_buf_alloc_dynamic at ??:?
+0x40386571: esf_buf_alloc at ??:?
+0x40387108: wDev_IndicateFrame at ??:?
+0x40387591: wDev_ProcessRxSucData at ??:?
+0x40041502: wdevProcessRxSucDataAll in ROM
+0x40385bdd: ppTask at ??:?
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x40383360: block_locate_free at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:566 (discriminator 1)
+ (inlined by) tlsf_malloc at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:1005 (discriminator 1)
+0x40382d25: multi_heap_malloc_impl at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:210
+0x403761c1: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:179
+0x4037621c: heap_caps_malloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:202
+0x40376251: heap_caps_malloc_default at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:228
+0x40385219: malloc at /home/fracchio/esp/esp-idf/components/newlib/heap.c:24
+0x40378ec5: wifi_malloc at /home/fracchio/esp/esp-idf/components/esp_wifi/esp32s3/esp_adapter.c:68
+0x4209f0c1: esf_buf_alloc_dynamic at ??:?
+0x40386571: esf_buf_alloc at ??:?
+0x40387108: wDev_IndicateFrame at ??:?
+0x40387591: wDev_ProcessRxSucData at ??:?
+0x40041502: wdevProcessRxSucDataAll in ROM
+0x40385bdd: ppTask at ??:?
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x40383360: block_locate_free at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:566 (discriminator 1)
+ (inlined by) tlsf_malloc at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:1005 (discriminator 1)
+0x40382d25: multi_heap_malloc_impl at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:210
+0x403761c1: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:179
+0x4037621c: heap_caps_malloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:202
+0x40376251: heap_caps_malloc_default at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:228
+0x40385219: malloc at /home/fracchio/esp/esp-idf/components/newlib/heap.c:24
+0x40378ec5: wifi_malloc at /home/fracchio/esp/esp-idf/components/esp_wifi/esp32s3/esp_adapter.c:68
+0x4209f0c1: esf_buf_alloc_dynamic at ??:?
+0x40386571: esf_buf_alloc at ??:?
+0x40387108: wDev_IndicateFrame at ??:?
+0x40387591: wDev_ProcessRxSucData at ??:?
+0x40041502: wdevProcessRxSucDataAll in ROM
+0x40385bdd: ppTask at ??:?
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x40383360: block_locate_free at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:566 (discriminator 1)
+ (inlined by) tlsf_malloc at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:1005 (discriminator 1)
+0x40382d25: multi_heap_malloc_impl at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:210
+0x403761c1: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:179
+0x4037621c: heap_caps_malloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:202
+0x40376251: heap_caps_malloc_default at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:228
+0x40385219: malloc at /home/fracchio/esp/esp-idf/components/newlib/heap.c:24
+0x40378ec5: wifi_malloc at /home/fracchio/esp/esp-idf/components/esp_wifi/esp32s3/esp_adapter.c:68
+0x4209f0c1: esf_buf_alloc_dynamic at ??:?
+0x40386571: esf_buf_alloc at ??:?
+0x40387108: wDev_IndicateFrame at ??:?
+0x40387591: wDev_ProcessRxSucData at ??:?
+0x40041502: wdevProcessRxSucDataAll in ROM
+0x40385bdd: ppTask at ??:?
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x40383360: block_locate_free at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:566 (discriminator 1)
+ (inlined by) tlsf_malloc at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:1005 (discriminator 1)
+0x40382d25: multi_heap_malloc_impl at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:210
+0x403761c1: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:179
+0x4037621c: heap_caps_malloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:202
+0x40376251: heap_caps_malloc_default at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:228
+0x40385219: malloc at /home/fracchio/esp/esp-idf/components/newlib/heap.c:24
+0x40378ec5: wifi_malloc at /home/fracchio/esp/esp-idf/components/esp_wifi/esp32s3/esp_adapter.c:68
+0x4209f0c1: esf_buf_alloc_dynamic at ??:?
+0x40386571: esf_buf_alloc at ??:?
+0x40387108: wDev_IndicateFrame at ??:?
+0x40387591: wDev_ProcessRxSucData at ??:?
+0x40041502: wdevProcessRxSucDataAll in ROM
+0x40385bdd: ppTask at ??:?
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x40383360: block_locate_free at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:566 (discriminator 1)
+ (inlined by) tlsf_malloc at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:1005 (discriminator 1)
+0x40382d25: multi_heap_malloc_impl at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:210
+0x403761c1: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:179
+0x4037621c: heap_caps_malloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:202
+0x40376251: heap_caps_malloc_default at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:228
+0x40385219: malloc at /home/fracchio/esp/esp-idf/components/newlib/heap.c:24
+0x40378ec5: wifi_malloc at /home/fracchio/esp/esp-idf/components/esp_wifi/esp32s3/esp_adapter.c:68
+0x4209f0c1: esf_buf_alloc_dynamic at ??:?
+0x40386571: esf_buf_alloc at ??:?
+0x40387108: wDev_IndicateFrame at ??:?
+0x40387591: wDev_ProcessRxSucData at ??:?
+0x40041502: wdevProcessRxSucDataAll in ROM
+0x40385bdd: ppTask at ??:?
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x40383360: block_locate_free at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:566 (discriminator 1)
+ (inlined by) tlsf_malloc at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:1005 (discriminator 1)
+0x40382d25: multi_heap_malloc_impl at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:210
+0x403761c1: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:179
+0x4037621c: heap_caps_malloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:202
+0x40376251: heap_caps_malloc_default at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:228
+0x40385219: malloc at /home/fracchio/esp/esp-idf/components/newlib/heap.c:24
+0x40378ec5: wifi_malloc at /home/fracchio/esp/esp-idf/components/esp_wifi/esp32s3/esp_adapter.c:68
+0x4209f0c1: esf_buf_alloc_dynamic at ??:?
+0x40386571: esf_buf_alloc at ??:?
+0x40387108: wDev_IndicateFrame at ??:?
+0x40387591: wDev_ProcessRxSucData at ??:?
+0x40041502: wdevProcessRxSucDataAll in ROM
+0x40385bdd: ppTask at ??:?
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x40383360: block_locate_free at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:566 (discriminator 1)
+ (inlined by) tlsf_malloc at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:1005 (discriminator 1)
+0x40382d25: multi_heap_malloc_impl at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:210
+0x403761c1: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:179
+0x4037621c: heap_caps_malloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:202
+0x40376251: heap_caps_malloc_default at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:228
+0x40385219: malloc at /home/fracchio/esp/esp-idf/components/newlib/heap.c:24
+0x40378ec5: wifi_malloc at /home/fracchio/esp/esp-idf/components/esp_wifi/esp32s3/esp_adapter.c:68
+0x4209f0c1: esf_buf_alloc_dynamic at ??:?
+0x40386571: esf_buf_alloc at ??:?
+0x40387108: wDev_IndicateFrame at ??:?
+0x40387591: wDev_ProcessRxSucData at ??:?
+0x40041502: wdevProcessRxSucDataAll in ROM
+0x40385bdd: ppTask at ??:?
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x40383360: block_locate_free at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:566 (discriminator 1)
+ (inlined by) tlsf_malloc at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:1005 (discriminator 1)
+0x40382d25: multi_heap_malloc_impl at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:210
+0x403761c1: heap_caps_malloc_base at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:179
+0x4037621c: heap_caps_malloc at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:202
+0x40376251: heap_caps_malloc_default at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:228
+0x40385219: malloc at /home/fracchio/esp/esp-idf/components/newlib/heap.c:24
+0x40378ec5: wifi_malloc at /home/fracchio/esp/esp-idf/components/esp_wifi/esp32s3/esp_adapter.c:68
+0x4209f0c1: esf_buf_alloc_dynamic at ??:?
+0x40386571: esf_buf_alloc at ??:?
+0x40387108: wDev_IndicateFrame at ??:?
+0x40387591: wDev_ProcessRxSucData at ??:?
+0x40041502: wdevProcessRxSucDataAll in ROM
+0x40385bdd: ppTask at ??:?
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0m

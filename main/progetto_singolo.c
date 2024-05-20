@@ -57,24 +57,32 @@ void app_main(void)
 
   printf("the sampling frequency result of fft*2: %ld\n", new_sampling_freq);
 
+    // connecting the esp to the broker
+  esp_mqtt_client_handle_t client= mqtt_app_start("mqtts://cb8e2462247645a3823484e7851a5d68.s1.eu.hivemq.cloud", "object1", "Progettoiot1", queue);
 
   uint32_t mean= get_mean_window_time(TIME_WINDOW, adc1_cali_chan0_handle, new_sampling_freq);
 
   adc_calibration_deinit(adc1_cali_chan0_handle); // deinit of the calibration
 
   printf("the mean is %ld\n", mean);
+  
 
 
-    // connecting the esp to the broker
-  esp_mqtt_client_handle_t client= mqtt_app_start("mqtts://cb8e2462247645a3823484e7851a5d68.s1.eu.hivemq.cloud", "object1", "Progettoiot1", queue);
 
 
-    
   // sending the mean to the broker
   char mess[sizeof(uint32_t)];
   sprintf(mess, "%ld", mean);
   int msg_id=mqtt_publish_message(client, mess, "mean", 1);
   printf("sent message to broker, msg_id=%d\n", msg_id);
+  
+  
+  //deinit wifi, mqtt and the deallocating the queue
+  disconnect_mqtt_client(client);
+  disconnect_wifi(); 
+  vQueueDelete(queue);
+  
+  return;
     
     ////////////////////////////////////////////////////////////
  

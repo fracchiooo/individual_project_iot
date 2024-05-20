@@ -1,0 +1,28 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x40382e44: block_next at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf_block_functions.h:94 (discriminator 1)
+ (inlined by) block_link_next at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf_block_functions.h:101 (discriminator 1)
+ (inlined by) block_mark_as_free at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf_block_functions.h:109 (discriminator 1)
+ (inlined by) tlsf_free at /home/fracchio/esp/esp-idf/components/heap/tlsf/tlsf.c:1121 (discriminator 1)
+0x40382ca8: multi_heap_free_impl at /home/fracchio/esp/esp-idf/components/heap/multi_heap.c:234
+0x4037636a: heap_caps_free at /home/fracchio/esp/esp-idf/components/heap/heap_caps.c:393
+0x42045d19: esp_mbedtls_mem_free at /home/fracchio/esp/esp-idf/components/mbedtls/port/esp_mem.c:38
+0x42043532: mbedtls_free at /home/fracchio/esp/esp-idf/components/mbedtls/mbedtls/library/platform.c:54
+0x42048df7: mbedtls_asn1_free_named_data_list_shallow at /home/fracchio/esp/esp-idf/components/mbedtls/mbedtls/library/asn1parse.c:448
+0x4204c79d: mbedtls_x509_crt_free at /home/fracchio/esp/esp-idf/components/mbedtls/mbedtls/library/x509_crt.c:3239
+0x42030666: esp_mbedtls_cleanup at /home/fracchio/esp/esp-idf/components/esp-tls/esp_tls_mbedtls.c:353
+0x420306b5: esp_mbedtls_conn_delete at /home/fracchio/esp/esp-idf/components/esp-tls/esp_tls_mbedtls.c:309
+0x4202ff1d: esp_tls_conn_destroy at /home/fracchio/esp/esp-idf/components/esp-tls/esp_tls.c:148
+0x4203248b: base_close at /home/fracchio/esp/esp-idf/components/tcp_transport/transport_ssl.c:314
+0x4209b353: esp_transport_close at /home/fracchio/esp/esp-idf/components/tcp_transport/transport.c:172
+0x4200c0e9: esp_mqtt_abort_connection at /home/fracchio/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:791
+0x4200cfd2: esp_mqtt_task at /home/fracchio/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:1689
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4200970f: uart_ll_get_txfifo_len at /home/fracchio/esp/esp-idf/components/hal/esp32s3/include/hal/uart_ll.h:387
+ (inlined by) uart_tx_char at /home/fracchio/esp/esp-idf/components/vfs/vfs_uart.c:165
+[0m
+[0m

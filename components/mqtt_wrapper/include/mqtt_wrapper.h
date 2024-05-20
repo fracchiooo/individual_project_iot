@@ -1,10 +1,17 @@
 #ifndef MQTT_WRAPPER_H
 #define MQTT_WRAPPER_H
 #include "mqtt_client.h"
-static const char *TAG_mqtt = "mqtt_example";
+
+
+
+#include <time.h>
+#include <sys/time.h>
+#include "esp_sntp.h"
+static const char *TAG_mqtt = "MQTT";
 
 extern const uint8_t server_cert_start[] asm("_binary_isrgrootx1_pem_start");
 extern const uint8_t server_cert_end[] asm("_binary_isrgrootx1_pem_end");
+
 
 
 
@@ -48,6 +55,7 @@ static void mqtt_event_handler(void *handler_args, esp_event_base_t base, int32_
         ESP_LOGI(TAG_mqtt, "MQTT_EVENT_UNSUBSCRIBED, msg_id=%d", event->msg_id);
         break;
     case MQTT_EVENT_PUBLISHED:
+        //I have received the PubACK
         ESP_LOGI(TAG_mqtt, "MQTT_EVENT_PUBLISHED, msg_id=%d", event->msg_id);
         break;
     case MQTT_EVENT_DATA:
@@ -84,6 +92,8 @@ static esp_mqtt_client_handle_t mqtt_app_start(char* broker_url, char* username,
     
     bool value;
     
+
+    
     while(1){
       if(xQueueReceive(queue, &value, (TickType_t)5)){
         if(value==true){
@@ -96,16 +106,29 @@ static esp_mqtt_client_handle_t mqtt_app_start(char* broker_url, char* username,
       vTaskDelay(400/ portTICK_PERIOD_MS);
     }
     
-    
-  
+
 
     esp_mqtt_client_handle_t client = esp_mqtt_client_init(&mqtt_cfg);
+
     /* The last argument may be used to pass data to the event handler, in this example mqtt_event_handler */
     esp_mqtt_client_register_event(client, ESP_EVENT_ANY_ID, mqtt_event_handler, NULL);
     esp_mqtt_client_start(client);
     
     return client;
 }
+
+
+static void disconnect_mqtt_client(esp_mqtt_client_handle_t client){
+
+  ESP_ERROR_CHECK(esp_mqtt_client_stop(client));
+  
+  ESP_ERROR_CHECK(esp_mqtt_client_destroy(client));
+  
+  ESP_LOGI(TAG_mqtt, "MQTT client disconnected and deallocated");
+
+
+} 
+
 
 
 #endif
