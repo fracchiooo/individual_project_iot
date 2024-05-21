@@ -6009,6 +6009,36 @@
                 "range": null,
                 "title": "WiFi password",
                 "type": "string"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": null,
+                "id": "BROKER_URI",
+                "name": "BROKER_URI",
+                "range": null,
+                "title": "MQTT broker URI",
+                "type": "string"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": null,
+                "id": "CLIENT_USER",
+                "name": "CLIENT_USER",
+                "range": null,
+                "title": "MQTT client username",
+                "type": "string"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": null,
+                "id": "CLIENT_PASS",
+                "name": "CLIENT_PASS",
+                "range": null,
+                "title": "MQTT client password",
+                "type": "string"
             }
         ],
         "depends_on": null,

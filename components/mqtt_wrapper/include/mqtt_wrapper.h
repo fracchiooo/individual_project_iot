@@ -4,9 +4,6 @@
 
 
 
-#include <time.h>
-#include <sys/time.h>
-#include "esp_sntp.h"
 static const char *TAG_mqtt = "MQTT";
 
 extern const uint8_t server_cert_start[] asm("_binary_isrgrootx1_pem_start");

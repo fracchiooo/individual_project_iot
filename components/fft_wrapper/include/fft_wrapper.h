@@ -24,10 +24,11 @@ extern float *y1_cf = &y_cf[0];
 
 
 
-void normalize(float array[], int N) {
+
+void normalize(float array[], int N, uint32_t max_val) {
     // Define the minimum and maximum values in the original range
     float min_value = 0.0;
-    float max_value = 3108.0;
+    float max_value = (float)(max_val*1.0f);
 
     // Define the minimum and maximum values in the target range
     float target_min = -0.99;
@@ -43,7 +44,25 @@ void normalize(float array[], int N) {
     }
 }
 
-float get_max_frequency_fft(uint32_t* samples, size_t N, uint32_t sample_frequency){
+
+void std_deviation_and_mean(float* data, size_t size, float* std_dev, float* mean){
+
+  float sum = 0.0f;
+  float quad_sum = 0.0f;
+  
+  for(int i=0; i< size; i++){
+    sum += data[i];
+    quad_sum += pow(data[i], 2.0f);
+  }
+  
+  *mean = sum/ size;
+  float variance = (quad_sum / size) - pow(*mean, 2.0f);
+  *std_dev = sqrtf(variance);
+  return;
+}
+
+
+float get_max_frequency_fft(uint32_t* samples, size_t N, uint32_t sample_frequency, uint32_t max_value){
 
     esp_err_t ret;
     ret = dsps_fft2r_init_fc32(NULL, CONFIG_DSP_MAX_FFT_SIZE);
@@ -67,7 +86,7 @@ float get_max_frequency_fft(uint32_t* samples, size_t N, uint32_t sample_frequen
 
 
     x1[0]=x1[1];
-    normalize(x1, N);
+    normalize(x1, N, max_value);
  
 
     for (int i=0 ; i< N ; i++)
@@ -85,20 +104,28 @@ float get_max_frequency_fft(uint32_t* samples, size_t N, uint32_t sample_frequen
 
      for (int i = 0 ; i < N/2 ; i++) {
      
-      y1_cf[i]=sqrt(pow(y1_cf[i * 2 + 0],2) + pow(y1_cf[i * 2 + 1],2));
+      y1_cf[i]=sqrtf(pow(y1_cf[i * 2 + 0],2.0f) + pow(y1_cf[i * 2 + 1],2.0f));
      
      }
+     
+     float std_dev;
+     float mean;
+     
+     std_deviation_and_mean(y1_cf, N/2, &std_dev, &mean);     
+     float threshold = 3.0f;
      
      int idx=0;
      
-     for(int k=N/2; k>=0; k--){
      
-        if(y1_cf[k] > 100.0f ){
-          idx=k;
-          break;
-        }
-     
+     for(int j=N/2; j>=0; j--){
+      float dat = y1_cf[j];
+      float z= (dat - mean) / std_dev;
+      if(z > threshold){
+        idx=j;
+        break;
+      }
      }
+     
     
     // Show power spectrum in 64x10 window from -60 to 0 dB from 0..N/2 samples
     //printf("Signal x1 in log scale");

@@ -11,6 +11,21 @@ config WIFI_SSID
 config WIFI_PASS
     string "WiFi password"
     default "123456789"
- 
-endmenu
+    
+config BROKER_URI
+    string "MQTT broker URI"
+    default "mqtts://cb8e2462247645a3823484e7851a5d68.s1.eu.hivemq.cloud"  
+    
+config CLIENT_USER
+    string "MQTT client username"
+    default "object1"
 
+config CLIENT_PASS
+    string "MQTT client password"
+    default "Progettoiot1"
+    
+config EXP_AVG_FUNCTION
+    bool "last values of signal are more important"
+    default 0
+    
+endmenu

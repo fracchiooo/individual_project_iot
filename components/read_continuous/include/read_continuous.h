@@ -34,6 +34,12 @@
 #define ADC_GET_CHANNEL(p_data)     ((p_data)->type2.channel)
 #define ADC_GET_DATA(p_data)        ((p_data)->type2.data)
 
+#if CONFIG_EXP_AVG_FUNCTION
+    #define AVG_FUNCTION exp_weigh_moving_avg_filter
+#else
+    #define AVG_FUNCTION average
+#endif
+
 
 adc_oneshot_unit_handle_t configure_read_oneshot();
 static TaskHandle_t s_task_handle;
@@ -64,7 +70,7 @@ uint32_t get_time_window_max_available_frequency(float time_interval_s, uint32_t
     uint64_t m=0;
     ESP_ERROR_CHECK(adc_oneshot_read(handle, CHANNEL, &tempo)); //the first takes longer time
     
-    int num_average=20;
+    int num_average=10;
     
     for(int i=0; i<num_average; i++){
     uint64_t a=esp_timer_get_time();
@@ -90,15 +96,27 @@ uint32_t get_time_window_max_available_frequency(float time_interval_s, uint32_t
 }
 
 
+uint32_t get_max_cali_value(adc_cali_handle_t calibration){
+
+    uint32_t t;
+    
+    uint32_t max_raw_value= pow(2, ADC_BIT_WIDTH) -1;
+
+    ESP_ERROR_CHECK(adc_cali_raw_to_voltage(calibration, max_raw_value, &t));
+    
+    return t;
+
+}
+
+
 
 float exp_weigh_moving_avg_filter(uint16_t* data, size_t t, adc_cali_handle_t calibration){
-  
   int i=1;
   float alpha=0.5f;
   
   float mean=0.0f;
   
-  int temp_value;
+  uint32_t temp_value;
   
   while(i<=t){
     
@@ -112,7 +130,18 @@ float exp_weigh_moving_avg_filter(uint16_t* data, size_t t, adc_cali_handle_t ca
   }
   
   return mean;
+}
 
+float average(uint16_t* data, size_t t, adc_cali_handle_t calibration){
+  uint32_t sum=0;
+  uint32_t temp_value;
+  for(int i=0; i<t; i++){
+    uint32_t d= (uint32_t) data[i];
+    ESP_ERROR_CHECK(adc_cali_raw_to_voltage(calibration, d, &temp_value));
+    sum += temp_value;
+  }
+  
+  return sum*1.0f / t*1.0f;
 
 }
 
@@ -172,7 +201,7 @@ uint32_t get_mean_window_time(float time_interval_s, adc_cali_handle_t adc1_cali
     printf(" il tempo veramente passato a samplare è: %lld\n", time_really_past2-time_really_past1);
     fflush(stdout);
     
-    float result = exp_weigh_moving_avg_filter(raw_values, num_samples, adc1_cali_chan0_handle);
+    float result = AVG_FUNCTION(raw_values, num_samples, adc1_cali_chan0_handle);
     
     free(raw_values);
     ESP_ERROR_CHECK(adc_oneshot_del_unit(handle));

@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "progetto_singolo",
-    "project_version":    "730f460-dirty",
+    "project_version":    "1420131-dirty",
     "project_path":       "/home/fracchio/Scrivania/progetto_singolo",
     "idf_path":           "/home/fracchio/esp/esp-idf",
     "build_dir":          "/home/fracchio/Scrivania/progetto_singolo/build",

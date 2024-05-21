@@ -9,13 +9,12 @@
 #include "mqtt_wrapper.h"
 #include "freertos/queue.h"
 #define MAX_SAMPLING_FREQUENCY          SOC_ADC_SAMPLE_FREQ_THRES_HIGH
-
  #define min(a,b) \
    ({ __typeof__ (a) _a = (a); \
        __typeof__ (b) _b = (b); \
      _a < _b ? _a : _b; })
      
-#define TIME_WINDOW 3.5
+#define TIME_WINDOW 3
 
 QueueHandle_t queue;
 
@@ -32,7 +31,7 @@ void app_main(void)
   queue = xQueueCreate(5, sizeof(bool));
   
   xTaskCreatePinnedToCore(wifi_start_connection, "WiFi Task", 4096, queue, 0, NULL, 1);
-  //wifi_start_connection(queue);
+
   
   adc_cali_handle_t adc1_cali_chan0_handle = NULL; //ADC calibration handle
     bool do_calibration1_chan0 = adc_calibration_init(ADC_UNIT, CHANNEL, ADC_ATTEN, &adc1_cali_chan0_handle, ADC_BIT_WIDTH);
@@ -43,23 +42,20 @@ void app_main(void)
     
 
 //i use the SOC_ADC_SAMPLE_FREQ_THRES_HIGH instead of the max_sample_freq, because is more precise for calculating the fft, also if that frequency probabily cannot be used in mean
- uint32_t* sampled_signal  = read_and_get_data_fixed_samples(SOC_ADC_SAMPLE_FREQ_THRES_HIGH, adc1_cali_chan0_handle);
+ uint32_t* sampled_signal  = read_and_get_data_fixed_samples(MAX_SAMPLING_FREQUENCY, adc1_cali_chan0_handle);
   if(sampled_signal == NULL){
     printf("the sampling function returns NULL value\n");
     return;
   }
   
 
-
-  float max_freq=get_max_frequency_fft(sampled_signal, READ_LEN, SOC_ADC_SAMPLE_FREQ_THRES_HIGH);
+  uint32_t max_value = get_max_cali_value(adc1_cali_chan0_handle);
+  float max_freq=get_max_frequency_fft(sampled_signal, READ_LEN, MAX_SAMPLING_FREQUENCY, max_value);
   free(sampled_signal);
   
   uint32_t new_sampling_freq=2* ((uint32_t)max_freq); //approximation to uint32
 
   printf("the sampling frequency result of fft*2: %ld\n", new_sampling_freq);
-
-//uint32_t new_sampling_freq=SOC_ADC_SAMPLE_FREQ_THRES_HIGH;
-
   uint32_t mean= get_mean_window_time(TIME_WINDOW, adc1_cali_chan0_handle, new_sampling_freq);
 
   adc_calibration_deinit(adc1_cali_chan0_handle); // deinit of the calibration
@@ -67,7 +63,7 @@ void app_main(void)
   printf("the mean is %ld\n", mean);
   
     // connecting the esp to the broker
-  esp_mqtt_client_handle_t client= mqtt_app_start("mqtts://cb8e2462247645a3823484e7851a5d68.s1.eu.hivemq.cloud", "object1", "Progettoiot1", queue);
+  esp_mqtt_client_handle_t client= mqtt_app_start(CONFIG_BROKER_URI, CONFIG_CLIENT_USER, CONFIG_CLIENT_PASS, queue);
 
 
 

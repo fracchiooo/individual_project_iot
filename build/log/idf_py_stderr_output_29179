@@ -1,0 +1,182 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x420167d1: tcpip_callback at /home/fracchio/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:313 (discriminator 1)
+0x420165f0: esp_sntp_setoperatingmode at /home/fracchio/esp/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x4200b2b3: sntp_setoperatingmode at /home/fracchio/esp/esp-idf/components/lwip/include/apps/esp_sntp.h:237
+ (inlined by) initialize_sntp at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:36
+0x4200b2cf: obtain_time at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:42
+0x4200b45f: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:106
+0x420a2b4f: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x420167d1: tcpip_callback at /home/fracchio/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:313 (discriminator 1)
+0x420165f0: esp_sntp_setoperatingmode at /home/fracchio/esp/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x4200b2b3: sntp_setoperatingmode at /home/fracchio/esp/esp-idf/components/lwip/include/apps/esp_sntp.h:237
+ (inlined by) initialize_sntp at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:36
+0x4200b2cf: obtain_time at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:42
+0x4200b45f: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:106
+0x420a2b4f: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x420167d1: tcpip_callback at /home/fracchio/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:313 (discriminator 1)
+0x420165f0: esp_sntp_setoperatingmode at /home/fracchio/esp/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x4200b2b3: sntp_setoperatingmode at /home/fracchio/esp/esp-idf/components/lwip/include/apps/esp_sntp.h:237
+ (inlined by) initialize_sntp at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:36
+0x4200b2cf: obtain_time at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:42
+0x4200b45f: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:106
+0x420a2b4f: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x420167d1: tcpip_callback at /home/fracchio/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:313 (discriminator 1)
+0x420165f0: esp_sntp_setoperatingmode at /home/fracchio/esp/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x4200b2b3: sntp_setoperatingmode at /home/fracchio/esp/esp-idf/components/lwip/include/apps/esp_sntp.h:237
+ (inlined by) initialize_sntp at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:36
+0x4200b2cf: obtain_time at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:42
+0x4200b45f: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:106
+0x420a2b4f: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x420167d1: tcpip_callback at /home/fracchio/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:313 (discriminator 1)
+0x420165f0: esp_sntp_setoperatingmode at /home/fracchio/esp/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x4200b2b3: sntp_setoperatingmode at /home/fracchio/esp/esp-idf/components/lwip/include/apps/esp_sntp.h:237
+ (inlined by) initialize_sntp at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:36
+0x4200b2cf: obtain_time at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:42
+0x4200b45f: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:106
+0x420a2b4f: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x420167d1: tcpip_callback at /home/fracchio/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:313 (discriminator 1)
+0x420165f0: esp_sntp_setoperatingmode at /home/fracchio/esp/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x4200b2b3: sntp_setoperatingmode at /home/fracchio/esp/esp-idf/components/lwip/include/apps/esp_sntp.h:237
+ (inlined by) initialize_sntp at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:36
+0x4200b2cf: obtain_time at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:42
+0x4200b45f: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:106
+0x420a2b4f: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x420167d1: tcpip_callback at /home/fracchio/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:313 (discriminator 1)
+0x420165f0: esp_sntp_setoperatingmode at /home/fracchio/esp/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x4200b2b3: sntp_setoperatingmode at /home/fracchio/esp/esp-idf/components/lwip/include/apps/esp_sntp.h:237
+ (inlined by) initialize_sntp at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:36
+0x4200b2cf: obtain_time at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:42
+0x4200b45f: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:106
+0x420a2b4f: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x420167d1: tcpip_callback at /home/fracchio/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:313 (discriminator 1)
+0x420165f0: esp_sntp_setoperatingmode at /home/fracchio/esp/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x4200b2b3: sntp_setoperatingmode at /home/fracchio/esp/esp-idf/components/lwip/include/apps/esp_sntp.h:237
+ (inlined by) initialize_sntp at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:36
+0x4200b2cf: obtain_time at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:42
+0x4200b45f: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:106
+0x420a2b4f: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x420167d1: tcpip_callback at /home/fracchio/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:313 (discriminator 1)
+0x420165f0: esp_sntp_setoperatingmode at /home/fracchio/esp/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x4200b2b3: sntp_setoperatingmode at /home/fracchio/esp/esp-idf/components/lwip/include/apps/esp_sntp.h:237
+ (inlined by) initialize_sntp at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:36
+0x4200b2cf: obtain_time at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:42
+0x4200b45f: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:106
+0x420a2b4f: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x420167d1: tcpip_callback at /home/fracchio/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:313 (discriminator 1)
+0x420165f0: esp_sntp_setoperatingmode at /home/fracchio/esp/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x4200b2b3: sntp_setoperatingmode at /home/fracchio/esp/esp-idf/components/lwip/include/apps/esp_sntp.h:237
+ (inlined by) initialize_sntp at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:36
+0x4200b2cf: obtain_time at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:42
+0x4200b45f: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:106
+0x420a2b4f: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x420167d1: tcpip_callback at /home/fracchio/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:313 (discriminator 1)
+0x420165f0: esp_sntp_setoperatingmode at /home/fracchio/esp/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x4200b2b3: sntp_setoperatingmode at /home/fracchio/esp/esp-idf/components/lwip/include/apps/esp_sntp.h:237
+ (inlined by) initialize_sntp at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:36
+0x4200b2cf: obtain_time at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:42
+0x4200b45f: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:106
+0x420a2b4f: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x420167d1: tcpip_callback at /home/fracchio/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:313 (discriminator 1)
+[0m
+[0;33m0x420a2b4f: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x40375b26: panic_abort at /home/fracchio/esp/esp-idf/components/esp_system/panic.c:472
+0x4037d089: esp_system_abort at /home/fracchio/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40385209: __assert_func at /home/fracchio/esp/esp-idf/components/newlib/assert.c:81
+0x420167d1: tcpip_callback at /home/fracchio/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c:313 (discriminator 1)
+0x420165f0: esp_sntp_setoperatingmode at /home/fracchio/esp/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x4200b2b3: sntp_setoperatingmode at /home/fracchio/esp/esp-idf/components/lwip/include/apps/esp_sntp.h:237
+ (inlined by) initialize_sntp at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:36
+0x4200b2cf: obtain_time at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:42
+0x4200b45f: app_main at /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:106
+0x420a2b4f: main_task at /home/fracchio/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037db95: vPortTaskWrapper at /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a9c: esp_restart_noos at /home/fracchio/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0m
