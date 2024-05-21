@@ -14,7 +14,6 @@
 #define WIFI_PASS   CONFIG_WIFI_PASS
 
 
-
 QueueHandle_t publish_queue=NULL;
 
 

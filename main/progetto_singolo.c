@@ -56,14 +56,16 @@ void app_main(void)
   uint32_t new_sampling_freq=2* ((uint32_t)max_freq); //approximation to uint32
 
   printf("the sampling frequency result of fft*2: %ld\n", new_sampling_freq);
+  
+      // connecting the esp to the broker
+  esp_mqtt_client_handle_t client= mqtt_app_start(CONFIG_BROKER_URI, CONFIG_CLIENT_USER, CONFIG_CLIENT_PASS, queue);
+  
+  for(int ii=0; ii< 9; ii++){
   uint32_t mean= get_mean_window_time(TIME_WINDOW, adc1_cali_chan0_handle, new_sampling_freq);
-
-  adc_calibration_deinit(adc1_cali_chan0_handle); // deinit of the calibration
 
   printf("the mean is %ld\n", mean);
   
-    // connecting the esp to the broker
-  esp_mqtt_client_handle_t client= mqtt_app_start(CONFIG_BROKER_URI, CONFIG_CLIENT_USER, CONFIG_CLIENT_PASS, queue);
+
 
 
 
@@ -72,9 +74,12 @@ void app_main(void)
   sprintf(mess, "%ld", mean);
   int msg_id=mqtt_publish_message(client, mess, "mean", 1);
   printf("sent message to broker, msg_id=%d\n", msg_id);
-  
+
+  vTaskDelay(3500/ portTICK_PERIOD_MS);
+  }
   
   //deinit wifi, mqtt and the deallocating the queue
+  adc_calibration_deinit(adc1_cali_chan0_handle); // deinit of the calibration
   disconnect_mqtt_client(client);
   disconnect_wifi(); 
   vQueueDelete(queue);
