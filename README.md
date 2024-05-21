@@ -36,6 +36,8 @@ In the end, the calibration, mqtt client, wifi structures and the queue are deal
 
 3) PERFORMANCE ANALYSIS
 
+This analysis is done by considering a single iteration of the cycle: get data -> publish data on mqtt.
+
 For calculatiung the power consuming (in milliWatts) I have used the INA219 circuit and adapting the sampling frequency (doing the fft and sampling at 2*max frequency) and using a signal of 440 Hz (so sampling at 976 hz, cause of a certain degree of error of fft) i have calculated an average consume of 329.7 mW.
 Calculating the power consuming avoiding the usage of fft and sampling at maximum sampling rate (27.78 khz in my case) i have calculated an average power consuming of 376.7 mW, so having a saving of 12.48% mW using the first solution.
 (obviously the power consumption of the wifi and mqtt setups and usage are a common overhead for both the solutions).
@@ -43,4 +45,22 @@ Calculating the power consuming avoiding the usage of fft and sampling at maximu
 The volume of data trasmitted by the system from the setup of the wifi point, to the publishing of the mqtt message is about 4.6 KiloBytes (we are using wifi technology).
 
 For calculating the latency of the published data, I have to do a premise:
-while I was synchronizing the esp32 device to an NTP server through "sntp_setservername(0, "pool.ntp.org")", I have noticed that the timestamp getted before publishing the mean message through mqtts has a timestamp previous in time wrt the timestamp provided by the broker and associated with such a message; so there is a de-synchronization of approximately 150 milliseconds between the time servers (the used by the esp and HiveMQs' one). After this premise, I have calculated an average of 1.2 seconds in the interval time between the generation of the mean data and the reception of that data by the broker.
+while I was synchronizing the esp32 device to an NTP server through "sntp_setservername(0, "pool.ntp.org")", I have noticed that the timestamp getted before publishing the mean message through mqtts has a timestamp previous in time wrt the timestamp provided by the broker and associated with such a message; so there is a de-synchronization of approximately 150 milliseconds between the time servers (the used by the esp and HiveMQs' one). After this premise, I have calculated an average of 1.05 seconds in the interval time between the generation of the mean data and the reception of that data by the broker.
+
+The analysis of the packet exchangement between the esp32 device and broker it's done by sniffing the packets on the networks and brings that results:
+At the start of the connection I have (all the measures are in Bytes):
+- a client hello (338)
+- a server hello (1494)
+- a server certificate (1494)
+- server key exchange (205)
+- client key exchange (96)
+- 2 times, a cipher change spec (2* 105), this data cames from TLS negotiation of cipher algorithms
+
+During the conversation, when I publish the data mean, I have a broker message of 99 bytes (labeled as application data), thedata message sent to the broker of 93 bytes and a PubACK message from the broker of 60 bytes (cause I use QoS=1).
+If I am connected with the broker, but I'm not sending any data toward it, a keep alive (55 bytes) is sent and a keep alive ACK (66 bytes) is received.
+
+
+
+
+
+
