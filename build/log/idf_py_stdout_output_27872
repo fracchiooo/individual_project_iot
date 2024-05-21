@@ -22,24 +22,24 @@ entry 0x403c9914
 [0;32mI (72) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
 [0;32mI (80) boot:  2 factory          factory app      00 00 00010000 00100000[0m
 [0;32mI (87) boot: End of partition table[0m
-[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=2eff4h (192500) map[0m
-[0;32mI (134) esp_image: segment 1: paddr=0003f01c vaddr=3fc99600 size=00ffch (  4092) load[0m
-[0;32mI (135) esp_image: segment 2: paddr=00040020 vaddr=42000020 size=a014ch (655692) map[0m
-[0;32mI (258) esp_image: segment 3: paddr=000e0174 vaddr=3fc9a5fc size=03734h ( 14132) load[0m
-[0;32mI (261) esp_image: segment 4: paddr=000e38b0 vaddr=40374000 size=15524h ( 87332) load[0m
-[0;32mI (282) esp_image: segment 5: paddr=000f8ddc vaddr=600fe010 size=00004h (     4) load[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=2f034h (192564) map[0m
+[0;32mI (134) esp_image: segment 1: paddr=0003f05c vaddr=3fc99600 size=00fbch (  4028) load[0m
+[0;32mI (135) esp_image: segment 2: paddr=00040020 vaddr=42000020 size=a026ch (655980) map[0m
+[0;32mI (258) esp_image: segment 3: paddr=000e0294 vaddr=3fc9a5bc size=03774h ( 14196) load[0m
+[0;32mI (261) esp_image: segment 4: paddr=000e3a10 vaddr=40374000 size=15524h ( 87332) load[0m
+[0;32mI (283) esp_image: segment 5: paddr=000f8f3c vaddr=600fe010 size=00004h (     4) load[0m
 [0;32mI (292) boot: Loaded app from partition at offset 0x10000[0m
 [0;32mI (292) boot: Disabling RNG early entropy source...[0m
 [0;32mI (303) cpu_start: Multicore app[0m
 [0;32mI (313) cpu_start: Pro cpu start user code[0m
-[0;32mI (313) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (314) cpu_start: cpu freq: 160000000 Hz[0m
 [0;32mI (314) cpu_start: Application information:[0m
-[0;32mI (316) cpu_start: Project name:     progetto_singolo[0m
-[0;32mI (322) cpu_start: App version:      1420131-dirty[0m
-[0;32mI (328) cpu_start: Compile time:     May 20 2024 18:13:28[0m
-[0;32mI (334) cpu_start: ELF file SHA256:  783aa4e12...[0m
+[0;32mI (317) cpu_start: Project name:     progetto_singolo[0m
+[0;32mI (322) cpu_start: App version:      b35e814-dirty[0m
+[0;32mI (328) cpu_start: Compile time:     May 21 2024 17:40:42[0m
+[0;32mI (334) cpu_start: ELF file SHA256:  8712421a2...[0m
 [0;32mI (339) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
-[0;32mI (344) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (345) cpu_start: Min chip rev:     v0.0[0m
 [0;32mI (349) cpu_start: Max chip rev:     v0.99 [0m
 [0;32mI (354) cpu_start: Chip rev:         v0.2[0m
 [0;32mI (359) heap_init: Initializing. RAM available for dynamic allocation:[0m
@@ -55,88 +55,80 @@ entry 0x403c9914
 [0;32mI (426) main_task: Started on CPU0[0m
 [0;32mI (436) main_task: Calling app_main()[0m
 [0;32mI (436) gpio: GPIO[1]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
-Signal x1 in absolute scale[0;32mI (566) view: Data min[429] = 0.012389, Data max[5] = 255.433090[0m
+Signal x1 in absolute scale[0;32mI (566) view: Data min[417] = 0.006799, Data max[11] = 373.822510[0m
  ________________________________________________________________
-0||                                                              |
-1 |                              |                               |
-2 | |                            |                             | |
-3 | |                            |                             | |
-4 ||| |         |                |                             | |
-5 ||||||| |    |||  ||  |      |||  |    |         | |   |  |||| |
-6 |||||||||| | |||  ||| | ||  |||| ||||  ||| ||   ||||||||||||||||
-7 ||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||||||
-8  |||    | ||    | | || |   | | ||  |||| | |  ||||   |||    |   |
+0||| ||| |||  |                                                  |
+1||||||| |||| | |                                                |
+2||||||| |||| | |                                                |
+3||||||| |||| | |                                                |
+4||||||| |||||| | |                                              |
+5||||||| |||||| | | ||  |    |                   |       |  |    |
+6|||||||||||||||||||||  |   || | | | |   ||||||||| | | |||||||   |
+7||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||
+8|   | |||||  |||   |||| ||    | |||| ||| ||   |  | |||   | ||   |
 9                                                                |
  0123456789012345678901234567890123456789012345678901234567890123
 [0;32mI (636) view: Plot: Length=512, min=0.000000, max=2.000000[0m
-the max frequency of the signal is: 488.279297
-the sampling frequency result of fft*2: 976
+the max frequency of the signal is: 976.558594
+the sampling frequency result of fft*2: 1952
 the max sampling frequency due to adc limitations is 83333
 the free size of the largest block in heap is 188416 (bytes)
-the max sampling frequency due to memory limitations is 47104
+the max sampling frequency due to memory limitations is 31402
 the max sampling frequency due to read time limitations is 28571
 the bottleneck frequency is 28571
-I am sampling at frequency 976 for calculating the mean
-the number of samples I am trying to allocate is 1952
-[0;32mI (2226) pp: pp rom version: e7ae62f[0m
-[0;32mI (2226) net80211: net80211 rom version: e7ae62f[0m
-I (2256) wifi:wifi driver task: 3fcb2368, prio:23, stack:6656, core=0
-I (2276) wifi:wifi firmware version: a9f5b59
-I (2276) wifi:wifi certification version: v7.0
-I (2276) wifi:config NVS flash: enabled
-I (2276) wifi:config nano formating: disabled
-I (2276) wifi:Init data frame dynamic rx buffer num: 32
-I (2286) wifi:Init static rx mgmt buffer num: 5
-I (2286) wifi:Init management short buffer num: 32
-I (2286) wifi:Init dynamic tx buffer num: 32
-I (2296) wifi:Init static tx FG buffer num: 2
-I (2296) wifi:Init static rx buffer size: 1600
-I (2306) wifi:Init static rx buffer num: 10
-I (2306) wifi:Init dynamic rx buffer num: 32
-[0;32mI (2346) wifi_init: rx ba win: 6[0m
-[0;32mI (2346) wifi_init: tcpip mbox: 32[0m
-[0;32mI (2346) wifi_init: udp mbox: 6[0m
-[0;32mI (2346) wifi_init: tcp mbox: 6[0m
-[0;32mI (2346) wifi_init: tcp tx win: 5760[0m
-[0;32mI (2356) wifi_init: tcp rx win: 5760[0m
-[0;32mI (2366) wifi_init: tcp mss: 1440[0m
-[0;32mI (2366) wifi_init: WiFi IRAM OP enabled[0m
-[0;32mI (2366) wifi_init: WiFi RX IRAM OP enabled[0m
-[0;32mI (2406) phy_init: phy_version 640,cd64a1a,Jan 24 2024,17:28:12[0m
-I (2446) wifi:mode : sta (48:27:e2:e2:e5:e4)
-I (2446) wifi:enable tsf
-I (2456) wifi:new:<6,0>, old:<1,0>, ap:<255,255>, sta:<6,0>, prof:1
-I (2456) wifi:state: init -> auth (b0)
-I (2506) wifi:state: auth -> assoc (0)
-I (2516) wifi:state: assoc -> run (10)
-I (2566) wifi:connected with OnePlus Nord, aid = 1, channel 6, BW20, bssid = 0e:6e:0d:44:bd:4a
-I (2566) wifi:security: WPA2-PSK, phy: bgn, rssi: -54
-I (2576) wifi:pm start, type: 1
+I am sampling at frequency 1952 for calculating the mean
+the number of samples I am trying to allocate is 5856
+[0;32mI (2306) pp: pp rom version: e7ae62f[0m
+[0;32mI (2306) net80211: net80211 rom version: e7ae62f[0m
+I (2336) wifi:wifi driver task: 3fcb4164, prio:23, stack:6656, core=0
+I (2356) wifi:wifi firmware version: a9f5b59
+I (2356) wifi:wifi certification version: v7.0
+I (2356) wifi:config NVS flash: enabled
+I (2356) wifi:config nano formating: disabled
+I (2356) wifi:Init data frame dynamic rx buffer num: 32
+I (2366) wifi:Init static rx mgmt buffer num: 5
+I (2366) wifi:Init management short buffer num: 32
+I (2366) wifi:Init dynamic tx buffer num: 32
+I (2376) wifi:Init static tx FG buffer num: 2
+I (2376) wifi:Init static rx buffer size: 1600
+I (2386) wifi:Init static rx buffer num: 10
+I (2386) wifi:Init dynamic rx buffer num: 32
+[0;32mI (2426) wifi_init: rx ba win: 6[0m
+[0;32mI (2426) wifi_init: tcpip mbox: 32[0m
+[0;32mI (2426) wifi_init: udp mbox: 6[0m
+[0;32mI (2426) wifi_init: tcp mbox: 6[0m
+[0;32mI (2426) wifi_init: tcp tx win: 5760[0m
+[0;32mI (2436) wifi_init: tcp rx win: 5760[0m
+[0;32mI (2446) wifi_init: tcp mss: 1440[0m
+[0;32mI (2446) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (2446) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (2486) phy_init: phy_version 640,cd64a1a,Jan 24 2024,17:28:12[0m
+I (2526) wifi:mode : sta (48:27:e2:e2:e5:e4)
+I (2526) wifi:enable tsf
+I (2536) wifi:new:<11,0>, old:<1,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (2536) wifi:state: init -> auth (b0)
+I (2546) wifi:state: auth -> assoc (0)
+I (2546) wifi:state: assoc -> run (10)
+I (2586) wifi:connected with TIM-69567495, aid = 13, channel 11, BW20, bssid = ce:b1:01:33:36:34
+I (2586) wifi:security: WPA2-PSK, phy: bgn, rssi: -85
+I (2586) wifi:pm start, type: 1
 
-I (2576) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
-I (2586) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
-[0;32mI (2596) WIFI: Connesso al punto di accesso[0m
-I (2636) wifi:dp: 2, bi: 102400, li: 4, scale listen interval from 307200 us to 409600 us
-I (2636) wifi:AP's beacon interval = 102400 us, DTIM period = 2
- il tempo veramente passato a samplare è: 2122607
-the mean is 1174
-[0;32mI (3596) esp_netif_handlers: sta ip: 192.168.223.252, mask: 255.255.255.0, gw: 192.168.223.13[0m
+I (2586) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (2596) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+[0;32mI (2606) WIFI: Connesso al punto di accesso[0m
+I (2776) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+ il tempo veramente passato a samplare è: 3146474
+the mean is 924
+I (5236) wifi:<ba-add>idx:0 (ifx:0, ce:b1:01:33:36:34), tid:0, ssn:0, winSize:64
+[0;32mI (6106) esp_netif_handlers: sta ip: 192.168.1.38, mask: 255.255.255.0, gw: 192.168.1.1[0m
 got ip, proceeding to unblock mqttmqtt could proceed, connection established and ip address received
-[0;32mI (3776) MQTT: Other event id:7[0m
-I (4076) wifi:<ba-add>idx:0 (ifx:0, 0e:6e:0d:44:bd:4a), tid:0, ssn:3, winSize:64
-[0;32mI (5306) MQTT: MQTT_EVENT_CONNECTED[0m
-[0;32mI (5306) MQTT: sent publish successful, msg_id=2025[0m
-sent message to broker, msg_id=2025
-[0;32mI (5506) MQTT: MQTT client disconnected and deallocated[0m
-I (5506) wifi:state: run -> init (0)
-I (5506) wifi:pm stop, total sleep time: 2102132 us / 2933708 us
-
-I (5516) wifi:<ba-del>idx:0, tid:0
-I (5516) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1
-[0;32mI (5526) WIFI: Disconnesso dal punto di accesso[0m
-I (5526) wifi:flush txq
-I (5526) wifi:stop sw txq
-I (5536) wifi:lmac stop hw txq
-I (5536) wifi:Deinit lldesc rx mblock:10
-[0;32mI (5546) WIFI: WIFI disconnected and deallocated[0m
-[0;32mI (5546) main_task: Returned from app_main()[0m
+[0;32mI (6106) MQTT: Other event id:7[0m
+[0;33mW (16686) esp-tls: Failed to open new connection in specified timeout[0m
+[0;31mE (16686) transport_base: Failed to open a new connection[0m
+[0;31mE (16686) mqtt_client: Error transport connect[0m
+[0;32mI (16686) MQTT: MQTT_EVENT_ERROR[0m
+[0;31mE (16696) MQTT: Last error reported from esp-tls: 0x8006[0m
+[0;32mI (16696) MQTT: Last errno string (Success)[0m
+[0;32mI (16706) MQTT: MQTT_EVENT_DISCONNECTED[0m
+[0;32mI (16706) MQTT: sent publish successful, msg_id=60504[0m
+sent message to broker, msg_id=60504

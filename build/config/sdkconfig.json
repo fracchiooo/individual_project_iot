@@ -373,6 +373,7 @@
     "ETH_TRANSMIT_MUTEX": false,
     "ETH_USE_OPENETH": false,
     "ETH_USE_SPI_ETHERNET": true,
+    "EXP_AVG_FUNCTION": false,
     "FATFS_CODEPAGE": 437,
     "FATFS_CODEPAGE_437": true,
     "FATFS_CODEPAGE_720": false,

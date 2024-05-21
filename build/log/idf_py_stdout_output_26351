@@ -1,0 +1,221 @@
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32s3
+Processing 2 dependencies:
+[1/2] espressif/esp-dsp (1.4.12)
+[2/2] idf (5.2.1)
+-- Project sdkconfig file /home/fracchio/Scrivania/progetto_singolo/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- App "progetto_singolo" version: b35e814-dirty
+-- Adding linker script /home/fracchio/Scrivania/progetto_singolo/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/fracchio/esp/esp-idf/components/esp_system/ld/esp32s3/sections.ld.in
+-- Adding linker script /home/fracchio/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script /home/fracchio/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script /home/fracchio/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script /home/fracchio/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script /home/fracchio/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+-- Adding linker script /home/fracchio/esp/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump espressif__esp-dsp esptool_py fatfs fft_wrapper freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt mqtt_wrapper newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread read_continuous sdmmc soc spi_flash spiffs tcp_transport touch_element ulp unity usb vfs wear_levelling wifi_provisioning wifi_wrapper wpa_supplicant xtensa
+-- Component paths: /home/fracchio/esp/esp-idf/components/app_trace /home/fracchio/esp/esp-idf/components/app_update /home/fracchio/esp/esp-idf/components/bootloader /home/fracchio/esp/esp-idf/components/bootloader_support /home/fracchio/esp/esp-idf/components/bt /home/fracchio/esp/esp-idf/components/cmock /home/fracchio/esp/esp-idf/components/console /home/fracchio/esp/esp-idf/components/cxx /home/fracchio/esp/esp-idf/components/driver /home/fracchio/esp/esp-idf/components/efuse /home/fracchio/esp/esp-idf/components/esp-tls /home/fracchio/esp/esp-idf/components/esp_adc /home/fracchio/esp/esp-idf/components/esp_app_format /home/fracchio/esp/esp-idf/components/esp_bootloader_format /home/fracchio/esp/esp-idf/components/esp_coex /home/fracchio/esp/esp-idf/components/esp_common /home/fracchio/esp/esp-idf/components/esp_eth /home/fracchio/esp/esp-idf/components/esp_event /home/fracchio/esp/esp-idf/components/esp_gdbstub /home/fracchio/esp/esp-idf/components/esp_hid /home/fracchio/esp/esp-idf/components/esp_http_client /home/fracchio/esp/esp-idf/components/esp_http_server /home/fracchio/esp/esp-idf/components/esp_https_ota /home/fracchio/esp/esp-idf/components/esp_https_server /home/fracchio/esp/esp-idf/components/esp_hw_support /home/fracchio/esp/esp-idf/components/esp_lcd /home/fracchio/esp/esp-idf/components/esp_local_ctrl /home/fracchio/esp/esp-idf/components/esp_mm /home/fracchio/esp/esp-idf/components/esp_netif /home/fracchio/esp/esp-idf/components/esp_netif_stack /home/fracchio/esp/esp-idf/components/esp_partition /home/fracchio/esp/esp-idf/components/esp_phy /home/fracchio/esp/esp-idf/components/esp_pm /home/fracchio/esp/esp-idf/components/esp_psram /home/fracchio/esp/esp-idf/components/esp_ringbuf /home/fracchio/esp/esp-idf/components/esp_rom /home/fracchio/esp/esp-idf/components/esp_system /home/fracchio/esp/esp-idf/components/esp_timer /home/fracchio/esp/esp-idf/components/esp_wifi /home/fracchio/esp/esp-idf/components/espcoredump /home/fracchio/Scrivania/progetto_singolo/managed_components/espressif__esp-dsp /home/fracchio/esp/esp-idf/components/esptool_py /home/fracchio/esp/esp-idf/components/fatfs /home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper /home/fracchio/esp/esp-idf/components/freertos /home/fracchio/esp/esp-idf/components/hal /home/fracchio/esp/esp-idf/components/heap /home/fracchio/esp/esp-idf/components/http_parser /home/fracchio/esp/esp-idf/components/idf_test /home/fracchio/esp/esp-idf/components/ieee802154 /home/fracchio/esp/esp-idf/components/json /home/fracchio/esp/esp-idf/components/log /home/fracchio/esp/esp-idf/components/lwip /home/fracchio/Scrivania/progetto_singolo/main /home/fracchio/esp/esp-idf/components/mbedtls /home/fracchio/esp/esp-idf/components/mqtt /home/fracchio/Scrivania/progetto_singolo/components/mqtt_wrapper /home/fracchio/esp/esp-idf/components/newlib /home/fracchio/esp/esp-idf/components/nvs_flash /home/fracchio/esp/esp-idf/components/nvs_sec_provider /home/fracchio/esp/esp-idf/components/openthread /home/fracchio/esp/esp-idf/components/partition_table /home/fracchio/esp/esp-idf/components/perfmon /home/fracchio/esp/esp-idf/components/protobuf-c /home/fracchio/esp/esp-idf/components/protocomm /home/fracchio/esp/esp-idf/components/pthread /home/fracchio/Scrivania/progetto_singolo/components/read_continuous /home/fracchio/esp/esp-idf/components/sdmmc /home/fracchio/esp/esp-idf/components/soc /home/fracchio/esp/esp-idf/components/spi_flash /home/fracchio/esp/esp-idf/components/spiffs /home/fracchio/esp/esp-idf/components/tcp_transport /home/fracchio/esp/esp-idf/components/touch_element /home/fracchio/esp/esp-idf/components/ulp /home/fracchio/esp/esp-idf/components/unity /home/fracchio/esp/esp-idf/components/usb /home/fracchio/esp/esp-idf/components/vfs /home/fracchio/esp/esp-idf/components/wear_levelling /home/fracchio/esp/esp-idf/components/wifi_provisioning /home/fracchio/Scrivania/progetto_singolo/components/wifi_wrapper /home/fracchio/esp/esp-idf/components/wpa_supplicant /home/fracchio/esp/esp-idf/components/xtensa
+-- Configuring done (5.3s)
+-- Generating done (0.4s)
+-- Build files have been written to: /home/fracchio/Scrivania/progetto_singolo/build
+[1/14] Building C object esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/esp_app_desc.c.obj
+[2/14] Linking C static library esp-idf/esp_app_format/libesp_app_format.a
+[3/14] Building C object esp-idf/fft_wrapper/CMakeFiles/__idf_fft_wrapper.dir/fft_wrapper.c.obj
+In file included from /home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/fft_wrapper.c:1:
+/home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h:23:15: warning: 'y1_cf' initialized and declared 'extern'
+   23 | extern float *y1_cf = &y_cf[0];
+      |               ^~~~~
+[4/14] Linking C static library esp-idf/fft_wrapper/libfft_wrapper.a
+[5/14] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/progetto_singolo.c.obj
+In file included from /home/fracchio/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h:12,
+                 from /home/fracchio/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:20,
+                 from /home/fracchio/esp/esp-idf/components/esp_hw_support/include/spinlock.h:11,
+                 from /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:49,
+                 from /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:57,
+                 from /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:69,
+                 from /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:4:
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h: In function 'get_max_cali_value':
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:105:73: warning: passing argument 3 of 'adc_cali_raw_to_voltage' from incompatible pointer type [-Wincompatible-pointer-types]
+  105 |     ESP_ERROR_CHECK(adc_cali_raw_to_voltage(calibration, max_raw_value, &t));
+      |                                                                         ^~
+      |                                                                         |
+      |                                                                         uint32_t * {aka long unsigned int *}
+/home/fracchio/esp/esp-idf/components/esp_common/include/esp_err.h:117:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  117 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+In file included from /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:5:
+/home/fracchio/esp/esp-idf/components/esp_adc/include/esp_adc/adc_cali.h:54:75: note: expected 'int *' but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
+   54 | esp_err_t adc_cali_raw_to_voltage(adc_cali_handle_t handle, int raw, int *voltage);
+      |                                                                      ~~~~~^~~~~~~
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h: In function 'exp_weigh_moving_avg_filter':
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:125:61: warning: passing argument 3 of 'adc_cali_raw_to_voltage' from incompatible pointer type [-Wincompatible-pointer-types]
+  125 |     ESP_ERROR_CHECK(adc_cali_raw_to_voltage(calibration, d, &temp_value));
+      |                                                             ^~~~~~~~~~~
+      |                                                             |
+      |                                                             uint32_t * {aka long unsigned int *}
+/home/fracchio/esp/esp-idf/components/esp_common/include/esp_err.h:117:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  117 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+/home/fracchio/esp/esp-idf/components/esp_adc/include/esp_adc/adc_cali.h:54:75: note: expected 'int *' but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
+   54 | esp_err_t adc_cali_raw_to_voltage(adc_cali_handle_t handle, int raw, int *voltage);
+      |                                                                      ~~~~~^~~~~~~
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h: In function 'average':
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:140:61: warning: passing argument 3 of 'adc_cali_raw_to_voltage' from incompatible pointer type [-Wincompatible-pointer-types]
+  140 |     ESP_ERROR_CHECK(adc_cali_raw_to_voltage(calibration, d, &temp_value));
+      |                                                             ^~~~~~~~~~~
+      |                                                             |
+      |                                                             uint32_t * {aka long unsigned int *}
+/home/fracchio/esp/esp-idf/components/esp_common/include/esp_err.h:117:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  117 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+/home/fracchio/esp/esp-idf/components/esp_adc/include/esp_adc/adc_cali.h:54:75: note: expected 'int *' but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
+   54 | esp_err_t adc_cali_raw_to_voltage(adc_cali_handle_t handle, int raw, int *voltage);
+      |                                                                      ~~~~~^~~~~~~
+In file included from /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:6:
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h: In function 'get_mean_window_time':
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:166:23: warning: comparison of unsigned expression in '< 0' is always false [-Wtype-limits]
+  166 |     if(sampl_period_us<0){
+      |                       ^
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:192:55: warning: passing argument 3 of 'adc_oneshot_read' from incompatible pointer type [-Wincompatible-pointer-types]
+  192 |     ESP_ERROR_CHECK(adc_oneshot_read(handle, CHANNEL, &temp));
+      |                                                       ^~~~~
+      |                                                       |
+      |                                                       uint32_t * {aka long unsigned int *}
+/home/fracchio/esp/esp-idf/components/esp_common/include/esp_err.h:117:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  117 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+In file included from /home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:10:
+/home/fracchio/esp/esp-idf/components/esp_adc/include/esp_adc/adc_oneshot.h:89:87: note: expected 'int *' but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
+   89 | esp_err_t adc_oneshot_read(adc_oneshot_unit_handle_t handle, adc_channel_t chan, int *out_raw);
+      |                                                                                  ~~~~~^~~~~~~
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h: In function 'read_and_get_data_fixed_samples':
+/home/fracchio/Scrivania/progetto_singolo/components/read_continuous/include/read_continuous.h:306:85: warning: passing argument 3 of 'adc_cali_raw_to_voltage' from incompatible pointer type [-Wincompatible-pointer-types]
+  306 |               ESP_ERROR_CHECK(adc_cali_raw_to_voltage(adc1_cali_chan0_handle, data, &converted_result[ii])); //converts raw data to calibrated voltage
+      |                                                                                     ^~~~~~~~~~~~~~~~~~~~~
+      |                                                                                     |
+      |                                                                                     uint32_t * {aka long unsigned int *}
+/home/fracchio/esp/esp-idf/components/esp_common/include/esp_err.h:117:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  117 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+/home/fracchio/esp/esp-idf/components/esp_adc/include/esp_adc/adc_cali.h:54:75: note: expected 'int *' but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
+   54 | esp_err_t adc_cali_raw_to_voltage(adc_cali_handle_t handle, int raw, int *voltage);
+      |                                                                      ~~~~~^~~~~~~
+In file included from /home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:7:
+/home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h: At top level:
+/home/fracchio/Scrivania/progetto_singolo/components/fft_wrapper/include/fft_wrapper.h:23:15: warning: 'y1_cf' initialized and declared 'extern'
+   23 | extern float *y1_cf = &y_cf[0];
+      |               ^~~~~
+/home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c: In function 'app_main':
+/home/fracchio/Scrivania/progetto_singolo/main/progetto_singolo.c:33:27: warning: passing argument 1 of 'xTaskCreatePinnedToCore' from incompatible pointer type [-Wincompatible-pointer-types]
+   33 |   xTaskCreatePinnedToCore(wifi_start_connection, "WiFi Task", 4096, queue, 0, NULL, 1);
+      |                           ^~~~~~~~~~~~~~~~~~~~~
+      |                           |
+      |                           void (*)(struct QueueDefinition *)
+In file included from /home/fracchio/esp/esp-idf/components/freertos/esp_additions/include/freertos/idf_additions.h:20,
+                 from /home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:1533:
+/home/fracchio/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/task.h:382:67: note: expected 'TaskFunction_t' {aka 'void (*)(void *)'} but argument is of type 'void (*)(struct QueueDefinition *)'
+  382 |         extern BaseType_t xTaskCreatePinnedToCore( TaskFunction_t pxTaskCode,
+      |                                                    ~~~~~~~~~~~~~~~^~~~~~~~~~
+[6/14] Linking C static library esp-idf/main/libmain.a
+[7/14] Performing build step for 'bootloader'
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32s3
+-- Project sdkconfig file /home/fracchio/Scrivania/progetto_singolo/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- Adding linker script /home/fracchio/esp/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- Bootloader project name: "bootloader" version: 1
+-- Adding linker script /home/fracchio/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script /home/fracchio/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script /home/fracchio/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script /home/fracchio/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script /home/fracchio/esp/esp-idf/components/bootloader/subproject/main/ld/esp32s3/bootloader.ld
+-- Adding linker script /home/fracchio/esp/esp-idf/components/bootloader/subproject/main/ld/esp32s3/bootloader.rom.ld
+-- Components: bootloader bootloader_support efuse esp_app_format esp_bootloader_format esp_common esp_hw_support esp_rom esp_system esptool_py freertos hal log main micro-ecc newlib partition_table soc spi_flash xtensa
+-- Component paths: /home/fracchio/esp/esp-idf/components/bootloader /home/fracchio/esp/esp-idf/components/bootloader_support /home/fracchio/esp/esp-idf/components/efuse /home/fracchio/esp/esp-idf/components/esp_app_format /home/fracchio/esp/esp-idf/components/esp_bootloader_format /home/fracchio/esp/esp-idf/components/esp_common /home/fracchio/esp/esp-idf/components/esp_hw_support /home/fracchio/esp/esp-idf/components/esp_rom /home/fracchio/esp/esp-idf/components/esp_system /home/fracchio/esp/esp-idf/components/esptool_py /home/fracchio/esp/esp-idf/components/freertos /home/fracchio/esp/esp-idf/components/hal /home/fracchio/esp/esp-idf/components/log /home/fracchio/esp/esp-idf/components/bootloader/subproject/main /home/fracchio/esp/esp-idf/components/bootloader/subproject/components/micro-ecc /home/fracchio/esp/esp-idf/components/newlib /home/fracchio/esp/esp-idf/components/partition_table /home/fracchio/esp/esp-idf/components/soc /home/fracchio/esp/esp-idf/components/spi_flash /home/fracchio/esp/esp-idf/components/xtensa
+-- Configuring done (2.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/fracchio/Scrivania/progetto_singolo/build/bootloader
+[1/1] cd /home/fracchio/Scrivania/progetto_singolo/build/bootloader/esp-idf/esptool_py && /home/fracchio/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/fracchio/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/fracchio/Scrivania/progetto_singolo/build/bootloader/bootloader.bin
+Bootloader binary size 0x5250 bytes. 0x2db0 bytes (36%) free.
+[8/14] No install step for 'bootloader'
+[9/14] Completed 'bootloader'
+[10/14] Generating ld/sections.ld
+[11/14] Linking CXX executable progetto_singolo.elf
+[12/14] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated /home/fracchio/Scrivania/progetto_singolo/build/progetto_singolo.bin
+[13/14] cd /home/fracchio/Scrivania/progetto_singolo/build/esp-idf/esptool_py && /home/fracchio/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/fracchio/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/fracchio/Scrivania/progetto_singolo/build/partition_table/partition-table.bin /home/fracchio/Scrivania/progetto_singolo/build/progetto_singolo.bin
+progetto_singolo.bin binary size 0xe8f60 bytes. Smallest app partition is 0x100000 bytes. 0x170a0 bytes (9%) free.
+[13/14] cd /home/fracchio/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/fracchio/esp/esp-idf -D "SERIAL_TOOL=/home/fracchio/.espressif/python_env/idf5.2_py3.11_env/bin/python;;/home/fracchio/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32s3" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/fracchio/Scrivania/progetto_singolo/build -P /home/fracchio/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32s3 -p /dev/ttyUSB0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 2MB 0x0 bootloader/bootloader.bin 0x10000 progetto_singolo.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.0
+Serial port /dev/ttyUSB0
+Connecting....
+Chip is ESP32-S3 (QFN56) (revision v0.2)
+Features: WiFi, BLE, Embedded Flash 8MB (GD)
+Crystal is 40MHz
+MAC: 48:27:e2:e2:e5:e4
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00000000 to 0x00005fff...
+Flash will be erased from 0x00010000 to 0x000f8fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 21072 bytes to 13079...
+Writing at 0x00000000... (100 %)
+Wrote 21072 bytes (13079 compressed) at 0x00000000 in 0.8 seconds (effective 201.4 kbit/s)...
+Hash of data verified.
+Compressed 954208 bytes to 592210...
+Writing at 0x00010000... (2 %)
+Writing at 0x0001ccc0... (5 %)
+Writing at 0x0002731b... (8 %)
+Writing at 0x0002d28a... (10 %)
+Writing at 0x000320ba... (13 %)
+Writing at 0x0003979f... (16 %)
+Writing at 0x000438aa... (18 %)
+Writing at 0x00049cfb... (21 %)
+Writing at 0x0004fdac... (24 %)
+Writing at 0x0005612c... (27 %)
+Writing at 0x0005c0c5... (29 %)
+Writing at 0x00061de5... (32 %)
+Writing at 0x00067dd3... (35 %)
+Writing at 0x0006e2d5... (37 %)
+Writing at 0x000740d4... (40 %)
+Writing at 0x0007970b... (43 %)
+Writing at 0x0007e64e... (45 %)
+Writing at 0x00083746... (48 %)
+Writing at 0x0008883f... (51 %)
+Writing at 0x0008daf0... (54 %)
+Writing at 0x00092ef8... (56 %)
+Writing at 0x00098bdc... (59 %)
+Writing at 0x0009eadb... (62 %)
+Writing at 0x000a443a... (64 %)
+Writing at 0x000aa0f7... (67 %)
+Writing at 0x000afe30... (70 %)
+Writing at 0x000b562d... (72 %)
+Writing at 0x000bb331... (75 %)
+Writing at 0x000c10e4... (78 %)
+Writing at 0x000c64ff... (81 %)
+Writing at 0x000cd885... (83 %)
+Writing at 0x000d8092... (86 %)
+Writing at 0x000ddcf7... (89 %)
+Writing at 0x000e61b2... (91 %)
+Writing at 0x000ec1e9... (94 %)
+Writing at 0x000f29a8... (97 %)
+Writing at 0x000f7d05... (100 %)
+Wrote 954208 bytes (592210 compressed) at 0x00010000 in 24.9 seconds (effective 307.0 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.2 seconds (effective 159.6 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

@@ -6039,6 +6039,16 @@
                 "range": null,
                 "title": "MQTT client password",
                 "type": "string"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": null,
+                "id": "EXP_AVG_FUNCTION",
+                "name": "EXP_AVG_FUNCTION",
+                "range": null,
+                "title": "last values of signal are more important",
+                "type": "bool"
             }
         ],
         "depends_on": null,
