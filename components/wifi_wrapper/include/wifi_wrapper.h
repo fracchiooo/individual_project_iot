@@ -10,12 +10,9 @@
 #include "nvs_flash.h"
 
 
-//#define WIFI_SSID   CONFIG_WIFI_SSID
-//#define WIFI_PASS   CONFIG_WIFI_PASS
+#define WIFI_SSID   CONFIG_WIFI_SSID
+#define WIFI_PASS   CONFIG_WIFI_PASS
 
-
-#define WIFI_SSID   "TIM-69567495"
-#define WIFI_PASS   "AREGx2k5Z5dckDHyNCRucTcN"
 
 
 QueueHandle_t publish_queue=NULL;
