@@ -21,8 +21,12 @@ Then is doubled the value of the max frequency of the signal and starts the func
 OSS:
 if the value of the adaptive sampling frequency is grather than the bottlenck maximum frequency (it depends on the resources of the device and it's calculated at runtime), the signal is captured undersampling it and a warning is printed.
 
+OSS:
+The minimum fft frequency detected is over the 81 hZ: all the signals with lower frequency will be sampled with 81 hz.
+
+
 Then the average of the new sampling is compued.
-This average is a ... average.
+This average can be choosen between a exponential weighed moving average or a simple average, the user can choose which to use through idf.py menuconfig -> Project Configuration Options.
 After that is start the mqtt module with the authentication params (OSS: the broker to use its HiveMQ).
 
 After the mqtt client starts, the mean value is published under the topic "/mean" with QoS=1.
@@ -40,16 +44,3 @@ The volume of data trasmitted by the system from the setup of the wifi point, to
 
 For calculating the latency of the published data, I have to do a premise:
 while I was synchronizing the esp32 device to an NTP server through "sntp_setservername(0, "pool.ntp.org")", I have noticed that the timestamp getted before publishing the mean message through mqtts has a timestamp previous in time wrt the timestamp provided by the broker and associated with such a message; so there is a de-synchronization of approximately 150 milliseconds between the time servers (the used by the esp and HiveMQs' one). After this premise, I have calculated an average of 1.2 seconds in the interval time between the generation of the mean data and the reception of that data by the broker.
-
-
-
-
-
-
-
-
-
-
-
-
-
