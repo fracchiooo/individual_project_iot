@@ -60,22 +60,18 @@ void app_main(void)
       // connecting the esp to the broker
   esp_mqtt_client_handle_t client= mqtt_app_start(CONFIG_BROKER_URI, CONFIG_CLIENT_USER, CONFIG_CLIENT_PASS, queue);
   
-  for(int ii=0; ii< 9; ii++){
+  for(int ii=0; ii< 1; ii++){
   uint32_t mean= get_mean_window_time(TIME_WINDOW, adc1_cali_chan0_handle, new_sampling_freq);
 
   printf("the mean is %ld\n", mean);
   
 
-
-
-
   // sending the mean to the broker
   char mess[sizeof(uint32_t)];
   sprintf(mess, "%ld", mean);
   int msg_id=mqtt_publish_message(client, mess, "mean", 1);
-  printf("sent message to broker, msg_id=%d\n", msg_id);
 
-  vTaskDelay(3500/ portTICK_PERIOD_MS);
+  //vTaskDelay(3500/ portTICK_PERIOD_MS);
   }
   
   //deinit wifi, mqtt and the deallocating the queue
