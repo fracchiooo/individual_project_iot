@@ -6,7 +6,7 @@ First at all, install the espressif framework, using that tutorial at: "https://
 Second, go inside the project folder, type the command "idf.py menuconfig", go to "Project Configuration Options" and modify ID WiFi, WiFi password, MQTT broker URI, MQTT client username and MQTT client password with yours.
 Then through the command "idf.py -p path_to_the_esp flash monitor" you can build, flash and monitor the project in your esp device.
 
-OSS:
+OBS:
 If it is required to insert the target, it can be done through the command "idf.py set-target esp32S3", for a esp32 s3 device.
 
 2) EXPLAINATION OF THE PROJECT
@@ -18,29 +18,43 @@ An array of 1024 samples is populated by reading the ADC1 Channel 0 pin with a o
 Such a sampled signal is normalized and put in the FFT function for getting the max frequency of it.
 Then is doubled the value of the max frequency of the signal and starts the function which samples the signal in a time window TIME_WINDOW with a sampling frequence result of the previous doubling.
 
-OSS:
+OBS:
 if the value of the adaptive sampling frequency is grather than the bottlenck maximum frequency (it depends on the resources of the device and it's calculated at runtime), the signal is captured undersampling it and a warning is printed.
+OBS:
+The minimum fft frequency detected is about 81 hZ: all the signals with lower frequency will be sampled with 81 hz.
 
-OSS:
-The minimum fft frequency detected is over the 81 hZ: all the signals with lower frequency will be sampled with 81 hz.
-
-
-Then the average of the new sampling is compued.
+Then the average of the new array of samples is computed.
 This average can be choosen between a exponential weighed moving average or a simple average, the user can choose which to use through idf.py menuconfig -> Project Configuration Options.
-After that is start the mqtt module with the authentication params (OSS: the broker to use its HiveMQ).
-
+After that, is started the mqtt module with the authentication params (OBS: the broker to use its HiveMQ).
 After the mqtt client starts, the mean value is published under the topic "/mean" with QoS=1.
-
 In the end, the calibration, mqtt client, wifi structures and the queue are deallocated.
-
 
 3) PERFORMANCE ANALYSIS
 
-For calculatiung the power consuming (in milliWatts) I have used the INA219 circuit and adapting the sampling frequency (doing the fft and sampling at 2*max frequency) and using a signal of 440 Hz (so sampling at 976 hz, cause of a certain degree of error of fft) i have calculated an average consume of 329.7 mW.
-Calculating the power consuming avoiding the usage of fft and sampling at maximum sampling rate (27.78 khz in my case) i have calculated an average power consuming of 376.7 mW, so having a saving of 12.48% mW using the first solution.
+This analysis is done by considering a single iteration of the cycle: get data -> publish data on mqtt.
+
+For calculating the power consumption (in milliWatts) I have used the INA219 circuit with a signal in ADC input of 440 hz: adapting the sampling frequency (doing the fft and sampling at 2*max frequency) (so sampling at 976 hz, cause of a certain degree of error of fft), I have calculated an average consume of 329.7 mW.
+Instead, if I calculate the power consuming by avoiding the usage of fft and by sampling at maximum sampling rate (27.78 khz in my case), I have calculated an average power consuming of 376.7 mW, so having a saving of 12.48% mW using the first solution.
 (obviously the power consumption of the wifi and mqtt setups and usage are a common overhead for both the solutions).
 
-The volume of data trasmitted by the system from the setup of the wifi point, to the publishing of the mqtt message is about 4.6 KiloBytes (we are using wifi technology).
-
 For calculating the latency of the published data, I have to do a premise:
-while I was synchronizing the esp32 device to an NTP server through "sntp_setservername(0, "pool.ntp.org")", I have noticed that the timestamp getted before publishing the mean message through mqtts has a timestamp previous in time wrt the timestamp provided by the broker and associated with such a message; so there is a de-synchronization of approximately 150 milliseconds between the time servers (the used by the esp and HiveMQs' one). After this premise, I have calculated an average of 1.2 seconds in the interval time between the generation of the mean data and the reception of that data by the broker.
+while I was synchronizing the esp32 device to an NTP server through "sntp_setservername(0, "pool.ntp.org")", I have noticed that the timestamp getted before publishing the mean message through mqtts has a timestamp previous in time wrt the timestamp provided by the broker and associated with such a message; so there is a de-synchronization of approximately 150 milliseconds between the time servers (the used by the esp and HiveMQs' one). After this premise, I have calculated an average of 1.05 seconds in the interval time between the generation of the mean data and the reception of that data by the broker.
+
+The volume of data trasmitted by the system from the setup of the wifi point, to the publishing of the mqtt message is about 4.6 KiloBytes (we are using wifi technology).
+The analysis of the packet exchangement between the esp32 device and broker it's done by sniffing the packets on the networks and brings that results:
+At the start of the connection I have (all the measures are in Bytes):
+- a client hello (338)
+- a server hello (1494)
+- a server certificate (1494)
+- server key exchange (205)
+- client key exchange (96)
+- 2 times, a cipher change spec (2* 105), this data cames from TLS negotiation of cipher algorithms
+
+During the conversation, when I publish the data mean, I have a broker message of 99 bytes (labeled as application data), the data message sent to the broker of 93 bytes and a PubACK message from the broker of 60 bytes (cause I use QoS=1).
+If I am connected with the broker, but I'm not sending any data toward it, a keep alive (55 bytes) is sent and a keep alive ACK (66 bytes) is received.
+
+
+
+
+
+
