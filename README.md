@@ -54,7 +54,26 @@ During the conversation, when I publish the data mean, I have a broker message o
 If I am connected with the broker, but I'm not sending any data toward it, a keep alive (55 bytes) is sent and a keep alive ACK (66 bytes) is received.
 
 
+4) BONUS
+
+I have measured the fft performances and the average power consume considering three signals: one at 110 hz, one at 1100 hz and the last one at 11000 hz.
+The end to end latency and the volume of data transmitted are indipendent to wrt the frequency of the signal.
+
+- 26315 hz (oversampling)
+The average power consume was about 438.7 mW
+
+- 110 hz:
+The fft returns a max frequency of 162 hz (so I have sampled at 324 hz)
+The average power consume was about 371.8 mW, so having a saving of 15.25% wrt oversampling.
+
+- 1100 hz:
+The fft returns a max frequency of 1139 hz (so I have sampled at 2278 hz)
+The average power consume was about 379.9 mW, so having a saving of 13.4% wrt oversampling.
+
+- 11000 hz:
+The fft returns a max frequency of 11067 hz (so I have sampled at 22134 hz)
+The average power consume was about 398.7 mW, so having a saving of 9.12% wrt oversampling.
 
 
-
-
+OBS:
+The INA219 used period for sensing the power consuming data was of 50 ms.
